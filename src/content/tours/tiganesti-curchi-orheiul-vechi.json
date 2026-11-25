@@ -1,0 +1,120 @@
+{
+  "ordine": 30,
+  "categorie": "pelerinaje-moldova",
+  "publicat": true,
+  "nume": "Țigănești – Curchi – Orheiul Vechi",
+  "traseu": "Țigănești → Curchi → Orheiul Vechi → Butuceni → mănăstirea rupestră → valea Răutului.",
+  "include": "Transport și organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Bilete, ghid local, donații, masă, băuturi, cheltuieli personale.",
+  "pret_privat": "",
+  "pret_grup": "",
+  "imagine_card": "/images/tours/tiganesti-curchi-orheiul-vechi.jpg",
+  "alt": "Mănăstirea Curchi, complex monahal pictat în alb și auriu",
+  "galerie": [
+    "/images/galleries/tiganesti-curchi-orheiul-vechi/01.webp",
+    "/images/galleries/tiganesti-curchi-orheiul-vechi/02.webp",
+    "/images/galleries/tiganesti-curchi-orheiul-vechi/03.webp",
+    "/images/galleries/tiganesti-curchi-orheiul-vechi/04.webp",
+    "/images/galleries/tiganesti-curchi-orheiul-vechi/05.webp",
+    "/images/galleries/tiganesti-curchi-orheiul-vechi/06.webp",
+    "/images/galleries/tiganesti-curchi-orheiul-vechi/07.webp",
+    "/images/galleries/tiganesti-curchi-orheiul-vechi/08.webp",
+    "/images/galleries/tiganesti-curchi-orheiul-vechi/09.webp"
+  ],
+  "seo_titlu": "Excursie Țigănești, Curchi și Orheiul Vechi | BEE TRAVEL",
+  "seo_descriere": "Excursie din Chișinău la mănăstirile Țigănești și Curchi, apoi Orheiul Vechi, Butuceni și mănăstirea rupestră. În grup de la 549 MDL/pers. sau tur privat.",
+  "en": {
+    "nume": "Țigănești – Curchi – Orheiul Vechi",
+    "traseu": "Țigănești → Curchi → Orheiul Vechi → Butuceni → cave monastery → Răut Valley.",
+    "include": "Transport and trip organization. Romanian-speaking tour escort for the whole trip. English-speaking guide: on request, +€50 per group.",
+    "nu_include": "Tickets, local guide, donations, meals, drinks and personal expenses."
+  },
+  "ru": {
+    "nume": "Țigănești – Curchi – Orheiul Vechi",
+    "traseu": "Țigănești → Curchi → Orheiul Vechi → Butuceni → скальный монастырь → долина Răut.",
+    "include": "Транспорт и организация поездки. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
+    "nu_include": "Билеты, местный гид, пожертвования, питание, напитки и личные расходы."
+  },
+  "grila": [
+    {
+      "persoane": "1",
+      "pret": 275
+    },
+    {
+      "persoane": "2",
+      "pret": 179
+    },
+    {
+      "persoane": "3",
+      "pret": 145
+    },
+    {
+      "persoane": "4",
+      "pret": 145
+    },
+    {
+      "persoane": "5",
+      "pret": 125
+    },
+    {
+      "persoane": "6",
+      "pret": 115
+    },
+    {
+      "persoane": "7",
+      "pret": 99
+    },
+    {
+      "persoane": "8",
+      "pret": 95
+    },
+    {
+      "persoane": "9",
+      "pret": 85
+    },
+    {
+      "persoane": "10",
+      "pret": 80
+    },
+    {
+      "persoane": "11",
+      "pret": 75
+    },
+    {
+      "persoane": "12",
+      "pret": 70
+    },
+    {
+      "persoane": "13",
+      "pret": 65
+    },
+    {
+      "persoane": "14",
+      "pret": 50
+    },
+    {
+      "persoane": "15",
+      "pret": 55
+    },
+    {
+      "persoane": "16",
+      "pret": 55
+    },
+    {
+      "persoane": "17",
+      "pret": 50
+    },
+    {
+      "persoane": "18",
+      "pret": 50
+    },
+    {
+      "persoane": "19",
+      "pret": 45
+    },
+    {
+      "persoane": "20",
+      "pret": 45
+    }
+  ]
+}

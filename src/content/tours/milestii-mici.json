@@ -1,0 +1,78 @@
+{
+  "ordine": 200,
+  "categorie": "vinarii",
+  "publicat": true,
+  "nume": "Mileștii Mici – Comoara Subterană",
+  "traseu": "Galeriile subterane → străzile vinului → Colecția de Aur → sălile de degustare.",
+  "include": "Transport și organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Biletele de intrare, tururile, degustările și pachetele gastronomice Mileștii Mici nu sunt incluse; se aleg și se achită separat. Vinurile/cumpărăturile și cheltuielile personale nu sunt incluse.",
+  "pret_privat": "",
+  "pret_grup": "",
+  "imagine_card": "/images/tours/milestii-mici.jpg",
+  "alt": "Colecția de Aur din galeriile subterane Mileștii Mici",
+  "galerie": [
+    "/images/galleries/milestii-mici/01.webp",
+    "/images/galleries/milestii-mici/02.webp",
+    "/images/galleries/milestii-mici/03.webp",
+    "/images/galleries/milestii-mici/04.webp",
+    "/images/galleries/milestii-mici/05.webp",
+    "/images/galleries/milestii-mici/06.webp",
+    "/images/galleries/milestii-mici/07.webp"
+  ],
+  "seo_titlu": "Excursie Mileștii Mici din Chișinău | BEE TRAVEL",
+  "seo_descriere": "Excursie la Mileștii Mici: galeriile subterane, străzile vinului, Colecția de Aur și degustare. Transport din Chișinău, tur privat de la 119 EUR/grup.",
+  "en": {
+    "nume": "Mileștii Mici – Underground Treasure",
+    "traseu": "Underground galleries → wine streets → Golden Collection → tasting halls.",
+    "include": "Transport and trip organization. Romanian-speaking tour escort for the whole trip. English-speaking guide: on request, +€50 per group.",
+    "nu_include": "Mileștii Mici entrance tickets, tours, tastings and gastronomic packages are not included; tourists select and pay for them separately. Wines/purchases and personal expenses are also excluded."
+  },
+  "ru": {
+    "nume": "Mileștii Mici – подземное сокровище",
+    "traseu": "Подземные галереи → винные улицы → Золотая коллекция → дегустационные залы.",
+    "include": "Транспорт и организация поездки. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
+    "nu_include": "Входные билеты, экскурсии, дегустации и гастрономические пакеты Mileștii Mici не включены; туристы выбирают и оплачивают их отдельно. Вина/покупки и личные расходы также не включены."
+  },
+  "grila": [
+    {
+      "persoane": "2",
+      "pret": 165
+    },
+    {
+      "persoane": "3",
+      "pret": 115
+    },
+    {
+      "persoane": "4",
+      "pret": 89
+    },
+    {
+      "persoane": "5–8",
+      "pret": 80
+    },
+    {
+      "persoane": "9–11",
+      "pret": 57
+    },
+    {
+      "persoane": "12–14",
+      "pret": 46
+    },
+    {
+      "persoane": "15–18",
+      "pret": 40
+    },
+    {
+      "persoane": "19–22",
+      "pret": 35
+    },
+    {
+      "persoane": "23–30",
+      "pret": 36
+    },
+    {
+      "persoane": "31+",
+      "pret": 28
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "ordine": 130,
+  "categorie": "obiective-moldova",
+  "publicat": true,
+  "nume": "Soroca – Cetatea de pe Nistru",
+  "traseu": "Cetatea Soroca → centrul istoric → malul Nistrului → Lumânarea Recunoștinței → panorama orașului.",
+  "include": "Transport și organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Intrări la obiective, ghid local, masă/băuturi, cheltuieli personale.",
+  "pret_privat": "",
+  "pret_grup": "",
+  "imagine_card": "/images/tours/soroca-cetatea-de-pe-nistru.jpg",
+  "alt": "Cetatea Soroca, fortăreață medievală pe malul Nistrului",
+  "galerie": [
+    "/images/galleries/soroca-cetatea-de-pe-nistru/01.webp",
+    "/images/galleries/soroca-cetatea-de-pe-nistru/02.webp",
+    "/images/galleries/soroca-cetatea-de-pe-nistru/03.webp",
+    "/images/galleries/soroca-cetatea-de-pe-nistru/04.webp",
+    "/images/galleries/soroca-cetatea-de-pe-nistru/05.webp"
+  ],
+  "seo_titlu": "Excursie Cetatea Soroca din Chișinău | BEE TRAVEL",
+  "seo_descriere": "Excursie de o zi la Soroca: cetatea medievală de pe Nistru, centrul istoric și Lumânarea Recunoștinței. Plecare din Chișinău, în grup de la 749 MDL/pers.",
+  "en": {
+    "nume": "Soroca – Fortress on the Dniester",
+    "traseu": "Soroca Fortress → historic centre → Dniester riverbank → Candle of Gratitude → city panorama.",
+    "include": "Transport and trip organization. Romanian-speaking tour escort for the whole trip. English-speaking guide: on request, +€50 per group.",
+    "nu_include": "Attraction admission fees, local guide, meals/drinks and personal expenses."
+  },
+  "ru": {
+    "nume": "Soroca – крепость на Днестре",
+    "traseu": "Сорокская крепость → исторический центр → берег Днестра → Свеча благодарности → панорама города.",
+    "include": "Транспорт и организация поездки. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
+    "nu_include": "Входные билеты, местный гид, питание/напитки и личные расходы."
+  },
+  "grila": [
+    {
+      "persoane": "2",
+      "pret": 165
+    },
+    {
+      "persoane": "3",
+      "pret": 115
+    },
+    {
+      "persoane": "4",
+      "pret": 89
+    },
+    {
+      "persoane": "5–8",
+      "pret": 65
+    },
+    {
+      "persoane": "9–11",
+      "pret": 69
+    },
+    {
+      "persoane": "12–14",
+      "pret": 55
+    },
+    {
+      "persoane": "15–18",
+      "pret": 50
+    },
+    {
+      "persoane": "19–22",
+      "pret": 40
+    },
+    {
+      "persoane": "23–30",
+      "pret": 45
+    },
+    {
+      "persoane": "31+",
+      "pret": 40
+    }
+  ]
+}

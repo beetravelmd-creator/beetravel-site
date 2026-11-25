@@ -1,0 +1,294 @@
+{
+ "home": {
+  "title": "Agenție de turism în Moldova | Excursii din Chișinău – BEE TRAVEL",
+  "description": "BEE TRAVEL, agenție de turism din Chișinău: excursii de o zi, pelerinaje la mănăstiri, tururi la vinării și Orheiul Vechi. Grupuri și tururi private.",
+  "jsonld": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "TravelAgency",
+      "@id": "https://beetravel.md/#agency",
+      "name": "BEE TRAVEL",
+      "slogan": "Călătorim cu suflet",
+      "description": "BEE TRAVEL, agenție de turism din Chișinău: excursii de o zi, pelerinaje la mănăstiri, tururi la vinării și Orheiul Vechi. Grupuri și tururi private.",
+      "url": "https://beetravel.md/",
+      "logo": "https://beetravel.md/images/bee-travel-logo.png",
+      "image": "https://beetravel.md/images/home-hero-final.jpg",
+      "telephone": "+37379520914",
+      "email": "beetravel.md@gmail.com",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Chișinău",
+       "addressCountry": "MD"
+      },
+      "areaServed": [
+       {
+        "@type": "Country",
+        "name": "Moldova"
+       },
+       {
+        "@type": "Country",
+        "name": "România"
+       }
+      ],
+      "availableLanguage": [
+       "ro",
+       "ru",
+       "en"
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://beetravel.md/#website",
+      "url": "https://beetravel.md/",
+      "name": "BEE TRAVEL",
+      "inLanguage": "ro",
+      "publisher": {
+       "@id": "https://beetravel.md/#agency"
+      }
+     }
+    ]
+   }
+  ],
+  "ru": {
+   "title": "Экскурсии и туры Молдова | BEE TRAVEL",
+   "description": "Откройте Молдову через исторические места, монастыри, известные винодельни, традиции и пейзажи, которыми хочется наслаждаться без спешки. BEE TRAVEL предлагает транспорт и тщательно продуманные маршруты для частных путешествий и групп."
+  },
+  "en": {
+   "title": "Tours and day trips in Moldova | BEE TRAVEL",
+   "description": "BEE TRAVEL is a travel agency in Moldova that organizes winery tours, cultural tours, and pilgrimages in Moldova and Romania. Discover places rich in history, traditions, and authentic landscapes, with transportation and carefully planned itineraries for private travellers and groups."
+  }
+ },
+ "experiente": {
+  "title": "Experiențe în Moldova | Vinării, Pelerinaje & Tradiții | BEE TRAVEL",
+  "description": "Experiențe autentice în Moldova cu BEE TRAVEL: vinării și gastronomie, pelerinaje, istorie, natură, tradiții și tururi personalizate.",
+  "jsonld": [],
+  "ru": {
+   "title": "Впечатления, которые открывают Молдову по-новому | BEE TRAVEL",
+   "description": "Молдову лучше всего узнавать через людей, традиции, вкусы и места с собственной историей. Выберите формат, который подходит именно вам, а BEE TRAVEL поможет превратить обычную экскурсию в путешествие, которое захочется вспоминать."
+  },
+  "en": {
+   "title": "Experiences that reveal a different side of Moldova | BEE TRAVEL",
+   "description": "Discover Moldova through its people, traditions, flavours and places filled with stories. Choose the experience that suits you, and BEE TRAVEL will help turn a simple excursion into a journey worth remembering."
+  }
+ },
+ "descopera-moldova": {
+  "title": "Descoperă Moldova | Locuri, Vinării și Mănăstiri | BEE TRAVEL",
+  "description": "Descoperă Chișinău, Orheiul Vechi, Soroca, mănăstiri, vinării, Găgăuzia, tradiții și peisaje din Moldova cu BEE TRAVEL.",
+  "jsonld": [],
+  "ru": {
+   "title": "Откройте Молдову | BEE TRAVEL",
+   "description": "Места, люди, традиции и пейзажи, которые создают особый характер Молдовы."
+  },
+  "en": {
+   "title": "Discover Moldova | BEE TRAVEL",
+   "description": "Places, people, traditions and landscapes that give Moldova its distinctive character."
+  }
+ },
+ "tur-personalizat": {
+  "title": "Tur Personalizat în Moldova | Itinerar Privat | BEE TRAVEL",
+  "description": "Creează un tur personalizat cu BEE TRAVEL, adaptat timpului, intereselor, destinațiilor preferate și numărului de persoane.",
+  "jsonld": [],
+  "ru": {
+   "title": "Создайте своё путешествие | BEE TRAVEL",
+   "description": "Расскажите, чего вы хотите, и BEE TRAVEL составит маршрут с учётом вашего времени, интересов и количества путешественников."
+  },
+  "en": {
+   "title": "Create your own journey | BEE TRAVEL",
+   "description": "Tell us what you have in mind and BEE TRAVEL will create an itinerary around your time, interests and group size."
+  }
+ },
+ "servicii": {
+  "title": "Transfer aeroport Chișinău și transport excursii | BEE TRAVEL",
+  "description": "Transfer aeroport Chișinău (KIV): Ford Kuga 1–4 pers. 50 €, Ford Transit 5–16 pers. 150 €, același preț zi și noapte. Transport pentru excursii și grupuri.",
+  "jsonld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Transfer aeroport Chișinău",
+    "serviceType": "Transfer aeroport",
+    "provider": {
+     "@type": "TravelAgency",
+     "@id": "https://beetravel.md/#agency",
+     "name": "BEE TRAVEL",
+     "url": "https://beetravel.md/",
+     "telephone": "+37379520914"
+    },
+    "areaServed": {
+     "@type": "City",
+     "name": "Chișinău"
+    },
+    "url": "https://beetravel.md/servicii/",
+    "offers": [
+     {
+      "@type": "Offer",
+      "name": "Ford Kuga, 1–4 persoane, o cursă",
+      "price": "50",
+      "priceCurrency": "EUR"
+     },
+     {
+      "@type": "Offer",
+      "name": "Ford Transit, 5–16 persoane, o cursă",
+      "price": "150",
+      "priceCurrency": "EUR"
+     }
+    ]
+   }
+  ],
+  "ru": {
+   "title": "Услуги и организация | BEE TRAVEL",
+   "description": "Комфортный транспорт и продуманная организация частных и групповых поездок без привязки к конкретной марке или модели автомобиля."
+  },
+  "en": {
+   "title": "Services & organization | BEE TRAVEL",
+   "description": "Comfortable transport and careful organization for private travellers and groups, without tying the experience to a specific vehicle make or model."
+  }
+ },
+ "despre-noi": {
+  "title": "Despre BEE TRAVEL | Tururi și Excursii în Moldova",
+  "description": "Descoperă BEE TRAVEL: tururi private, pelerinaje, excursii culturale, vinării și itinerare atent organizate în Moldova și România.",
+  "jsonld": [],
+  "ru": {
+   "title": "Путешествуем с душой | BEE TRAVEL",
+   "description": "BEE TRAVEL — это тщательно спланированные путешествия по Молдове и Румынии: паломничества, культурные туры, поездки на винодельни и индивидуальные маршруты."
+  },
+  "en": {
+   "title": "We travel with soul | BEE TRAVEL",
+   "description": "BEE TRAVEL is about thoughtfully planned journeys through Moldova and Romania — pilgrimages, cultural tours, winery trips and tailor-made experiences."
+  }
+ },
+ "contact": {
+  "title": "Contact BEE TRAVEL | Tururi și Excursii în Moldova",
+  "description": "Contactează BEE TRAVEL pentru tururi, excursii, pelerinaje, vinării și itinerare personalizate în Moldova și România, prin WhatsApp, telefon sau email.",
+  "jsonld": [],
+  "ru": {
+   "title": "Контакты | BEE TRAVEL",
+   "description": "Мы поможем вам спланировать путешествие."
+  },
+  "en": {
+   "title": "Contact | BEE TRAVEL",
+   "description": "We are here to help you plan your journey."
+  }
+ },
+ "rezerva-tur": {
+  "title": "Solicită o Rezervare | Tururi Moldova | BEE TRAVEL",
+  "description": "Trimite o cerere de rezervare pentru tururile BEE TRAVEL. Verificăm disponibilitatea înainte de confirmare și plată.",
+  "jsonld": [],
+  "ru": {
+   "title": "Запросить бронирование | BEE TRAVEL",
+   "description": "Заполните форму или отправьте запрос через WhatsApp. Сейчас платить ничего не нужно: сначала мы проверим доступность и подтвердим все детали."
+  },
+  "en": {
+   "title": "Request a booking | BEE TRAVEL",
+   "description": "Complete the form or send your request via WhatsApp. No payment is needed now: we first check availability and confirm all details with you."
+  }
+ },
+ "recenzii": {
+  "title": "Recenzii ale călătorilor | BEE TRAVEL",
+  "description": "BEE TRAVEL este o agenție de turism din Republica Moldova. Organizăm pelerinaje, tururi culturale, excursii la vinării și călătorii personalizate în Moldova și România.",
+  "jsonld": [],
+  "ru": {
+   "title": "Отзывы путешественников | BEE TRAVEL",
+   "description": "Вы путешествовали с нами? Расскажите нам о своих впечатлениях."
+  },
+  "en": {
+   "title": "Traveller Reviews | BEE TRAVEL",
+   "description": "Have you travelled with us? Tell us about your experience."
+  }
+ },
+ "termeni-si-conditii": {
+  "title": "Termeni și condiții | BEE TRAVEL",
+  "description": "Termenii de utilizare și de rezervare BEE TRAVEL.",
+  "jsonld": [],
+  "ru": {
+   "title": "Условия использования и бронирования | BEE TRAVEL",
+   "description": "Последнее обновление: 14 сентября 2026 г."
+  },
+  "en": {
+   "title": "Terms and conditions | BEE TRAVEL",
+   "description": "BEE TRAVEL presents and organizes tours, excursions, pilgrimages, winery visits and tailor-made itineraries in Moldova and Romania. beetravel.md may be used for information and to submit a booking request."
+  }
+ },
+ "politica-de-confidentialitate": {
+  "title": "Politica de confidențialitate | BEE TRAVEL",
+  "description": "Cum BEE TRAVEL colectează și folosește datele transmise prin site.",
+  "jsonld": [],
+  "ru": {
+   "title": "Политика конфиденциальности | BEE TRAVEL",
+   "description": "Последнее обновление: 14 сентября 2026 г."
+  },
+  "en": {
+   "title": "Privacy policy | BEE TRAVEL",
+   "description": "This policy explains how BEE TRAVEL uses personal data submitted through beetravel.md."
+  }
+ },
+ "politica-cookie": {
+  "title": "Politica cookie | BEE TRAVEL",
+  "description": "Informații despre cookie-urile utilizate pe beetravel.md.",
+  "jsonld": [],
+  "ru": {
+   "title": "Политика cookie | BEE TRAVEL",
+   "description": "Последнее обновление: 14 сентября 2026 г."
+  },
+  "en": {
+   "title": "Cookie policy | BEE TRAVEL",
+   "description": "BEE TRAVEL uses cookies or similar technologies for website functionality and, only with visitor consent, analytics."
+  }
+ },
+ "anulare-si-rambursare": {
+  "title": "Anulare și rambursare | BEE TRAVEL",
+  "description": "Politica BEE TRAVEL privind anularea și rambursarea rezervărilor.",
+  "jsonld": [],
+  "ru": {
+   "title": "Политика отмены и возврата | BEE TRAVEL",
+   "description": "Последнее обновление: 14 сентября 2026 г."
+  },
+  "en": {
+   "title": "Cancellation and refund policy | BEE TRAVEL",
+   "description": "A booking request may be withdrawn without charge. Do not make any payment before BEE TRAVEL confirms availability and communicates the terms applicable to your tour."
+  }
+ },
+ "destinatii": {
+  "title": "Destinații și Excursii în Moldova | BEE TRAVEL",
+  "description": "Explorează excursiile BEE TRAVEL: mănăstiri, Orheiul Vechi, Soroca, Transnistria, Găgăuzia, vinării și pelerinaje în Moldova și România.",
+  "jsonld": [
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Acasă",
+      "item": "https://beetravel.md/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Destinații",
+      "item": "https://beetravel.md/destinatii/"
+     }
+    ]
+   }
+  ],
+  "ru": {
+   "title": "Направления | BEE TRAVEL",
+   "description": "Откройте маршруты BEE TRAVEL по категориям. В каталоге указана стартовая цена; полные цены для клиентов находятся на странице каждого тура."
+  },
+  "en": {
+   "title": "Destinations | BEE TRAVEL",
+   "description": "Discover BEE TRAVEL itineraries by category. The catalogue shows the starting price; full customer prices are available on each tour page."
+  }
+ },
+ "administrare-recenzii": {
+  "ru": {
+   "title": "Администрирование отзывов | BEE TRAVEL",
+   "description": "Одобряйте, скрывайте или удаляйте полученные отзывы."
+  },
+  "en": {
+   "title": "Review Administration | BEE TRAVEL",
+   "description": "Approve, hide or delete received reviews."
+  }
+ }
+}

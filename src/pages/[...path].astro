@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import TourPage from '../components/TourPage.astro';
+import Listing from '../components/Listing.astro';
+import Reviews from '../components/Reviews.astro';
+import { LANGS, L, SITE, rewriteLinks, localTour, settings } from '../lib/i18n.js';
+import pagini from '../data/pagini.json';
+
+const STATIC = ['home', 'experiente', 'descopera-moldova', 'tur-personalizat', 'servicii', 'despre-noi', 'contact', 'rezerva-tur', 'termeni-si-conditii', 'politica-de-confidentialitate', 'politica-cookie', 'anulare-si-rambursare'];
+const frags = import.meta.glob('../fragments/*/*.html', { query: '?raw', import: 'default', eager: true });
+
+export async function getStaticPaths() {
+  const STATIC = ['home', 'experiente', 'descopera-moldova', 'tur-personalizat', 'servicii', 'despre-noi', 'contact', 'rezerva-tur', 'termeni-si-conditii', 'politica-de-confidentialitate', 'politica-cookie', 'anulare-si-rambursare'];
+  const LANGS = ['ro', 'ru', 'en'];
+  const tours = (await getCollection('tours')).filter((t) => t.data.publicat);
+  const out = [];
+  for (const lang of LANGS) {
+    const pre = lang === 'ro' ? '' : lang + '/';
+    for (const p of STATIC) out.push({ params: { path: (pre + (p === 'home' ? '' : p)).replace(/\/$/, '') || undefined }, props: { kind: 'static', lang, page: p } });
+    out.push({ params: { path: pre + 'destinatii' }, props: { kind: 'listing', lang } });
+    out.push({ params: { path: pre + 'recenzii' }, props: { kind: 'reviews', lang, admin: false } });
+    out.push({ params: { path: pre + 'administrare-recenzii' }, props: { kind: 'reviews', lang, admin: true } });
+    for (const t of tours) out.push({ params: { path: pre + 'destinatii/' + t.id }, props: { kind: 'tour', lang, id: t.id } });
+  }
+  return out;
+}
+
+const { kind, lang, page, id, admin } = Astro.props;
+let html = '', title = '', description = '', path = '/', jsonld = null, preload = [];
+const fmtEur = (n) => (lang === 'en' ? '€' + n : n + ' €');
+const fmtLei = (n) => (lang === 'en' ? n.toLocaleString('en-US') + ' MDL' : lang === 'ru' ? n.toLocaleString('ru-RU').replace(/ /g, ' ') + ' лей' : n.toLocaleString('de-DE') + ' lei');
+
+if (kind === 'static') {
+  path = page === 'home' ? '/' : '/' + page;
+  html = frags[`../fragments/${lang}/${page}.html`];
+  html = rewriteLinks(html, lang)
+    .replaceAll('{{kuga_eur}}', fmtEur(settings.transfer_kuga_eur)).replaceAll('{{transit_eur}}', fmtEur(settings.transfer_transit_eur))
+    .replaceAll('{{kuga_lei}}', fmtLei(settings.transfer_kuga_lei)).replaceAll('{{transit_lei}}', fmtLei(settings.transfer_transit_lei));
+  if (html.includes('{{TOUR_OPTIONS}}')) {
+    const tours = (await getCollection('tours')).filter((t) => t.data.publicat).sort((a, b) => a.data.ordine - b.data.ordine).map((t) => localTour(t, lang));
+    const esc = (s) => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+    html = html.replace('{{TOUR_OPTIONS}}', tours.map((t) => `<option data-id="${t.id}" value="${esc(t.name)}">${esc(t.name)}</option>`).join(''));
+  }
+  const m = pagini[page] || {};
+  title = lang === 'ro' ? m.title : m[lang]?.title;
+  description = lang === 'ro' ? m.description : m[lang]?.description;
+  if (lang === 'ro' && m.jsonld?.length) jsonld = m.jsonld.length === 1 ? m.jsonld[0] : m.jsonld;
+  if (page === 'home') preload = ['/images/home-hero-final.jpg'];
+}
+---
+{kind === 'static' && (
+  <Base lang={lang} path={path} title={title} description={description} jsonld={jsonld} preload={preload}><Fragment set:html={html} /></Base>
+)}
+{kind === 'listing' && <Listing lang={lang} />}
+{kind === 'tour' && <TourPage lang={lang} id={id} />}
+{kind === 'reviews' && <Reviews lang={lang} admin={admin} />}

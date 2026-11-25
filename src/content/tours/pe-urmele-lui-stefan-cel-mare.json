@@ -1,0 +1,41 @@
+{
+  "ordine": 70,
+  "categorie": "pelerinaje-romania",
+  "publicat": true,
+  "nume": "Pe urmele lui Ștefan cel Mare",
+  "traseu": "Putna → mormântul Sf. Ștefan cel Mare → Chilia lui Daniil Sihastrul → Sihăstria Putnei → Bogdana → Sucevița → Moldovița → Voroneț.",
+  "include": "Transport, șofer, 1 noapte cazare + mic dejun, organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Intrări, ghid local, prânz/cină, donații, băuturi, cheltuieli personale.",
+  "pret_privat": "1–2 pers.: EUR 549/grup | 3–4 pers.: EUR 649/grup",
+  "pret_grup": "EUR 120/pers. (minimum 8 persoane)",
+  "durata": "2 zile / 1 noapte",
+  "imagine_card": "/images/tours/pe-urmele-lui-stefan-cel-mare.jpg",
+  "alt": "Mănăstirea Putna, ctitorie a lui Ștefan cel Mare",
+  "galerie": [
+    "/images/galleries/pe-urmele-lui-stefan-cel-mare/01.webp",
+    "/images/galleries/pe-urmele-lui-stefan-cel-mare/02.webp",
+    "/images/galleries/pe-urmele-lui-stefan-cel-mare/03.webp",
+    "/images/galleries/pe-urmele-lui-stefan-cel-mare/04.webp",
+    "/images/galleries/pe-urmele-lui-stefan-cel-mare/05.webp",
+    "/images/galleries/pe-urmele-lui-stefan-cel-mare/06.webp",
+    "/images/galleries/pe-urmele-lui-stefan-cel-mare/07.webp",
+    "/images/galleries/pe-urmele-lui-stefan-cel-mare/08.webp",
+    "/images/galleries/pe-urmele-lui-stefan-cel-mare/09.webp"
+  ],
+  "seo_titlu": "Pe urmele lui Ștefan cel Mare: Putna și Bucovina | BEE TRAVEL",
+  "seo_descriere": "Pelerinaj de 2 zile din Chișinău: Putna și mormântul lui Ștefan cel Mare, Chilia lui Daniil Sihastrul, Sucevița, Moldovița, Voroneț. Cazare și mic dejun incluse.",
+  "en": {
+    "nume": "In the Footsteps of Stephen the Great",
+    "traseu": "Putna → tomb of St Stephen the Great → Daniil Sihastrul’s cave → Sihăstria Putnei → Bogdana → Sucevița → Moldovița → Voroneț.",
+    "include": "Transport, driver, 1 night accommodation with breakfast and organization. Romanian-speaking tour escort for the whole trip. English-speaking guide: on request, +€50 per group.",
+    "nu_include": "Entrance fees, local guide, lunch/dinner, donations, drinks and personal expenses.",
+    "durata": "2 days / 1 night"
+  },
+  "ru": {
+    "nume": "По следам Штефана чел Маре",
+    "traseu": "Putna → могила Св. Штефана чел Маре → келья Даниила Сихаструла → Sihăstria Putnei → Bogdana → Sucevița → Moldovița → Voroneț.",
+    "include": "Транспорт, водитель, 1 ночь проживания с завтраком и организация. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
+    "nu_include": "Входные билеты, местный гид, обед/ужин, пожертвования, напитки и личные расходы.",
+    "durata": "2 дня / 1 ночь"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "ordine": 160,
+  "categorie": "obiective-moldova",
+  "publicat": true,
+  "nume": "Rogojeni, Cobâlea, Vadul Rașcov și Socola",
+  "traseu": "Chișinău → bordeiele („băștile”) din Rogojeni → stejarul secular de la Cobâlea → Vadul Rașcov: cimitirul evreiesc vechi, casa-muzeu Dumitru Matcovschi, clopotnița → stâncile de la Socola, pe Nistru → Chișinău.",
+  "include": "Transport tur-retur din Chișinău, șofer, combustibil și organizarea BEE TRAVEL. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Intrările la obiective, degustările, masa, ghidul local, donațiile și cheltuielile personale.",
+  "pret_privat": "",
+  "pret_grup": "",
+  "grila": [
+    {
+      "persoane": "2",
+      "pret": 165
+    },
+    {
+      "persoane": "3",
+      "pret": 115
+    },
+    {
+      "persoane": "4",
+      "pret": 89
+    },
+    {
+      "persoane": "5–8",
+      "pret": 75
+    },
+    {
+      "persoane": "9–11",
+      "pret": 65
+    },
+    {
+      "persoane": "12–14",
+      "pret": 53
+    },
+    {
+      "persoane": "15–18",
+      "pret": 45
+    },
+    {
+      "persoane": "19–22",
+      "pret": 42
+    },
+    {
+      "persoane": "23–30",
+      "pret": 43
+    },
+    {
+      "persoane": "31+",
+      "pret": 36
+    }
+  ],
+  "imagine_card": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Basca_Rogojeni.jpg/1280px-Basca_Rogojeni.jpg",
+  "alt": "Bordei tradițional (bașcă) din Rogojeni, raionul Șoldănești",
+  "galerie": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Basca_Rogojeni.jpg/1280px-Basca_Rogojeni.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Biserica_Rogojeni.jpg/1280px-Biserica_Rogojeni.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Cob%C3%AElea%2C_Moldova_-_panoramio.jpg/1280px-Cob%C3%AElea%2C_Moldova_-_panoramio.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Vadul-Ra%C8%99cov-2_Sculptur%C4%83_popular%C4%83.jpg/1280px-Vadul-Ra%C8%99cov-2_Sculptur%C4%83_popular%C4%83.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/L173.1%2C_Socola%2C_Moldova_-_panoramio_%289%29.jpg/1280px-L173.1%2C_Socola%2C_Moldova_-_panoramio_%289%29.jpg"
+  ],
+  "credit_foto": "Foto (Wikimedia Commons): Rogojeni – Gganebnyi (CC BY-SA 4.0); Cobâlea, Socola – Анатолий Зубанюк (CC BY 3.0); Vadul Rașcov – Nicolai Chirnev (CC0).",
+  "seo_titlu": "Excursie Rogojeni, Vadul Rașcov și Socola din Chișinău",
+  "seo_descriere": "Nordul Moldovei pe Nistru: bordeiele din Rogojeni, stejarul de la Cobâlea, Vadul Rașcov și stâncile Socola. De la 36 € de persoană.",
+  "en": {
+    "nume": "Rogojeni, Cobâlea, Vadul Rașcov and Socola",
+    "traseu": "Chișinău → traditional dug-out houses (\"băști\") of Rogojeni → ancient oak of Cobâlea → Vadul Rașcov: old Jewish cemetery, Dumitru Matcovschi house-museum, bell tower → Socola cliffs on the Dniester → Chișinău.",
+    "include": "Return transport from Chișinău, driver, fuel and BEE TRAVEL trip organization. Romanian-speaking tour escort for the whole trip. English-speaking guide: on request, +€50 per group.",
+    "nu_include": "Admission fees, tastings, meals, local guide, donations and personal expenses are not included."
+  },
+  "ru": {
+    "nume": "Рогожены, Кобыля, Вадул-Рашков и Сокола",
+    "traseu": "Кишинёв → традиционные землянки («бэшть») в Рогожень → вековой дуб в Кобыле → Вадул-Рашков: старое еврейское кладбище, дом-музей Думитру Матковски, колокольня → скалы Сокола на Днестре → Кишинёв.",
+    "include": "Транспорт из Кишинёва и обратно, водитель, топливо и организация поездки BEE TRAVEL. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
+    "nu_include": "Входные билеты, дегустации, питание, местный гид, пожертвования и личные расходы не включены."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "ordine": 180,
+  "categorie": "gagauzia",
+  "publicat": true,
+  "nume": "Găgăuzia & Manuc Bey",
+  "traseu": "Manuc Bey → Comrat → Catedrală → Beșalma → Muzeul Național Găgăuz → patrimoniu și tradiții găgăuze.",
+  "include": "Transport și organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Intrarea Manuc Bey, muzee, ghid local, experiențe culturale, masă/degustări, cheltuieli personale.",
+  "pret_privat": "",
+  "pret_grup": "",
+  "imagine_card": "/images/tours/gagauzia-manuc-bey.jpg",
+  "alt": "Complexul istoric Manuc Bey din Hîncești",
+  "galerie": [
+    "/images/galleries/gagauzia-manuc-bey/01.webp",
+    "/images/galleries/gagauzia-manuc-bey/02.webp",
+    "/images/galleries/gagauzia-manuc-bey/03.webp",
+    "/images/galleries/gagauzia-manuc-bey/04.webp",
+    "/images/galleries/gagauzia-manuc-bey/05.webp",
+    "/images/galleries/gagauzia-manuc-bey/06.webp",
+    "/images/galleries/gagauzia-manuc-bey/07.webp",
+    "/images/galleries/gagauzia-manuc-bey/08.webp",
+    "/images/galleries/gagauzia-manuc-bey/09.webp",
+    "/images/galleries/gagauzia-manuc-bey/10.webp",
+    "/images/galleries/gagauzia-manuc-bey/11.webp",
+    "/images/galleries/gagauzia-manuc-bey/12.webp"
+  ],
+  "seo_titlu": "Excursie Manuc Bey și Găgăuzia din Chișinău | BEE TRAVEL",
+  "seo_descriere": "Excursie de o zi: complexul Manuc Bey din Hîncești, apoi Comrat, Beșalma și Muzeul Național Găgăuz. Plecare din Chișinău, în grup de la 849 MDL/pers.",
+  "en": {
+    "nume": "Gagauzia & Manuc Bey",
+    "traseu": "Manuc Bey → Comrat → Cathedral → Beșalma → National Gagauz Museum → Gagauz heritage and traditions.",
+    "include": "Transport and trip organization. Romanian-speaking tour escort for the whole trip. English-speaking guide: on request, +€50 per group.",
+    "nu_include": "Manuc Bey admission, museums, local guide, cultural experiences, meals/tastings and personal expenses."
+  },
+  "ru": {
+    "nume": "Гагаузия и Manuc Bey",
+    "traseu": "Manuc Bey → Comrat → собор → Beșalma → Национальный гагаузский музей → гагаузское наследие и традиции.",
+    "include": "Транспорт и организация поездки. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
+    "nu_include": "Вход в Manuc Bey, музеи, местный гид, культурные активности, питание/дегустации и личные расходы."
+  },
+  "grila": [
+    {
+      "persoane": "2",
+      "pret": 165
+    },
+    {
+      "persoane": "3",
+      "pret": 115
+    },
+    {
+      "persoane": "4",
+      "pret": 89
+    },
+    {
+      "persoane": "5–8",
+      "pret": 75
+    },
+    {
+      "persoane": "9–11",
+      "pret": 62
+    },
+    {
+      "persoane": "12–14",
+      "pret": 50
+    },
+    {
+      "persoane": "15–18",
+      "pret": 45
+    },
+    {
+      "persoane": "19–22",
+      "pret": 38
+    },
+    {
+      "persoane": "23–30",
+      "pret": 42
+    },
+    {
+      "persoane": "31+",
+      "pret": 35
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "ordine": 40,
+  "categorie": "pelerinaje-moldova",
+  "publicat": true,
+  "nume": "Saharna – Țipova – Japca",
+  "traseu": "Saharna → Țipova → Japca.",
+  "include": "Transport și organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Taxe de acces/vizitare, donații, ghid local, mese, băuturi, cheltuieli personale.",
+  "pret_privat": "",
+  "pret_grup": "",
+  "imagine_card": "/images/tours/saharna-tipova-japca.jpg",
+  "alt": "Mănăstirea rupestră Țipova pe malul Nistrului",
+  "galerie": [
+    "/images/galleries/saharna-tipova-japca/01.webp",
+    "/images/galleries/saharna-tipova-japca/02.webp",
+    "/images/galleries/saharna-tipova-japca/03.webp"
+  ],
+  "seo_titlu": "Excursie Saharna și Țipova din Chișinău | BEE TRAVEL",
+  "seo_descriere": "Excursie de o zi la Saharna, Țipova și Japca: mănăstiri și peisaje pe malul Nistrului. Plecare din Chișinău, în grup de la 749 MDL/pers. sau tur privat.",
+  "en": {
+    "nume": "Saharna – Țipova – Japca",
+    "traseu": "Saharna → Țipova → Japca.",
+    "include": "Transport and trip organization. Romanian-speaking tour escort for the whole trip. English-speaking guide: on request, +€50 per group.",
+    "nu_include": "Entrance/visit fees, donations, local guide, meals, drinks and personal expenses."
+  },
+  "ru": {
+    "nume": "Saharna – Țipova – Japca",
+    "traseu": "Saharna → Țipova → Japca.",
+    "include": "Транспорт и организация поездки. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
+    "nu_include": "Входные билеты/платные посещения, пожертвования, местный гид, питание, напитки и личные расходы."
+  },
+  "grila": [
+    {
+      "persoane": "2",
+      "pret": 165
+    },
+    {
+      "persoane": "3",
+      "pret": 115
+    },
+    {
+      "persoane": "4",
+      "pret": 89
+    },
+    {
+      "persoane": "5–8",
+      "pret": 65
+    },
+    {
+      "persoane": "9–11",
+      "pret": 59
+    },
+    {
+      "persoane": "12–14",
+      "pret": 49
+    },
+    {
+      "persoane": "15–18",
+      "pret": 45
+    },
+    {
+      "persoane": "19–22",
+      "pret": 39
+    },
+    {
+      "persoane": "23–30",
+      "pret": 39
+    },
+    {
+      "persoane": "31+",
+      "pret": 35
+    }
+  ]
+}

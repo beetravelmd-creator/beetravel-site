@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "pelerinaje-moldova",
+    "ro": "Pelerinaje – Moldova",
+    "en": "Pilgrimages – Moldova",
+    "ru": "Паломнические туры – Молдова"
+  },
+  {
+    "slug": "pelerinaje-romania",
+    "ro": "Pelerinaje – România",
+    "en": "Pilgrimages – Romania",
+    "ru": "Паломнические туры – Румыния"
+  },
+  {
+    "slug": "obiective-moldova",
+    "ro": "Obiective turistice și istorice – Moldova",
+    "en": "Cultural & Historical Sights – Moldova",
+    "ru": "Исторические и туристические объекты – Молдова"
+  },
+  {
+    "slug": "transnistria",
+    "ro": "Transnistria",
+    "en": "Transnistria",
+    "ru": "Приднестровье"
+  },
+  {
+    "slug": "gagauzia",
+    "ro": "Găgăuzia",
+    "en": "Gagauzia",
+    "ru": "Гагаузия"
+  },
+  {
+    "slug": "vinarii",
+    "ro": "Vinăriile Moldovei",
+    "en": "Moldova Wineries",
+    "ru": "Винодельни Молдовы"
+  }
+]

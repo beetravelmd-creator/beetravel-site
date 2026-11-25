@@ -1,0 +1,154 @@
+# Panoul de administrare BEE TRAVEL (Decap CMS). Intrare: https://beetravel.md/admin/
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: 'Adăugat {{collection}} „{{slug}}”'
+    update: 'Modificat {{collection}} „{{slug}}”'
+    delete: 'Șters {{collection}} „{{slug}}”'
+    uploadMedia: 'Încărcat poză „{{path}}”'
+    deleteMedia: 'Ștearsă poza „{{path}}”'
+
+locale: 'ro'
+site_url: https://beetravel.md
+display_url: https://beetravel.md
+logo_url: /images/bee-travel-logo.png
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: tururi
+    label: Tururi și prețuri
+    label_singular: Tur
+    description: 'Fiecare tur are pagina lui pe site. Prețurile se scriu doar în română; în rusă și engleză se traduc singure (de exemplu „de la 449 MDL/pers.”, „EUR 149/grup”).'
+    folder: src/content/tours
+    format: json
+    extension: json
+    create: true
+    delete: true
+    slug: '{{nume}}'
+    identifier_field: nume
+    editor: { preview: false }
+    summary: '{{nume}}'
+    sortable_fields: ['ordine', 'nume', 'categorie']
+    view_groups:
+      - { label: Categorie, field: categorie }
+    fields:
+      - { label: 'Numele turului', name: nume, widget: string }
+      - label: Categorie
+        name: categorie
+        widget: select
+        options:
+          - { label: 'Pelerinaje – Moldova', value: pelerinaje-moldova }
+          - { label: 'Pelerinaje – România', value: pelerinaje-romania }
+          - { label: 'Obiective turistice și istorice – Moldova', value: obiective-moldova }
+          - { label: Transnistria, value: transnistria }
+          - { label: Găgăuzia, value: gagauzia }
+          - { label: 'Vinăriile Moldovei', value: vinarii }
+      - { label: 'Afișat pe site', name: publicat, widget: boolean, default: true, hint: 'Debifează ca să ascunzi turul fără să-l ștergi.' }
+      - { label: 'Ordinea în listă', name: ordine, widget: number, value_type: int, default: 999, hint: 'Număr mai mic = mai sus în listă (10, 20, 30…).' }
+      - label: 'Prețuri de persoană, după mărimea grupului'
+        name: grila
+        widget: list
+        required: false
+        summary: '{{fields.persoane}} pers. — {{fields.pret}} €'
+        hint: 'Câte un rând pentru fiecare mărime de grup (ex.: 2 → 165, 3 → 115, 5–8 → 65). În listă apare automat cel mai mic preț: „DE LA … € / PERS.”'
+        fields:
+          - { label: 'Număr de persoane', name: persoane, widget: string, hint: 'Ex.: 2, 3, 4, 5–8, 9–11, 31+' }
+          - { label: 'Preț de persoană, €', name: pret, widget: number, value_type: int }
+      - { label: 'Notă sub prețuri', name: pret_nota, widget: string, required: false }
+      - { label: 'Preț tur privat (vechi, doar dacă nu folosești tabelul)', name: pret_privat, widget: string, required: false, hint: 'Ex.: 1–2 pers.: EUR 109/grup | 3–4 pers.: EUR 139/grup' }
+      - { label: 'Preț grup (vechi, doar dacă nu folosești tabelul)', name: pret_grup, widget: string, required: false, hint: 'Ex.: de la EUR 110/pers.' }
+      - { label: 'Durata', name: durata, widget: string, required: false }
+      - { label: 'Traseu / obiective vizitate', name: traseu, widget: text }
+      - { label: 'Ce include', name: include, widget: text }
+      - { label: 'Ce NU include', name: nu_include, widget: text }
+      - { label: 'Poza din listă', name: imagine_card, widget: image, hint: 'Poză orizontală, ideal 1200×900, sub 300 KB.' }
+      - { label: 'Descrierea pozei (pentru Google)', name: alt, widget: string, required: false, hint: 'Ex.: Mănăstirea Căpriana toamna, pelerinaj din Chișinău' }
+      - label: 'Galeria turului'
+        name: galerie
+        widget: list
+        required: false
+        hint: 'Prima poză apare mare, sus pe pagina turului.'
+        field: { label: Poză, name: poza, widget: image }
+      - { label: 'Sursa pozelor', name: credit_foto, widget: string, required: false }
+      - { label: 'Titlu Google', name: seo_titlu, widget: string, required: false, hint: 'Maximum 60 de caractere. Dacă e gol, se folosește numele turului.' }
+      - { label: 'Descriere Google', name: seo_descriere, widget: text, required: false, hint: '140–160 de caractere, cu prețul și orașul de plecare.' }
+      - label: 'Varianta în rusă'
+        name: ru
+        widget: object
+        collapsed: true
+        required: false
+        fields:
+          - { label: 'Название', name: nume, widget: string, required: false }
+          - { label: 'Маршрут', name: traseu, widget: text, required: false }
+          - { label: 'Что включено', name: include, widget: text, required: false }
+          - { label: 'Что НЕ включено', name: nu_include, widget: text, required: false }
+          - { label: 'Продолжительность', name: durata, widget: string, required: false }
+      - label: 'Varianta în engleză'
+        name: en
+        widget: object
+        collapsed: true
+        required: false
+        fields:
+          - { label: 'Name', name: nume, widget: string, required: false }
+          - { label: 'Itinerary', name: traseu, widget: text, required: false }
+          - { label: 'What is included', name: include, widget: text, required: false }
+          - { label: 'What is NOT included', name: nu_include, widget: text, required: false }
+          - { label: 'Duration', name: durata, widget: string, required: false }
+
+  - name: blog
+    label: Articole (blog)
+    label_singular: Articol
+    description: 'Articolele apar la beetravel.md/blog/. Scrie textul normal; titlurile de secțiune le alegi din butonul „Heading”.'
+    folder: src/content/blog
+    create: true
+    delete: true
+    slug: '{{titlu}}'
+    identifier_field: titlu
+    editor: { preview: false }
+    summary: '{{titlu}} ({{data}})'
+    sortable_fields: ['data', 'titlu']
+    fields:
+      - { label: Titlu, name: titlu, widget: string }
+      - { label: 'Data publicării', name: data, widget: datetime, format: 'YYYY-MM-DD', date_format: 'DD.MM.YYYY', time_format: false, picker_utc: true }
+      - { label: 'Afișat pe site', name: publicat, widget: boolean, default: true }
+      - { label: 'Eticheta de deasupra titlului', name: eticheta, widget: string, required: false, hint: 'Ex.: Pelerinaje – Moldova' }
+      - { label: 'Poza principală', name: imagine, widget: image }
+      - { label: 'Descrierea pozei', name: imagine_alt, widget: string, required: false }
+      - { label: 'Introducere (primul paragraf)', name: intro, widget: text, required: false }
+      - { label: 'Textul articolului', name: body, widget: markdown, buttons: [bold, italic, link, heading-two, heading-three, bulleted-list, numbered-list, quote], editor_components: [image] }
+      - label: 'Întrebări frecvente'
+        name: intrebari
+        widget: list
+        required: false
+        summary: '{{fields.intrebare}}'
+        fields:
+          - { label: Întrebare, name: intrebare, widget: string }
+          - { label: Răspuns, name: raspuns, widget: text }
+      - { label: 'Caseta de final: titlu', name: cta_titlu, widget: string, required: false, hint: 'Ex.: Vrei să mergi în pelerinaj?' }
+      - { label: 'Caseta de final: text', name: cta_text, widget: string, required: false }
+      - { label: 'Mesaj WhatsApp precompletat', name: cta_whatsapp, widget: string, required: false }
+      - { label: 'Link spre tur', name: cta_tur, widget: string, required: false, hint: 'Ex.: /destinatii/marele-pelerinaj-9-manastiri/' }
+      - { label: 'Textul butonului spre tur', name: cta_tur_text, widget: string, required: false, default: 'Vezi turul' }
+      - { label: 'Sursa pozei', name: credit_foto, widget: string, required: false }
+      - { label: 'Titlu Google', name: seo_titlu, widget: string, required: false, hint: 'Maximum 60 de caractere.' }
+      - { label: 'Descriere Google', name: descriere, widget: text, hint: '140–160 de caractere. Apare sub titlu în Google.' }
+      - { label: 'Text scurt în „fir”', name: fir, widget: string, required: false, hint: 'Ex.: Ghid de pelerinaj' }
+
+  - name: setari
+    label: Setări și prețuri transfer
+    files:
+      - name: setari
+        label: Contact și transfer aeroport
+        file: src/data/setari.json
+        fields:
+          - { label: 'Telefon (cum se afișează)', name: telefon, widget: string }
+          - { label: 'Telefon pentru apel (fără spații)', name: telefon_link, widget: string }
+          - { label: 'Număr WhatsApp (doar cifre)', name: whatsapp, widget: string }
+          - { label: 'E-mail', name: email, widget: string }
+          - { label: 'Transfer Ford Kuga (1–4 pers.), €', name: transfer_kuga_eur, widget: number, value_type: int }
+          - { label: 'Transfer Ford Kuga (1–4 pers.), lei', name: transfer_kuga_lei, widget: number, value_type: int }
+          - { label: 'Transfer Ford Transit (5–16 pers.), €', name: transfer_transit_eur, widget: number, value_type: int }
+          - { label: 'Transfer Ford Transit (5–16 pers.), lei', name: transfer_transit_lei, widget: number, value_type: int }
+          - { label: 'Google Analytics', name: google_analytics, widget: hidden }

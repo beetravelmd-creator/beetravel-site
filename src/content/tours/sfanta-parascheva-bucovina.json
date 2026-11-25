@@ -1,0 +1,41 @@
+{
+  "ordine": 80,
+  "categorie": "pelerinaje-romania",
+  "publicat": true,
+  "nume": "Sfânta Parascheva & Bucovina",
+  "traseu": "Catedrala Mitropolitană Iași → moaștele Sf. Parascheva → Putna → Sihăstria Putnei → Sucevița → Moldovița → Voroneț.",
+  "include": "Transport, șofer, 1 noapte cazare + mic dejun, organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Bilete, ghid local, prânz/cină, donații, băuturi, cheltuieli personale.",
+  "pret_privat": "1–2 pers.: EUR 519/grup | 3–4 pers.: EUR 619/grup",
+  "pret_grup": "de la EUR 130/pers.",
+  "durata": "2 zile / 1 noapte",
+  "imagine_card": "/images/tours/sfanta-parascheva-bucovina.jpg",
+  "alt": "Catedrala Mitropolitană din Iași, locul moaștelor Sfintei Parascheva",
+  "galerie": [
+    "/images/galleries/sfanta-parascheva-bucovina/01.webp",
+    "/images/galleries/sfanta-parascheva-bucovina/02.webp",
+    "/images/galleries/sfanta-parascheva-bucovina/03.webp",
+    "/images/galleries/sfanta-parascheva-bucovina/04.webp",
+    "/images/galleries/sfanta-parascheva-bucovina/05.webp",
+    "/images/galleries/sfanta-parascheva-bucovina/06.webp",
+    "/images/galleries/sfanta-parascheva-bucovina/07.webp",
+    "/images/galleries/sfanta-parascheva-bucovina/08.webp",
+    "/images/galleries/sfanta-parascheva-bucovina/09.webp"
+  ],
+  "seo_titlu": "Pelerinaj Sfânta Parascheva Iași și Bucovina | BEE TRAVEL",
+  "seo_descriere": "Pelerinaj de 2 zile din Chișinău: moaștele Sfintei Parascheva la Iași, apoi Putna, Sucevița, Moldovița și Voroneț. Transport, cazare și mic dejun incluse.",
+  "en": {
+    "nume": "Saint Paraskeva & Bucovina",
+    "traseu": "Metropolitan Cathedral of Iași → relics of Saint Paraskeva → Putna → Sihăstria Putnei → Sucevița → Moldovița → Voroneț.",
+    "include": "Transport, driver, 1 night accommodation with breakfast and organization. Romanian-speaking tour escort for the whole trip. English-speaking guide: on request, +€50 per group.",
+    "nu_include": "Tickets, local guide, lunch/dinner, donations, drinks and personal expenses.",
+    "durata": "2 days / 1 night"
+  },
+  "ru": {
+    "nume": "Святая Параскева и Буковина",
+    "traseu": "Кафедральный собор Iași → мощи Св. Параскевы → Putna → Sihăstria Putnei → Sucevița → Moldovița → Voroneț.",
+    "include": "Транспорт, водитель, 1 ночь проживания с завтраком и организация. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
+    "nu_include": "Билеты, местный гид, обед/ужин, пожертвования, напитки и личные расходы.",
+    "durata": "2 дня / 1 ночь"
+  }
+}

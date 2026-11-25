@@ -1,0 +1,74 @@
+{
+  "ordine": 10,
+  "categorie": "pelerinaje-moldova",
+  "publicat": true,
+  "nume": "Mănăstirile Codrilor – 3 Mănăstiri",
+  "traseu": "Chișinău → Condrița → Căpriana → Hâncu → Chișinău. Complexele monahale, bisericile și împrejurimile.",
+  "include": "Transport, șofer, combustibil, organizare Bee Travel. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Donații, taxe/vizite cu plată, ghid local, mese, băuturi, cheltuieli personale.",
+  "pret_privat": "",
+  "pret_grup": "",
+  "imagine_card": "/images/tours/manastirile-codrilor.jpg",
+  "alt": "Mănăstirea Căpriana, unul dintre cele mai vechi complexe monahale din Moldova",
+  "galerie": [
+    "/images/galleries/manastirile-codrilor/01.webp",
+    "/images/galleries/manastirile-codrilor/02.webp",
+    "/images/galleries/manastirile-codrilor/03.webp"
+  ],
+  "seo_titlu": "Excursie Mănăstirile Codrilor din Chișinău | BEE TRAVEL",
+  "seo_descriere": "Excursie de o zi din Chișinău la Mănăstirile Codrilor: Condrița, Căpriana și Hâncu. Transport și organizare, în grup de la 449 MDL/pers. sau tur privat.",
+  "en": {
+    "nume": "Codri Monasteries – 3 Monasteries",
+    "traseu": "Chișinău → Condrița → Căpriana → Hâncu → Chișinău. Monastic complexes, churches and their surroundings.",
+    "include": "Transport, driver, fuel and BEE TRAVEL trip organization. Romanian-speaking tour escort for the whole trip. English-speaking guide: on request, +€50 per group.",
+    "nu_include": "Donations, paid visits/fees, local guide, meals, drinks and personal expenses."
+  },
+  "ru": {
+    "nume": "Монастыри Кодр – 3 монастыря",
+    "traseu": "Chișinău → Condrița → Căpriana → Hâncu → Chișinău. Монастырские комплексы, церкви и окрестности.",
+    "include": "Транспорт, водитель, топливо и организация поездки BEE TRAVEL. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
+    "nu_include": "Пожертвования, платные посещения/сборы, местный гид, питание, напитки и личные расходы."
+  },
+  "grila": [
+    {
+      "persoane": "2",
+      "pret": 165
+    },
+    {
+      "persoane": "3",
+      "pret": 115
+    },
+    {
+      "persoane": "4",
+      "pret": 89
+    },
+    {
+      "persoane": "5–8",
+      "pret": 65
+    },
+    {
+      "persoane": "9–11",
+      "pret": 59
+    },
+    {
+      "persoane": "12–14",
+      "pret": 49
+    },
+    {
+      "persoane": "15–18",
+      "pret": 45
+    },
+    {
+      "persoane": "19–22",
+      "pret": 39
+    },
+    {
+      "persoane": "23–30",
+      "pret": 39
+    },
+    {
+      "persoane": "31+",
+      "pret": 35
+    }
+  ]
+}

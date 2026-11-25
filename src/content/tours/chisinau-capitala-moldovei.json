@@ -1,0 +1,87 @@
+{
+  "ordine": 90,
+  "categorie": "obiective-moldova",
+  "publicat": true,
+  "nume": "Chișinău – Capitala Moldovei",
+  "traseu": "Catedrala Nașterea Domnului → Arcul de Triumf → Ștefan cel Mare → Grădina Publică → Parlament → Președinție → Primărie → centrul istoric.",
+  "include": "Transport local conform traseului și organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Intrări la muzee/obiective, ghid local, mese, băuturi, cheltuieli personale.",
+  "pret_privat": "",
+  "pret_grup": "",
+  "imagine_card": "/images/tours/chisinau-capitala-moldovei.jpg",
+  "alt": "Arcul de Triumf din Chișinău, în centrul istoric al capitalei",
+  "galerie": [
+    "/images/galleries/chisinau-capitala-moldovei/01.webp",
+    "/images/galleries/chisinau-capitala-moldovei/02.webp",
+    "/images/galleries/chisinau-capitala-moldovei/03.webp",
+    "/images/galleries/chisinau-capitala-moldovei/04.webp",
+    "/images/galleries/chisinau-capitala-moldovei/05.webp",
+    "/images/galleries/chisinau-capitala-moldovei/06.webp",
+    "/images/galleries/chisinau-capitala-moldovei/07.webp",
+    "/images/galleries/chisinau-capitala-moldovei/08.webp",
+    "/images/galleries/chisinau-capitala-moldovei/09.webp",
+    "/images/galleries/chisinau-capitala-moldovei/10.webp",
+    "/images/galleries/chisinau-capitala-moldovei/11.webp",
+    "/images/galleries/chisinau-capitala-moldovei/12.webp",
+    "/images/galleries/chisinau-capitala-moldovei/13.webp",
+    "/images/galleries/chisinau-capitala-moldovei/14.webp",
+    "/images/galleries/chisinau-capitala-moldovei/15.webp",
+    "/images/galleries/chisinau-capitala-moldovei/16.webp"
+  ],
+  "seo_titlu": "Tur de oraș Chișinău – obiective principale | BEE TRAVEL",
+  "seo_descriere": "Tur al Chișinăului: Catedrala Nașterea Domnului, Arcul de Triumf, Grădina Publică Ștefan cel Mare, Parlamentul și centrul istoric. Privat sau în grup.",
+  "en": {
+    "nume": "Chișinău – Capital of Moldova",
+    "traseu": "Nativity Cathedral → Triumphal Arch → Stephen the Great Monument → Public Garden → Parliament → Presidency → City Hall → historic centre.",
+    "include": "Local transport according to the itinerary and trip organization. Romanian-speaking tour escort for the whole trip. English-speaking guide: on request, +€50 per group.",
+    "nu_include": "Museum/attraction admission fees, local guide, meals, drinks and personal expenses."
+  },
+  "ru": {
+    "nume": "Chișinău – столица Молдовы",
+    "traseu": "Кафедральный собор Рождества Христова → Триумфальная арка → памятник Штефану чел Маре → городской парк → Парламент → Президентура → Примэрия → исторический центр.",
+    "include": "Местный транспорт по маршруту и организация поездки. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
+    "nu_include": "Входные билеты в музеи/объекты, местный гид, питание, напитки и личные расходы."
+  },
+  "grila": [
+    {
+      "persoane": "2",
+      "pret": 165
+    },
+    {
+      "persoane": "3",
+      "pret": 115
+    },
+    {
+      "persoane": "4",
+      "pret": 89
+    },
+    {
+      "persoane": "5–8",
+      "pret": 80
+    },
+    {
+      "persoane": "9–11",
+      "pret": 57
+    },
+    {
+      "persoane": "12–14",
+      "pret": 46
+    },
+    {
+      "persoane": "15–18",
+      "pret": 40
+    },
+    {
+      "persoane": "19–22",
+      "pret": 35
+    },
+    {
+      "persoane": "23–30",
+      "pret": 36
+    },
+    {
+      "persoane": "31+",
+      "pret": 28
+    }
+  ]
+}

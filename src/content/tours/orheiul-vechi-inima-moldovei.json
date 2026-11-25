@@ -1,0 +1,117 @@
+{
+  "ordine": 100,
+  "categorie": "obiective-moldova",
+  "publicat": true,
+  "nume": "Orheiul Vechi – Inima Moldovei",
+  "traseu": "Rezervația Orheiul Vechi → Butuceni → complexul arheologic → mănăstirea rupestră → valea Răutului → puncte panoramice.",
+  "include": "Transport privat, preluare și retur, șofer, organizare/ghidare și intrarea în rezervație. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Masa tradițională în Butuceni este opțională; băuturi și cheltuieli personale.",
+  "pret_privat": "",
+  "pret_grup": "",
+  "imagine_card": "/images/tours/orheiul-vechi-inima-moldovei.jpg",
+  "alt": "Rezervația Orheiul Vechi, cu mănăstirea rupestră săpată în stâncă și meandrele Răutului",
+  "galerie": [
+    "/images/galleries/orheiul-vechi-inima-moldovei/01.webp",
+    "/images/galleries/orheiul-vechi-inima-moldovei/02.webp",
+    "/images/galleries/orheiul-vechi-inima-moldovei/03.webp",
+    "/images/galleries/orheiul-vechi-inima-moldovei/04.webp",
+    "/images/galleries/orheiul-vechi-inima-moldovei/05.webp",
+    "/images/galleries/orheiul-vechi-inima-moldovei/06.webp"
+  ],
+  "seo_titlu": "Excursie Orheiul Vechi din Chișinău | BEE TRAVEL",
+  "seo_descriere": "Excursie din Chișinău la Orheiul Vechi: Butuceni, mănăstirea rupestră, complexul arheologic și panorama Răutului. Transport privat, intrarea în rezervație inclusă.",
+  "en": {
+    "nume": "Orheiul Vechi – Heart of Moldova",
+    "traseu": "Orheiul Vechi Reserve → Butuceni → archaeological complex → cave monastery → Răut Valley → panoramic viewpoints.",
+    "include": "Private transport, pickup and return, driver, trip organization/guidance and reserve entrance. Romanian-speaking tour escort for the whole trip. English-speaking guide: on request, +€50 per group.",
+    "nu_include": "Traditional meal in Butuceni is optional; drinks and personal expenses are not included."
+  },
+  "ru": {
+    "nume": "Orheiul Vechi – сердце Молдовы",
+    "traseu": "Заповедник Orheiul Vechi → Butuceni → археологический комплекс → скальный монастырь → долина Răut → панорамные площадки.",
+    "include": "Частный транспорт, трансфер туда и обратно, водитель, организация/сопровождение и вход в заповедник. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
+    "nu_include": "Традиционный обед в Butuceni — по желанию; напитки и личные расходы не включены."
+  },
+  "grila": [
+    {
+      "persoane": "1",
+      "pret": 275
+    },
+    {
+      "persoane": "2",
+      "pret": 179
+    },
+    {
+      "persoane": "3",
+      "pret": 145
+    },
+    {
+      "persoane": "4",
+      "pret": 145
+    },
+    {
+      "persoane": "5",
+      "pret": 125
+    },
+    {
+      "persoane": "6",
+      "pret": 115
+    },
+    {
+      "persoane": "7",
+      "pret": 99
+    },
+    {
+      "persoane": "8",
+      "pret": 95
+    },
+    {
+      "persoane": "9",
+      "pret": 85
+    },
+    {
+      "persoane": "10",
+      "pret": 80
+    },
+    {
+      "persoane": "11",
+      "pret": 75
+    },
+    {
+      "persoane": "12",
+      "pret": 70
+    },
+    {
+      "persoane": "13",
+      "pret": 65
+    },
+    {
+      "persoane": "14",
+      "pret": 50
+    },
+    {
+      "persoane": "15",
+      "pret": 55
+    },
+    {
+      "persoane": "16",
+      "pret": 55
+    },
+    {
+      "persoane": "17",
+      "pret": 50
+    },
+    {
+      "persoane": "18",
+      "pret": 50
+    },
+    {
+      "persoane": "19",
+      "pret": 45
+    },
+    {
+      "persoane": "20",
+      "pret": 45
+    }
+  ]
+}

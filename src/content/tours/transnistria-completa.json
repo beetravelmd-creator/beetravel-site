@@ -1,0 +1,84 @@
+{
+  "ordine": 160,
+  "categorie": "transnistria",
+  "publicat": true,
+  "nume": "Transnistria Completă",
+  "traseu": "Cetatea Bender → memorialul militar → Tiraspol → monumentele sovietice → Chițcani → Mănăstirea Noul Neamț.",
+  "include": "Transport și organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Bilete, ghid local, donații, masă/băuturi, cheltuieli personale.",
+  "pret_privat": "",
+  "pret_grup": "",
+  "imagine_card": "/images/tours/transnistria-completa.jpg",
+  "alt": "Mănăstirea Noul Neamț de la Chițcani, Transnistria",
+  "galerie": [
+    "/images/galleries/transnistria-completa/01.webp",
+    "/images/galleries/transnistria-completa/02.webp",
+    "/images/galleries/transnistria-completa/03.webp",
+    "/images/galleries/transnistria-completa/04.webp",
+    "/images/galleries/transnistria-completa/05.webp",
+    "/images/galleries/transnistria-completa/06.webp",
+    "/images/galleries/transnistria-completa/07.webp",
+    "/images/galleries/transnistria-completa/08.webp",
+    "/images/galleries/transnistria-completa/09.webp",
+    "/images/galleries/transnistria-completa/10.webp",
+    "/images/galleries/transnistria-completa/11.webp",
+    "/images/galleries/transnistria-completa/12.webp",
+    "/images/galleries/transnistria-completa/13.webp"
+  ],
+  "seo_titlu": "Tur Transnistria: Bender, Tiraspol, Chițcani | BEE TRAVEL",
+  "seo_descriere": "Tur complet al Transnistriei din Chișinău: Cetatea Bender, Tiraspol, monumentele sovietice și Mănăstirea Noul Neamț de la Chițcani. De la 799 MDL/pers.",
+  "en": {
+    "nume": "Complete Transnistria",
+    "traseu": "Bender Fortress → military memorial → Tiraspol → Soviet monuments → Chițcani → Noul Neamț Monastery.",
+    "include": "Transport and trip organization. Romanian-speaking tour escort for the whole trip. English-speaking guide: on request, +€50 per group.",
+    "nu_include": "Tickets, local guide, donations, meals/drinks and personal expenses."
+  },
+  "ru": {
+    "nume": "Приднестровье – полный маршрут",
+    "traseu": "Бендерская крепость → военный мемориал → Тирасполь → советские памятники → Chițcani → монастырь Noul Neamț.",
+    "include": "Транспорт и организация поездки. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
+    "nu_include": "Билеты, местный гид, пожертвования, питание/напитки и личные расходы."
+  },
+  "grila": [
+    {
+      "persoane": "2",
+      "pret": 165
+    },
+    {
+      "persoane": "3",
+      "pret": 115
+    },
+    {
+      "persoane": "4",
+      "pret": 89
+    },
+    {
+      "persoane": "5–8",
+      "pret": 80
+    },
+    {
+      "persoane": "9–11",
+      "pret": 70
+    },
+    {
+      "persoane": "12–14",
+      "pret": 55
+    },
+    {
+      "persoane": "15–18",
+      "pret": 46
+    },
+    {
+      "persoane": "19–22",
+      "pret": 40
+    },
+    {
+      "persoane": "23–30",
+      "pret": 43
+    },
+    {
+      "persoane": "31+",
+      "pret": 37
+    }
+  ]
+}

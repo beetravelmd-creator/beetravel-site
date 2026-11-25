@@ -1,0 +1,81 @@
+{
+  "ordine": 170,
+  "categorie": "gagauzia",
+  "publicat": true,
+  "nume": "Găgăuzia Autentică",
+  "traseu": "Comrat → centrul orașului → Catedrala Sf. Ioan Botezătorul → monumente → Beșalma → Muzeul Național Găgăuz → cultura locală.",
+  "include": "Transport și organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Intrări, ghid local, experiențe/ateliere, masă tradițională, degustări, băuturi, cheltuieli personale.",
+  "pret_privat": "",
+  "pret_grup": "",
+  "imagine_card": "/images/tours/gagauzia-autentica.jpg",
+  "alt": "Centrul orașului Comrat, capitala Găgăuziei",
+  "galerie": [
+    "/images/galleries/gagauzia-autentica/01.webp",
+    "/images/galleries/gagauzia-autentica/02.webp",
+    "/images/galleries/gagauzia-autentica/03.webp",
+    "/images/galleries/gagauzia-autentica/04.webp",
+    "/images/galleries/gagauzia-autentica/05.webp",
+    "/images/galleries/gagauzia-autentica/06.webp",
+    "/images/galleries/gagauzia-autentica/07.webp",
+    "/images/galleries/gagauzia-autentica/08.webp",
+    "/images/galleries/gagauzia-autentica/09.webp",
+    "/images/galleries/gagauzia-autentica/10.webp"
+  ],
+  "seo_titlu": "Excursie Găgăuzia: Comrat și Beșalma | BEE TRAVEL",
+  "seo_descriere": "Excursie în Găgăuzia din Chișinău: Comrat, Catedrala Sf. Ioan Botezătorul, Beșalma și Muzeul Național Găgăuz. În grup de la 749 MDL/pers. sau tur privat.",
+  "en": {
+    "nume": "Authentic Gagauzia",
+    "traseu": "Comrat → city centre → St John the Baptist Cathedral → monuments → Beșalma → National Gagauz Museum → local culture.",
+    "include": "Transport and trip organization. Romanian-speaking tour escort for the whole trip. English-speaking guide: on request, +€50 per group.",
+    "nu_include": "Entrance fees, local guide, experiences/workshops, traditional meal, tastings, drinks and personal expenses."
+  },
+  "ru": {
+    "nume": "Аутентичная Гагаузия",
+    "traseu": "Comrat → центр города → собор Св. Иоанна Крестителя → памятники → Beșalma → Национальный гагаузский музей → местная культура.",
+    "include": "Транспорт и организация поездки. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
+    "nu_include": "Входные билеты, местный гид, мастер-классы/активности, традиционный обед, дегустации, напитки и личные расходы."
+  },
+  "grila": [
+    {
+      "persoane": "2",
+      "pret": 165
+    },
+    {
+      "persoane": "3",
+      "pret": 115
+    },
+    {
+      "persoane": "4",
+      "pret": 89
+    },
+    {
+      "persoane": "5–8",
+      "pret": 75
+    },
+    {
+      "persoane": "9–11",
+      "pret": 62
+    },
+    {
+      "persoane": "12–14",
+      "pret": 50
+    },
+    {
+      "persoane": "15–18",
+      "pret": 45
+    },
+    {
+      "persoane": "19–22",
+      "pret": 38
+    },
+    {
+      "persoane": "23–30",
+      "pret": 42
+    },
+    {
+      "persoane": "31+",
+      "pret": 35
+    }
+  ]
+}

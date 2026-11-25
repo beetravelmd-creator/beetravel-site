@@ -1,0 +1,80 @@
+{
+  "ordine": 190,
+  "categorie": "vinarii",
+  "publicat": true,
+  "nume": "Cricova – Orașul Subteran",
+  "traseu": "Cricova → galeriile și străzile subterane → colecția de vinuri → sălile tematice/de degustare, conform pachetului ales.",
+  "include": "Transport și organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Biletul/turul Cricova, degustarea, vinurile, masa, cumpărăturile și cheltuielile personale.",
+  "pret_privat": "",
+  "pret_grup": "",
+  "imagine_card": "/images/tours/cricova-orasul-subteran.jpg",
+  "alt": "Galeriile subterane ale vinăriei Cricova",
+  "galerie": [
+    "/images/galleries/cricova-orasul-subteran/01.webp",
+    "/images/galleries/cricova-orasul-subteran/02.webp",
+    "/images/galleries/cricova-orasul-subteran/03.webp",
+    "/images/galleries/cricova-orasul-subteran/04.webp",
+    "/images/galleries/cricova-orasul-subteran/05.webp",
+    "/images/galleries/cricova-orasul-subteran/06.webp",
+    "/images/galleries/cricova-orasul-subteran/07.webp",
+    "/images/galleries/cricova-orasul-subteran/08.webp",
+    "/images/galleries/cricova-orasul-subteran/09.webp"
+  ],
+  "seo_titlu": "Excursie Cricova din Chișinău, cu transport | BEE TRAVEL",
+  "seo_descriere": "Excursie la vinăria Cricova: galeriile și străzile subterane, colecția de vinuri și degustare după pachet. Transport din Chișinău, privat de la 119 EUR/grup.",
+  "en": {
+    "nume": "Cricova – Underground City",
+    "traseu": "Cricova → underground galleries and streets → wine collection → themed/tasting halls, according to the package selected.",
+    "include": "Transport and trip organization. Romanian-speaking tour escort for the whole trip. English-speaking guide: on request, +€50 per group.",
+    "nu_include": "Cricova admission/tour, tasting, wines, meals, purchases and personal expenses."
+  },
+  "ru": {
+    "nume": "Cricova – подземный город",
+    "traseu": "Cricova → подземные галереи и улицы → коллекция вин → тематические/дегустационные залы согласно выбранному пакету.",
+    "include": "Транспорт и организация поездки. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
+    "nu_include": "Вход/экскурсия Cricova, дегустация, вина, питание, покупки и личные расходы."
+  },
+  "grila": [
+    {
+      "persoane": "2",
+      "pret": 165
+    },
+    {
+      "persoane": "3",
+      "pret": 115
+    },
+    {
+      "persoane": "4",
+      "pret": 89
+    },
+    {
+      "persoane": "5–8",
+      "pret": 80
+    },
+    {
+      "persoane": "9–11",
+      "pret": 57
+    },
+    {
+      "persoane": "12–14",
+      "pret": 46
+    },
+    {
+      "persoane": "15–18",
+      "pret": 40
+    },
+    {
+      "persoane": "19–22",
+      "pret": 35
+    },
+    {
+      "persoane": "23–30",
+      "pret": 36
+    },
+    {
+      "persoane": "31+",
+      "pret": 28
+    }
+  ]
+}

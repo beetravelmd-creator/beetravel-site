@@ -1,0 +1,81 @@
+{
+  "ordine": 20,
+  "categorie": "pelerinaje-moldova",
+  "publicat": true,
+  "nume": "Marele Pelerinaj – 9 Mănăstiri",
+  "traseu": "Hîrjauca → Hîrbovăț → Răciula → Frumoasa → Căpriana → Condrița → Hâncu → Suruceni → Sireți.",
+  "include": "Transport, șofer, combustibil, organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Donații, taxe/vizite cu plată, ghid local, mese, băuturi, cheltuieli personale.",
+  "pret_privat": "",
+  "pret_grup": "",
+  "imagine_card": "/images/tours/marele-pelerinaj-9-manastiri.jpg",
+  "alt": "Mănăstirea Hârjăuca, una din cele nouă mănăstiri ale Marelui Pelerinaj",
+  "galerie": [
+    "/images/galleries/marele-pelerinaj-9-manastiri/01.webp",
+    "/images/galleries/marele-pelerinaj-9-manastiri/02.webp",
+    "/images/galleries/marele-pelerinaj-9-manastiri/03.webp",
+    "/images/galleries/marele-pelerinaj-9-manastiri/04.webp",
+    "/images/galleries/marele-pelerinaj-9-manastiri/05.webp",
+    "/images/galleries/marele-pelerinaj-9-manastiri/06.webp",
+    "/images/galleries/marele-pelerinaj-9-manastiri/07.webp",
+    "/images/galleries/marele-pelerinaj-9-manastiri/08.webp",
+    "/images/galleries/marele-pelerinaj-9-manastiri/09.webp"
+  ],
+  "credit_foto": "Foto galerie (Wikimedia Commons): Hîrjauca, Hîrbovăț, Răciula – Tanyaofearth (CC BY-SA 4.0); Frumoasa – AIRM (CC BY-SA 4.0); Căpriana – David Stanley (CC BY 2.0); Condrița, Hâncu – Pudelek (CC BY-SA 4.0); Suruceni – Gikü (CC0); Sireți – Vladikh (CC0).",
+  "seo_titlu": "Pelerinaj 9 mănăstiri Moldova din Chișinău | BEE TRAVEL",
+  "seo_descriere": "Pelerinaj de o zi la 9 mănăstiri: Hîrjauca, Hîrbovăț, Răciula, Frumoasa, Căpriana, Condrița, Hâncu, Suruceni, Sireți. Din Chișinău, de la 449 MDL/pers.",
+  "en": {
+    "nume": "Grand Pilgrimage – 9 Monasteries",
+    "traseu": "Hîrjauca → Hîrbovăț → Răciula → Frumoasa → Căpriana → Condrița → Hâncu → Suruceni → Sireți.",
+    "include": "Transport, driver, fuel and trip organization. Romanian-speaking tour escort for the whole trip. English-speaking guide: on request, +€50 per group.",
+    "nu_include": "Donations, paid visits/fees, local guide, meals, drinks and personal expenses."
+  },
+  "ru": {
+    "nume": "Большое паломничество – 9 монастырей",
+    "traseu": "Hîrjauca → Hîrbovăț → Răciula → Frumoasa → Căpriana → Condrița → Hâncu → Suruceni → Sireți.",
+    "include": "Транспорт, водитель, топливо и организация поездки. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
+    "nu_include": "Пожертвования, платные посещения/сборы, местный гид, питание, напитки и личные расходы."
+  },
+  "grila": [
+    {
+      "persoane": "2",
+      "pret": 165
+    },
+    {
+      "persoane": "3",
+      "pret": 115
+    },
+    {
+      "persoane": "4",
+      "pret": 89
+    },
+    {
+      "persoane": "5–8",
+      "pret": 65
+    },
+    {
+      "persoane": "9–11",
+      "pret": 59
+    },
+    {
+      "persoane": "12–14",
+      "pret": 49
+    },
+    {
+      "persoane": "15–18",
+      "pret": 45
+    },
+    {
+      "persoane": "19–22",
+      "pret": 39
+    },
+    {
+      "persoane": "23–30",
+      "pret": 39
+    },
+    {
+      "persoane": "31+",
+      "pret": 35
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "ordine": 230,
+  "categorie": "vinarii",
+  "publicat": true,
+  "nume": "Cricova & Mileștii Mici – Două lumi subterane",
+  "traseu": "Cricova → galerii și colecție → Mileștii Mici → galerii și Colecția de Aur.",
+  "include": "Transport între obiective și organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Vizitele și degustările la ambele vinării, mesele, vinurile/cumpărăturile, cheltuieli personale.",
+  "pret_privat": "",
+  "pret_grup": "",
+  "imagine_card": "/images/tours/cricova-orasul-subteran.jpg",
+  "alt": "Galerii subterane de vin, Cricova și Mileștii Mici",
+  "galerie": [
+    "/images/galleries/cricova-milestii-mici/01.webp",
+    "/images/galleries/cricova-milestii-mici/02.webp",
+    "/images/galleries/cricova-milestii-mici/03.webp",
+    "/images/galleries/cricova-milestii-mici/04.webp",
+    "/images/galleries/cricova-milestii-mici/05.webp",
+    "/images/galleries/cricova-milestii-mici/06.webp",
+    "/images/galleries/cricova-milestii-mici/07.webp",
+    "/images/galleries/cricova-milestii-mici/08.webp",
+    "/images/galleries/cricova-milestii-mici/09.webp",
+    "/images/galleries/cricova-milestii-mici/10.webp",
+    "/images/galleries/cricova-milestii-mici/11.webp",
+    "/images/galleries/cricova-milestii-mici/12.webp",
+    "/images/galleries/cricova-milestii-mici/13.webp",
+    "/images/galleries/cricova-milestii-mici/14.webp",
+    "/images/galleries/cricova-milestii-mici/15.webp",
+    "/images/galleries/cricova-milestii-mici/16.webp"
+  ],
+  "seo_titlu": "Tur vinării Cricova și Mileștii Mici | BEE TRAVEL",
+  "seo_descriere": "Două vinării subterane într-o zi: Cricova și Mileștii Mici, cu galeriile și Colecția de Aur. Transport din Chișinău, tur privat de la 109 EUR/grup.",
+  "en": {
+    "nume": "Cricova & Mileștii Mici – Two Underground Worlds",
+    "traseu": "Cricova → galleries and collection → Mileștii Mici → galleries and Golden Collection.",
+    "include": "Transport between the two wineries and trip organization. Romanian-speaking tour escort for the whole trip. English-speaking guide: on request, +€50 per group.",
+    "nu_include": "Admission/tours and tastings at both wineries, meals, wines/purchases and personal expenses are not included."
+  },
+  "ru": {
+    "nume": "Cricova & Mileștii Mici – два подземных мира",
+    "traseu": "Cricova → галереи и коллекция → Mileștii Mici → галереи и Золотая коллекция.",
+    "include": "Транспорт между объектами и организация поездки. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
+    "nu_include": "Вход/экскурсии и дегустации на обеих винодельнях, питание, вина/покупки и личные расходы не включены."
+  },
+  "grila": [
+    {
+      "persoane": "2",
+      "pret": 165
+    },
+    {
+      "persoane": "3",
+      "pret": 115
+    },
+    {
+      "persoane": "4",
+      "pret": 89
+    },
+    {
+      "persoane": "5–8",
+      "pret": 80
+    },
+    {
+      "persoane": "9–11",
+      "pret": 57
+    },
+    {
+      "persoane": "12–14",
+      "pret": 46
+    },
+    {
+      "persoane": "15–18",
+      "pret": 40
+    },
+    {
+      "persoane": "19–22",
+      "pret": 35
+    },
+    {
+      "persoane": "23–30",
+      "pret": 36
+    },
+    {
+      "persoane": "31+",
+      "pret": 28
+    }
+  ]
+}
