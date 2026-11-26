@@ -6,9 +6,50 @@
   "traseu": "Chișinău → Rezervația științifică „Prutul de Jos” → plimbare cu barca pe lacul Beleu → Colinele de aur de la Văleni → Muzeul de Istorie și Etnografie din Văleni → curte țărănească tradițională → Chișinău.",
   "include": "Transport tur-retur din Chișinău, șofer, combustibil și organizarea BEE TRAVEL. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
   "nu_include": "Intrările la obiective, degustările, masa, ghidul local, donațiile și cheltuielile personale.",
-  "pret_privat": "4700 MDL/grup",
-  "pret_grup": "de la 300 MDL/pers.",
-  "grila": [],
+  "pret_privat": "",
+  "pret_grup": "",
+  "grila": [
+    {
+      "persoane": "2",
+      "pret": 160
+    },
+    {
+      "persoane": "3",
+      "pret": 110
+    },
+    {
+      "persoane": "4",
+      "pret": 84
+    },
+    {
+      "persoane": "5–8",
+      "pret": 75
+    },
+    {
+      "persoane": "9–11",
+      "pret": 70
+    },
+    {
+      "persoane": "12–14",
+      "pret": 57
+    },
+    {
+      "persoane": "15–18",
+      "pret": 47
+    },
+    {
+      "persoane": "19–22",
+      "pret": 40
+    },
+    {
+      "persoane": "23–30",
+      "pret": 45
+    },
+    {
+      "persoane": "31+",
+      "pret": 35
+    }
+  ],
   "imagine_card": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Lacul_Beleu_priveli%C8%99te.jpg/1280px-Lacul_Beleu_priveli%C8%99te.jpg",
   "alt": "Lacul Beleu din Rezervația Prutul de Jos, raionul Cahul",
   "galerie": [
@@ -20,7 +61,7 @@
   ],
   "credit_foto": "Foto (Wikimedia Commons): Lacul Beleu – Cezara-Patricia Cumatrenco, Liudmila Curdova; Prutul de Jos – Criss90kf (CC BY-SA 4.0).",
   "seo_titlu": "Excursie Prutul de Jos și lacul Beleu din Chișinău",
-  "seo_descriere": "Mica Deltă a Moldovei: lacul Beleu, Colinele de aur și satul Văleni, într-o excursie de o zi din Chișinău. De la 300 MDL de persoană.",
+  "seo_descriere": "Mica Deltă a Moldovei: lacul Beleu, Colinele de aur și satul Văleni, într-o excursie de o zi din Chișinău. De la 35 € de persoană.",
   "en": {
     "nume": "Lower Prut – Moldova's Little Delta",
     "traseu": "Chișinău → \"Prutul de Jos\" scientific reserve → boat trip on Lake Beleu → Golden Hills of Văleni → Văleni History and Ethnography Museum → traditional village yard → Chișinău.",
