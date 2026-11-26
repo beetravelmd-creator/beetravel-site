@@ -6,50 +6,9 @@
   "traseu": "Chișinău → bordeiele („băștile”) din Rogojeni → stejarul secular de la Cobâlea → Vadul Rașcov: cimitirul evreiesc vechi, casa-muzeu Dumitru Matcovschi, clopotnița → stâncile de la Socola, pe Nistru → Chișinău.",
   "include": "Transport tur-retur din Chișinău, șofer, combustibil și organizarea BEE TRAVEL. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
   "nu_include": "Intrările la obiective, degustările, masa, ghidul local, donațiile și cheltuielile personale.",
-  "pret_privat": "",
-  "pret_grup": "",
-  "grila": [
-    {
-      "persoane": "2",
-      "pret": 160
-    },
-    {
-      "persoane": "3",
-      "pret": 110
-    },
-    {
-      "persoane": "4",
-      "pret": 84
-    },
-    {
-      "persoane": "5–8",
-      "pret": 70
-    },
-    {
-      "persoane": "9–11",
-      "pret": 60
-    },
-    {
-      "persoane": "12–14",
-      "pret": 48
-    },
-    {
-      "persoane": "15–18",
-      "pret": 40
-    },
-    {
-      "persoane": "19–22",
-      "pret": 37
-    },
-    {
-      "persoane": "23–30",
-      "pret": 38
-    },
-    {
-      "persoane": "31+",
-      "pret": 31
-    }
-  ],
+  "pret_privat": "4250 MDL/grup",
+  "pret_grup": "de la 270 MDL/pers. (grup 8–16 persoane)",
+  "grila": [],
   "imagine_card": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Basca_Rogojeni.jpg/1280px-Basca_Rogojeni.jpg",
   "alt": "Bordei tradițional (bașcă) din Rogojeni, raionul Șoldănești",
   "galerie": [
@@ -61,7 +20,7 @@
   ],
   "credit_foto": "Foto (Wikimedia Commons): Rogojeni – Gganebnyi (CC BY-SA 4.0); Cobâlea, Socola – Анатолий Зубанюк (CC BY 3.0); Vadul Rașcov – Nicolai Chirnev (CC0).",
   "seo_titlu": "Excursie Rogojeni, Vadul Rașcov și Socola din Chișinău",
-  "seo_descriere": "Nordul Moldovei pe Nistru: bordeiele din Rogojeni, stejarul de la Cobâlea, Vadul Rașcov și stâncile Socola. De la 31 € de persoană.",
+  "seo_descriere": "Nordul Moldovei pe Nistru: bordeiele din Rogojeni, stejarul de la Cobâlea, Vadul Rașcov și stâncile Socola. De la 270 MDL de persoană.",
   "en": {
     "nume": "Rogojeni, Cobâlea, Vadul Rașcov and Socola",
     "traseu": "Chișinău → traditional dug-out houses (\"băști\") of Rogojeni → ancient oak of Cobâlea → Vadul Rașcov: old Jewish cemetery, Dumitru Matcovschi house-museum, bell tower → Socola cliffs on the Dniester → Chișinău.",

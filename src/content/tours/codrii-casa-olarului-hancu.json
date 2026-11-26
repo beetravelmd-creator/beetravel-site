@@ -6,50 +6,9 @@
   "traseu": "Chișinău → Casa Olarului „Vasile Gonciari” (atelier de olărit) → Casa Mierii de la Răciula → Călărași → conacul lui Zamfirache Ralli din Dolna → Mănăstirea Hâncu → Chișinău.",
   "include": "Transport tur-retur din Chișinău, șofer, combustibil și organizarea BEE TRAVEL. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
   "nu_include": "Intrările la obiective, degustările, masa, ghidul local, donațiile și cheltuielile personale.",
-  "pret_privat": "",
-  "pret_grup": "",
-  "grila": [
-    {
-      "persoane": "2",
-      "pret": 160
-    },
-    {
-      "persoane": "3",
-      "pret": 110
-    },
-    {
-      "persoane": "4",
-      "pret": 84
-    },
-    {
-      "persoane": "5–8",
-      "pret": 60
-    },
-    {
-      "persoane": "9–11",
-      "pret": 54
-    },
-    {
-      "persoane": "12–14",
-      "pret": 44
-    },
-    {
-      "persoane": "15–18",
-      "pret": 40
-    },
-    {
-      "persoane": "19–22",
-      "pret": 34
-    },
-    {
-      "persoane": "23–30",
-      "pret": 34
-    },
-    {
-      "persoane": "31+",
-      "pret": 30
-    }
-  ],
+  "pret_privat": "3800 MDL/grup",
+  "pret_grup": "de la 240 MDL/pers. (grup 8–16 persoane)",
+  "grila": [],
   "imagine_card": "/images/galleries/manastirile-codrilor/03.webp",
   "alt": "Mănăstire din Codrii Moldovei, vedere de sus",
   "galerie": [
@@ -60,7 +19,7 @@
   ],
   "credit_foto": "Foto conacul Ralli (Wikimedia Commons): Vladikh (CC BY-SA 4.0).",
   "seo_titlu": "Excursie Codrii Moldovei: Casa Olarului și Mănăstirea Hâncu",
-  "seo_descriere": "Olărit, miere de la Răciula, conacul Ralli din Dolna și Mănăstirea Hâncu, într-o zi din Chișinău. De la 30 € de persoană.",
+  "seo_descriere": "Olărit, miere de la Răciula, conacul Ralli din Dolna și Mănăstirea Hâncu, într-o zi din Chișinău. De la 240 MDL de persoană.",
   "en": {
     "nume": "Codri Forests – Potter's House, Honey House and Hâncu Monastery",
     "traseu": "Chișinău → Potter's House in Călărași district (pottery workshop) → Honey House in Răciula → Călărași → Zamfirache Ralli manor in Dolna → Hâncu Monastery → Chișinău.",
