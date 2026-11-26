@@ -1,0 +1,29 @@
+{
+  "ordine": 5,
+  "categorie": "copii",
+  "publicat": true,
+  "nume": "Micii Ciocolatieri – atelier de ciocolată pentru copii",
+  "traseu": "Chișinău → atelierul de ciocolată artizanală din Durlești (str. Poltava) → Chișinău. Copiii descoperă lumea ciocolatei artizanale, participă la un atelier practic și își fac singuri bomboana: prună cu nucă în ciocolată. La final, fiecare copil primește o cutie cu bomboane din mere în ciocolată neagră.",
+  "include": "Transport tur-retur, atelierul practic de preparare, ingredientele (ciocolată belgiană, ingrediente 100% naturale, fără îndulcitori suplimentari, fructe neîndulcite), cutia-cadou cu bomboane pentru fiecare copil și organizarea BEE TRAVEL. Ghid-însoțitor BEE TRAVEL din Chișinău pe toată durata excursiei.",
+  "nu_include": "Cheltuielile personale.",
+  "pret_privat": "",
+  "pret_grup": "350 MDL/copil",
+  "pret_nota": "Vârsta: de la 5 ani · Grupuri: 20–60 de copii · Durata atelierului: 40–80 min · Luni–vineri, 10:00–15:00 · Transport tur-retur inclus.",
+  "durata": "40–80 de minute (atelierul)",
+  "imagine_card": "/images/tours/copii/micii-ciocolatieri-ro.jpg",
+  "alt": "Micii Ciocolatieri – atelier de ciocolată pentru copii, BEE TRAVEL",
+  "galerie": [
+    "/images/tours/copii/micii-ciocolatieri-ro.jpg",
+    "/images/tours/copii/micii-ciocolatieri-ru.jpg"
+  ],
+  "seo_titlu": "Micii Ciocolatieri – excursie la atelier de ciocolată pentru copii",
+  "seo_descriere": "Excursie educativă pentru clase și grupuri de copii: atelier de ciocolată artizanală în Durlești, cutie-cadou cu bomboane. 350 lei/copil, transport inclus.",
+  "ru": {
+    "nume": "Маленькие шоколатье – шоколадный мастер-класс для детей",
+    "traseu": "Кишинёв → мастерская ремесленного шоколада в Дурлештах (ул. Полтава) → Кишинёв. Дети узнают секреты ремесленного шоколада, участвуют в мастер-классе и сами делают конфету: слива с орехами в шоколаде. В конце каждый ребёнок получает подарочную коробочку с конфетами.",
+    "include": "Транспорт туда и обратно, мастер-класс, ингредиенты (бельгийский шоколад, 100% натуральные ингредиенты, без дополнительных подсластителей, фрукты не подслащены), подарочная коробочка с конфетами для каждого ребёнка и организация BEE TRAVEL. Сопровождающий BEE TRAVEL из Кишинёва на протяжении всей экскурсии.",
+    "nu_include": "Личные расходы.",
+    "durata": "40–80 минут (мастер-класс)",
+    "pret_nota": "Возраст: от 5 лет · Группа: 20–60 детей · Длительность: 40–80 мин · Пн–Пт, 10:00–15:00 · Транспорт туда и обратно включён."
+  }
+}

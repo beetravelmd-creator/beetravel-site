@@ -9,15 +9,15 @@
   "pret_privat": "3750 MDL/grup",
   "pret_grup": "470 MDL/pers. (grup 8–16 persoane)",
   "grila": [],
-  "imagine_card": "/images/galleries/bender-tiraspol/01.webp",
-  "alt": "Cetatea Tighina de pe Nistru, vedere de sus",
+  "imagine_card": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cetatea_Tighina_2021.jpg/1280px-Cetatea_Tighina_2021.jpg",
+  "alt": "Cetatea Tighina pe malul Nistrului",
   "galerie": [
-    "/images/galleries/bender-tiraspol/01.webp",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cetatea_Tighina_2021.jpg/1280px-Cetatea_Tighina_2021.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Bender_Fortress._South_side_03.JPG/1280px-Bender_Fortress._South_side_03.JPG",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Casa_memorial%C4%83_a_poetului_Alexei_Mateevici_din_sat._Zaim_01.jpg/1280px-Casa_memorial%C4%83_a_poetului_Alexei_Mateevici_din_sat._Zaim_01.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/MD.CS.CS_-_Church_of_the_Assumption_-_jul_2013.JPG/1280px-MD.CS.CS_-_Church_of_the_Assumption_-_jul_2013.JPG",
-    "/images/galleries/bender-tiraspol/08.webp"
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/MD.CS.CS_-_Church_of_the_Assumption_-_jul_2013.JPG/1280px-MD.CS.CS_-_Church_of_the_Assumption_-_jul_2013.JPG"
   ],
-  "credit_foto": "Foto (Wikimedia Commons): Zaim – Vladikh (CC BY-SA 4.0); Căușeni – Gikü (CC0).",
+  "credit_foto": "Foto Wikimedia Commons: Cetatea Tighina – Helgie12 (CC BY-SA 4.0), Ivo Kruusamägi (CC BY-SA 3.0); Zaim și Căușeni – autori Wikimedia Commons.",
   "seo_titlu": "Excursie Cetatea Tighina, Căușeni și Zaim din Chișinău",
   "seo_descriere": "Cetatea Tighina, biserica semi-îngropată din Căușeni și casa lui Alexei Mateevici din Zaim, într-o zi. 470 MDL de persoană în grup.",
   "en": {

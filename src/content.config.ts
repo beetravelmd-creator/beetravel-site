@@ -1,10 +1,10 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
-const tr = z.object({ nume: z.string().optional(), traseu: z.string().optional(), include: z.string().optional(), nu_include: z.string().optional(), durata: z.string().optional() }).partial().optional();
+const tr = z.object({ nume: z.string().optional(), traseu: z.string().optional(), include: z.string().optional(), nu_include: z.string().optional(), durata: z.string().optional(), pret_nota: z.string().optional() }).partial().optional();
 const tours = defineCollection({
   loader: glob({ pattern: '*.json', base: './src/content/tours' }),
   schema: z.object({
-    ordine: z.number().default(999), categorie: z.string(), publicat: z.boolean().default(true),
+    ordine: z.number().default(999), categorie: z.string(), publicat: z.boolean().default(true), pentru_copii: z.boolean().default(false),
     nume: z.string(), traseu: z.string(), include: z.string(), nu_include: z.string(),
     pret_privat: z.string().default(''), pret_grup: z.string().default(''),
     grila: z.array(z.object({ persoane: z.string(), pret: z.number() })).default([]), pret_nota: z.string().optional(), durata: z.string().optional(),

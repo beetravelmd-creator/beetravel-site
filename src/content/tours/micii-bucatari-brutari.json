@@ -1,0 +1,28 @@
+{
+  "ordine": 6,
+  "categorie": "copii",
+  "publicat": true,
+  "nume": "Micii bucătari și brutari – atelier culinar pentru copii",
+  "traseu": "Atelier culinar în Durlești: copiii pregătesc cu mâinile lor pizza și o tartă dulce, beau ciocolată caldă, mănâncă pe loc și iau cu ei acasă ce au gătit. Gătim. Gustăm. Luăm cu noi!",
+  "include": "Atelierul culinar, ingredientele 100% naturale, ciocolata caldă și organizarea BEE TRAVEL.",
+  "nu_include": "Transportul (la cerere, se adaugă separat) și cheltuielile personale.",
+  "pret_privat": "",
+  "pret_grup": "350 MDL/copil",
+  "pret_nota": "Grup: 10–15 copii · Durata: 45–60 min · Ora de început: 11:00–12:00 · Luni–vineri · Locația: Durlești.",
+  "durata": "45–60 de minute",
+  "imagine_card": "/images/tours/copii/micii-bucatari-brutari.jpg",
+  "alt": "Micii bucătari și brutari – atelier de pizza și patiserie pentru copii",
+  "galerie": [
+    "/images/tours/copii/micii-bucatari-brutari.jpg"
+  ],
+  "seo_titlu": "Atelier de pizza și patiserie pentru copii în Durlești",
+  "seo_descriere": "Micii bucătari și brutari: copiii fac pizza și tartă dulce, beau ciocolată caldă și iau acasă ce au gătit. 350 lei/copil, grupuri de 10–15 copii.",
+  "ru": {
+    "nume": "Маленькие повара и пекари – кулинарный мастер-класс для детей",
+    "traseu": "Кулинарный мастер-класс в Дурлештах: дети сами готовят пиццу вручную и сладкий тарт, пьют горячий шоколад, с удовольствием съедают на месте и берут с собой. Готовим. Пробуем. Берём с собой!",
+    "include": "Мастер-класс, 100% натуральные ингредиенты, горячий шоколад и организация BEE TRAVEL.",
+    "nu_include": "Транспорт (по запросу, оплачивается отдельно) и личные расходы.",
+    "durata": "45–60 минут",
+    "pret_nota": "Группа: 10–15 детей · Длительность: 45–60 мин · Начало: 11:00–12:00 · Пн–Пт · Локация: Дурлешты."
+  }
+}

@@ -11,13 +11,14 @@
   "grila": [],
   "pret_nota": "",
   "durata": "2 zile / 1 noapte",
-  "imagine_card": "/images/galleries/soroca-rudi-nordul-moldovei/06.webp",
-  "alt": "Mănăstirea Rudi, raionul Soroca",
+  "imagine_card": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/View_to_Naslavcea_from_Nagoryany_1.JPG/1280px-View_to_Naslavcea_from_Nagoryany_1.JPG",
+  "alt": "Valea Nistrului la Naslavcea",
   "galerie": [
-    "/images/galleries/soroca-rudi-nordul-moldovei/06.webp",
-    "/images/galleries/soroca-rudi-nordul-moldovei/03.webp",
-    "/images/galleries/soroca-rudi-nordul-moldovei/04.webp",
-    "/images/galleries/soroca-rudi-nordul-moldovei/08.webp"
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/View_to_Naslavcea_from_Nagoryany_1.JPG/1280px-View_to_Naslavcea_from_Nagoryany_1.JPG",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/MD.DN.Rudi_-_Monumentul_%E2%80%9EPunctul_Rudi_al_Arcului_geodezic_Struve%E2%80%9D_-_jul_2023_-_01.jpg/1280px-MD.DN.Rudi_-_Monumentul_%E2%80%9EPunctul_Rudi_al_Arcului_geodezic_Struve%E2%80%9D_-_jul_2023_-_01.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/M%C4%83n%C4%83stirea_Rudi-1_%28biserica_veche%29.jpg/1280px-M%C4%83n%C4%83stirea_Rudi-1_%28biserica_veche%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Valea_%22La_33_vaduri%22_Naslavcea_Ocnita_%285%29.jpg/1280px-Valea_%22La_33_vaduri%22_Naslavcea_Ocnita_%285%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Malul_abrupt_al_Nistrului_Naslavcea-Verejeni_Ocnita_%281%29.jpg/1280px-Malul_abrupt_al_Nistrului_Naslavcea-Verejeni_Ocnita_%281%29.jpg"
   ],
   "seo_titlu": "Drumeție cu cortul la Rudi și Naslavcea, 2 zile",
   "seo_descriere": "Două zile în nordul Moldovei: Mănăstirea Rudi, Arcul Struve (UNESCO), cascada Bulboana și Naslavcea, cu noapte la cort. 780 MDL de persoană în grup.",
@@ -34,5 +35,6 @@
     "durata": "2 дня / 1 ночь",
     "include": "Транспорт из Кишинёва и обратно, водитель, топливо и организация поездки BEE TRAVEL. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
     "nu_include": "Палатка и личное снаряжение, питание, входные билеты и личные расходы не включены."
-  }
+  },
+  "credit_foto": "Foto Wikimedia Commons: Naslavcea – Visem, Alex Prodan (CC BY-SA 4.0); Arcul Struve – Gikü (CC0); Mănăstirea Rudi – Tolea93 (CC BY 4.0)."
 }

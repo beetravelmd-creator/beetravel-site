@@ -57,9 +57,9 @@ export const UI = {
 };
 
 export const TOUR_UI = {
-  ro: { route: 'Traseu / obiective vizitate', duration: 'Durată', inc: 'Ce include', exc: 'Ce NU include', priv: 'Preț privat', ford: 'Transport grup 8–16', request: 'Solicită rezervarea', book: 'Scrie-ne pe WhatsApp', related: 'Alte tururi similare', gallery: 'Galeria turului', gallerySub: 'Fotografii ale obiectivelor incluse în acest traseu', close: 'Închide', wa: 'Bună! Aș dori mai multe informații despre turul' },
-  en: { route: 'Itinerary / places visited', duration: 'Duration', inc: 'What is included', exc: 'What is NOT included', priv: 'Private price', ford: 'Group transport 8–16', request: 'Request booking', book: 'Message us on WhatsApp', related: 'Similar tours', gallery: 'Tour gallery', gallerySub: 'Photos of places included in this itinerary', close: 'Close', wa: 'Hello! I would like more information about the tour' },
-  ru: { route: 'Маршрут / посещаемые места', duration: 'Продолжительность', inc: 'Что включено', exc: 'Что НЕ включено', priv: 'Цена частного тура', ford: 'Транспорт для групп 8–16', request: 'Запросить бронирование', book: 'Написать в WhatsApp', related: 'Похожие туры', gallery: 'Галерея тура', gallerySub: 'Фотографии мест, включённых в этот маршрут', close: 'Закрыть', wa: 'Здравствуйте! Я хотел(а) бы узнать больше о туре' },
+  ro: { route: 'Traseu / obiective vizitate', duration: 'Durată', inc: 'Ce include', exc: 'Ce NU include', priv: 'Preț privat', ford: 'Transport grup 8–16', kidp: 'Preț de copil', request: 'Solicită rezervarea', book: 'Scrie-ne pe WhatsApp', related: 'Alte tururi similare', gallery: 'Galeria turului', gallerySub: 'Fotografii ale obiectivelor incluse în acest traseu', close: 'Închide', wa: 'Bună! Aș dori mai multe informații despre turul' },
+  en: { route: 'Itinerary / places visited', duration: 'Duration', inc: 'What is included', exc: 'What is NOT included', priv: 'Private price', ford: 'Group transport 8–16', kidp: 'Price per child', request: 'Request booking', book: 'Message us on WhatsApp', related: 'Similar tours', gallery: 'Tour gallery', gallerySub: 'Photos of places included in this itinerary', close: 'Close', wa: 'Hello! I would like more information about the tour' },
+  ru: { route: 'Маршрут / посещаемые места', duration: 'Продолжительность', inc: 'Что включено', exc: 'Что НЕ включено', priv: 'Цена частного тура', ford: 'Транспорт для групп 8–16', kidp: 'Цена за ребёнка', request: 'Запросить бронирование', book: 'Написать в WhatsApp', related: 'Похожие туры', gallery: 'Галерея тура', gallerySub: 'Фотографии мест, включённых в этот маршрут', close: 'Закрыть', wa: 'Здравствуйте! Я хотел(а) бы узнать больше о туре' },
 };
 
 export const LIST_UI = {
@@ -77,8 +77,8 @@ export { categorii };
 // Traducerea automată a prețurilor (aceeași regulă ca pe site-ul vechi): prețul se scrie doar în română.
 export function trPrice(s, lang) {
   if (!s || lang === 'ro') return s;
-  if (lang === 'en') return s.replace(/^de la /i, 'from ').replace(/\/grup/g, '/group').replace(/\/pers\./g, '/person').replace(/pers\.:/g, 'people:').replace(/minim 8 persoane plătitoare/g, 'minimum 8 paying passengers').replace(/La cerere/g, 'On request');
-  return s.replace(/^de la /i, 'от ').replace(/\/grup/g, '/группа').replace(/\/pers\./g, '/чел.').replace(/pers\.:/g, 'чел.:').replace(/minim 8 persoane plătitoare/g, 'минимум 8 оплачивающих пассажиров').replace(/La cerere/g, 'По запросу');
+  if (lang === 'en') return s.replace(/^de la /i, 'from ').replace(/\/grup/g, '/group').replace(/\/pers\./g, '/person').replace(/pers\.:/g, 'people:').replace(/minim 8 persoane plătitoare/g, 'minimum 8 paying passengers').replace(/La cerere/g, 'On request').replace(/\(grup 8–16 persoane\)/g, '(group of 8–16 people)').replace(/\/copil/g, '/child').replace(/Preț la cerere/g, 'Price on request');
+  return s.replace(/^de la /i, 'от ').replace(/\/grup/g, '/группа').replace(/\/pers\./g, '/чел.').replace(/pers\.:/g, 'чел.:').replace(/minim 8 persoane plătitoare/g, 'минимум 8 оплачивающих пассажиров').replace(/La cerere/g, 'По запросу').replace(/\(grup 8–16 persoane\)/g, '(группа 8–16 человек)').replace(/\/copil/g, '/ребёнок').replace(/Preț la cerere/g, 'Цена по запросу');
 }
 
 // Turul în limba cerută (câmpurile RU/EN goale iau textul din română).
@@ -88,7 +88,7 @@ export function localTour(entry, lang) {
   return {
     id: entry.id, categorie: d.categorie, category: categoryName(d.categorie, lang),
     name: t.nume || d.nume, route: t.traseu || d.traseu, includes: t.include || d.include, excludes: t.nu_include || d.nu_include,
-    priv: trPrice(d.pret_privat, lang), group: trPrice(d.pret_grup, lang), duration: t.durata || d.durata,
+    priv: trPrice(d.pret_privat, lang), group: trPrice(d.pret_grup, lang), nota: t.pret_nota || d.pret_nota || '', kids: d.categorie === 'copii', duration: t.durata || d.durata,
     image: d.imagine_card, alt: d.alt, gallery: d.galerie || [], credit: d.credit_foto, data: d,
     grid: d.grila || [], minPrice: (d.grila || []).length ? Math.min(...d.grila.map((g) => g.pret)) : null,
   };
@@ -102,6 +102,7 @@ export const GRID_UI = {
 function rng(x) { const m = String(x).match(/^(\d+)\s*(?:[–-]\s*(\d+)|(\+))?$/); return m ? [Number(m[1]), m[3] ? Infinity : Number(m[2] || m[1])] : null; }
 export function gridMin(grid, lo, hi) { const v = grid.filter((g) => { const r = rng(g.persoane); return r && r[0] <= hi && r[1] >= lo; }).map((g) => g.pret); return v.length ? Math.min(...v) : null; }
 export function catalogPrice(t, lang) {
+  if (t.kids) { const k = (t.group || '').match(/(\d+)\s*(MDL|lei|леев)/i); return k ? `${k[1]} MDL / ${lang === 'ro' ? 'COPIL' : lang === 'en' ? 'CHILD' : 'РЕБЁНОК'}` : (lang === 'ro' ? 'PREȚ LA CERERE' : lang === 'en' ? 'PRICE ON REQUEST' : 'ЦЕНА ПО ЗАПРОСУ'); }
   if (t.grid && t.grid.length) { const g = gridMin(t.grid, 8, 16); return g != null ? GRID_UI[lang].grp(g) : `${GRID_UI[lang].from} ${t.minPrice} € / ${GRID_UI[lang].per}`; }
   const r = lang === 'ro' ? 'DE LA' : lang === 'en' ? 'FROM' : 'ОТ', s = lang === 'ro' ? 'PERS.' : lang === 'en' ? 'PERSON' : 'ЧЕЛ.', o = lang === 'ro' ? 'GRUP' : lang === 'en' ? 'GROUP' : 'ГРУППА', a = lang === 'ro' ? 'GRUP 8–16 PERS.' : lang === 'en' ? 'GROUP 8–16 PEOPLE' : 'ГРУППА 8–16 ЧЕЛ.';
   const n = t.group.match(/(\d+)\s*MDL/i), l = t.group.match(/EUR\s*(\d+)/i) || t.group.match(/€\s*(\d+)/), c = t.priv.match(/EUR\s*(\d+)/i) || t.priv.match(/€\s*(\d+)/);
@@ -109,6 +110,7 @@ export function catalogPrice(t, lang) {
   return n ? `${dl}${n[1]} MDL / ${s} (${a})` : l ? `${r} ${l[1]} € / ${s} (${a})` : c ? `${r} ${c[1]} € / ${o}` : lang === 'ro' ? 'VEZI PREȚUL' : lang === 'en' ? 'SEE PRICE' : 'СМОТРЕТЬ ЦЕНУ';
 }
 export function catalogPrivate(t, lang) {
+  if (t.kids) return t.nota;
   if (t.grid && t.grid.length) { const p = gridMin(t.grid, 2, 4); return p != null ? GRID_UI[lang].priv(p) : ''; }
   const e = t.priv.match(/EUR\s*(\d+)/i) || t.priv.match(/€\s*(\d+)/) || t.priv.match(/(\d+)\s*€/), m = t.priv.match(/(\d+)\s*MDL/i);
   const v = e ? (lang === 'en' ? `€${e[1]}` : `${e[1]} €`) : m ? `${m[1]} MDL` : null;

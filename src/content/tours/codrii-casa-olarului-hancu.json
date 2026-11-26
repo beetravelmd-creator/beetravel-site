@@ -9,15 +9,18 @@
   "pret_privat": "3800 MDL/grup",
   "pret_grup": "480 MDL/pers. (grup 8–16 persoane)",
   "grila": [],
-  "imagine_card": "/images/galleries/manastirile-codrilor/03.webp",
-  "alt": "Mănăstire din Codrii Moldovei, vedere de sus",
+  "imagine_card": "https://upload.wikimedia.org/wikipedia/commons/6/61/Hancu_Monastery.jpg",
+  "alt": "Mănăstirea Hâncu din Codrii Moldovei",
   "galerie": [
+    "https://upload.wikimedia.org/wikipedia/commons/6/61/Hancu_Monastery.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/b/b3/AIRM_-_Conacul_lui_Zamfirache_Ralli_-_2010_-_361114770579949.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Biserica_%22Sf._Dumitru%22_din_sat._R%C4%83ciula_02.jpg/1280px-Biserica_%22Sf._Dumitru%22_din_sat._R%C4%83ciula_02.jpg",
     "/images/galleries/manastirile-codrilor/03.webp",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Conacul_familiei_Ralli_din_satul_Dolna_01.jpg/1280px-Conacul_familiei_Ralli_din_satul_Dolna_01.jpg",
     "/images/galleries/manastirile-codrilor/01.webp",
     "/images/galleries/manastirile-codrilor/02.webp"
   ],
-  "credit_foto": "Foto conacul Ralli (Wikimedia Commons): Vladikh (CC BY-SA 4.0).",
+  "credit_foto": "Foto Wikimedia Commons: Mănăstirea Hâncu – David Stanley (CC BY 2.0); Conacul Ralli – AIRM (CC BY-SA 4.0); Răciula – Vladikh (CC0).",
   "seo_titlu": "Excursie Codrii Moldovei: Casa Olarului și Mănăstirea Hâncu",
   "seo_descriere": "Olărit, miere de la Răciula, conacul Ralli din Dolna și Mănăstirea Hâncu, într-o zi din Chișinău. 480 MDL de persoană în grup.",
   "en": {

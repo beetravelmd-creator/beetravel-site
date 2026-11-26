@@ -9,15 +9,17 @@
   "pret_privat": "3500 MDL/grup",
   "pret_grup": "440 MDL/pers. (grup 8–16 persoane)",
   "grila": [],
-  "imagine_card": "/images/galleries/gagauzia-manuc-bey/01.webp",
-  "alt": "Conacul Manuc Bey din Hîncești, vedere de sus",
+  "imagine_card": "https://upload.wikimedia.org/wikipedia/commons/f/fc/AIRM_-_Mansion_of_Manuc_Bei_-_may_2012_-_02.jpg",
+  "alt": "Conacul lui Manuc Bei din Hîncești",
   "galerie": [
+    "https://upload.wikimedia.org/wikipedia/commons/f/fc/AIRM_-_Mansion_of_Manuc_Bei_-_may_2012_-_02.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/7/77/AIRM_-_Mansion_of_Manuc_Bei_-_feb_2012_-_08.jpg",
     "/images/galleries/gagauzia-manuc-bey/01.webp",
     "/images/galleries/gagauzia-manuc-bey/08.webp",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/MD.IL.Suruceni_-_Suruceni_Monastery_-_may_2020_-_02.jpg/1280px-MD.IL.Suruceni_-_Suruceni_Monastery_-_may_2020_-_02.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/MD.IL.Suruceni_-_Suruceni_Monastery_-_may_2020_-_03.jpg/1280px-MD.IL.Suruceni_-_Suruceni_Monastery_-_may_2020_-_03.jpg"
   ],
-  "credit_foto": "Foto Suruceni (Wikimedia Commons): Gikü (CC0).",
+  "credit_foto": "Foto Wikimedia Commons: Conacul Manuc Bei – AIRM (CC BY-SA 4.0); Suruceni – Gikü (CC0).",
   "seo_titlu": "Excursie Manuc Bey și ZooClub Bardar din Chișinău",
   "seo_descriere": "Conacul Manuc Bey din Hîncești, ZooClub Bardar și Mănăstirea Suruceni, potrivită pentru familii cu copii. 440 MDL de persoană în grup.",
   "en": {
@@ -32,5 +34,6 @@
     "include": "Транспорт из Кишинёва и обратно, водитель, топливо и организация поездки BEE TRAVEL. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
     "nu_include": "Входные билеты, дегустации, питание, местный гид, пожертвования и личные расходы не включены."
   },
-  "pret_nota": ""
+  "pret_nota": "",
+  "pentru_copii": true
 }

@@ -1,0 +1,27 @@
+{
+  "ordine": 7,
+  "categorie": "copii",
+  "publicat": true,
+  "nume": "Micii olari – excursie la atelierul de olărit",
+  "traseu": "Chișinău → Casa Olarului „Vasile Gonciari” (atelier de olărit) → Chișinău. Copiii văd cum lucrează meșterul olar și încearcă singuri să modeleze lutul. Programul exact și durata atelierului se confirmă la rezervare.",
+  "include": "Transport tur-retur din Chișinău și organizarea BEE TRAVEL. Ghid-însoțitor BEE TRAVEL din Chișinău pe toată durata excursiei.",
+  "nu_include": "Atelierul de olărit (se achită la fața locului sau se include în oferta pentru grup) și cheltuielile personale.",
+  "pret_privat": "",
+  "pret_grup": "Preț la cerere",
+  "pret_nota": "Pentru clase și grupuri de copii. Spune-ne câți copii sunteți și îți trimitem oferta.",
+  "imagine_card": "https://upload.wikimedia.org/wikipedia/commons/2/28/%22Work_on_ceramics%22_%2870th_years%29._%285623245855%29.jpg",
+  "alt": "Meșter olar la lucru, Moldova",
+  "galerie": [
+    "https://upload.wikimedia.org/wikipedia/commons/2/28/%22Work_on_ceramics%22_%2870th_years%29._%285623245855%29.jpg"
+  ],
+  "seo_titlu": "Atelier de olărit pentru copii – excursie din Chișinău",
+  "seo_descriere": "Micii olari: excursie pentru clase și grupuri de copii la Casa Olarului „Vasile Gonciari”, cu atelier de olărit. Transport din Chișinău. Preț la cerere.",
+  "ru": {
+    "nume": "Маленькие гончары – экскурсия в гончарную мастерскую",
+    "traseu": "Кишинёв → Дом гончара «Василе Гончарь» (гончарная мастерская) → Кишинёв. Дети смотрят, как работает мастер, и сами пробуют лепить из глины. Программа и длительность мастер-класса уточняются при бронировании.",
+    "include": "Транспорт из Кишинёва и обратно и организация BEE TRAVEL. Сопровождающий BEE TRAVEL из Кишинёва на протяжении всей экскурсии.",
+    "nu_include": "Гончарный мастер-класс (оплачивается на месте или включается в предложение для группы) и личные расходы.",
+    "pret_nota": "Для классов и групп детей. Напишите, сколько детей, и мы пришлём предложение."
+  },
+  "credit_foto": "Foto Wikimedia Commons: Ion Chibzii (CC BY-SA 2.0)."
+}

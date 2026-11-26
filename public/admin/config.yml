@@ -39,6 +39,7 @@ collections:
         name: categorie
         widget: select
         options:
+          - { label: 'Tururi pentru copii și școli', value: copii }
           - { label: 'Pelerinaje – Moldova', value: pelerinaje-moldova }
           - { label: 'Pelerinaje – România', value: pelerinaje-romania }
           - { label: 'Obiective turistice și istorice – Moldova', value: obiective-moldova }
@@ -46,6 +47,7 @@ collections:
           - { label: Găgăuzia, value: gagauzia }
           - { label: 'Vinăriile Moldovei', value: vinarii }
       - { label: 'Afișat pe site', name: publicat, widget: boolean, default: true, hint: 'Debifează ca să ascunzi turul fără să-l ștergi.' }
+      - { label: 'Apare și la „Tururi pentru copii”', name: pentru_copii, widget: boolean, default: false, required: false }
       - { label: 'Ordinea în listă', name: ordine, widget: number, value_type: int, default: 999, hint: 'Număr mai mic = mai sus în listă (10, 20, 30…).' }
       - label: 'Prețuri de persoană, după mărimea grupului'
         name: grila
@@ -85,6 +87,7 @@ collections:
           - { label: 'Что включено', name: include, widget: text, required: false }
           - { label: 'Что НЕ включено', name: nu_include, widget: text, required: false }
           - { label: 'Продолжительность', name: durata, widget: string, required: false }
+          - { label: 'Примечание к цене', name: pret_nota, widget: string, required: false }
       - label: 'Varianta în engleză'
         name: en
         widget: object
