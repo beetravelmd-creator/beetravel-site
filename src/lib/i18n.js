@@ -105,7 +105,8 @@ export function catalogPrice(t, lang) {
   if (t.grid && t.grid.length) { const g = gridMin(t.grid, 8, 16); return g != null ? GRID_UI[lang].grp(g) : `${GRID_UI[lang].from} ${t.minPrice} € / ${GRID_UI[lang].per}`; }
   const r = lang === 'ro' ? 'DE LA' : lang === 'en' ? 'FROM' : 'ОТ', s = lang === 'ro' ? 'PERS.' : lang === 'en' ? 'PERSON' : 'ЧЕЛ.', o = lang === 'ro' ? 'GRUP' : lang === 'en' ? 'GROUP' : 'ГРУППА', a = lang === 'ro' ? 'GRUP 8–16 PERS.' : lang === 'en' ? 'GROUP 8–16 PEOPLE' : 'ГРУППА 8–16 ЧЕЛ.';
   const n = t.group.match(/(\d+)\s*MDL/i), l = t.group.match(/EUR\s*(\d+)/i) || t.group.match(/€\s*(\d+)/), c = t.priv.match(/EUR\s*(\d+)/i) || t.priv.match(/€\s*(\d+)/);
-  return n ? `${r} ${n[1]} MDL / ${s} (${a})` : l ? `${r} ${l[1]} € / ${s} (${a})` : c ? `${r} ${c[1]} € / ${o}` : lang === 'ro' ? 'VEZI PREȚUL' : lang === 'en' ? 'SEE PRICE' : 'СМОТРЕТЬ ЦЕНУ';
+  const dl = /^\s*(de la|от|from)/i.test(t.group) ? r + ' ' : '';
+  return n ? `${dl}${n[1]} MDL / ${s} (${a})` : l ? `${r} ${l[1]} € / ${s} (${a})` : c ? `${r} ${c[1]} € / ${o}` : lang === 'ro' ? 'VEZI PREȚUL' : lang === 'en' ? 'SEE PRICE' : 'СМОТРЕТЬ ЦЕНУ';
 }
 export function catalogPrivate(t, lang) {
   if (t.grid && t.grid.length) { const p = gridMin(t.grid, 2, 4); return p != null ? GRID_UI[lang].priv(p) : ''; }
