@@ -95,18 +95,20 @@ export function localTour(entry, lang) {
 }
 
 export const GRID_UI = {
-  ro: { title: 'Preț de persoană', sub: 'în funcție de numărul de persoane din grup', pers: 'pers.', big: 'Grupuri de peste 16 persoane: cu autocar, la cerere.', from: 'DE LA', per: 'PERS.', two: (p) => `Pentru 2 persoane: ${p} € / pers.` },
-  en: { title: 'Price per person', sub: 'depending on the number of people in the group', pers: 'people', big: 'Groups over 16 people: by coach, on request.', from: 'FROM', per: 'PERSON', two: (p) => `For 2 people: €${p} per person` },
-  ru: { title: 'Цена за человека', sub: 'в зависимости от количества человек в группе', pers: 'чел.', big: 'Группы более 16 человек: автобус, по запросу.', from: 'ОТ', per: 'ЧЕЛ.', two: (p) => `Для 2 человек: ${p} € / чел.` },
+  ro: { title: 'Preț de persoană', sub: 'în funcție de numărul de persoane din grup', pers: 'pers.', big: 'Grupuri de peste 16 persoane: cu autocar, la cerere.', from: 'DE LA', per: 'PERS.', priv: (p) => `Tur privat 2–4 pers.: de la ${p} € / pers.`, grp: (p) => `DE LA ${p} € / PERS. (GRUP 8–16 PERS.)` },
+  en: { title: 'Price per person', sub: 'depending on the number of people in the group', pers: 'people', big: 'Groups over 16 people: by coach, on request.', from: 'FROM', per: 'PERSON', priv: (p) => `Private tour 2–4 people: from €${p} per person`, grp: (p) => `FROM €${p} / PERSON (GROUP 8–16 PEOPLE)` },
+  ru: { title: 'Цена за человека', sub: 'в зависимости от количества человек в группе', pers: 'чел.', big: 'Группы более 16 человек: автобус, по запросу.', from: 'ОТ', per: 'ЧЕЛ.', priv: (p) => `Частный тур 2–4 чел.: от ${p} € / чел.`, grp: (p) => `ОТ ${p} € / ЧЕЛ. (ГРУППА 8–16 ЧЕЛ.)` },
 };
+function rng(x) { const m = String(x).match(/^(\d+)\s*(?:[–-]\s*(\d+)|(\+))?$/); return m ? [Number(m[1]), m[3] ? Infinity : Number(m[2] || m[1])] : null; }
+export function gridMin(grid, lo, hi) { const v = grid.filter((g) => { const r = rng(g.persoane); return r && r[0] <= hi && r[1] >= lo; }).map((g) => g.pret); return v.length ? Math.min(...v) : null; }
 export function catalogPrice(t, lang) {
-  if (t.minPrice != null) return `${GRID_UI[lang].from} ${t.minPrice} € / ${GRID_UI[lang].per}`;
+  if (t.grid && t.grid.length) { const g = gridMin(t.grid, 8, 16); return g != null ? GRID_UI[lang].grp(g) : `${GRID_UI[lang].from} ${t.minPrice} € / ${GRID_UI[lang].per}`; }
   const r = lang === 'ro' ? 'DE LA' : lang === 'en' ? 'FROM' : 'ОТ', s = lang === 'ro' ? 'PERS.' : lang === 'en' ? 'PERSON' : 'ЧЕЛ.', o = lang === 'ro' ? 'GRUP' : lang === 'en' ? 'GROUP' : 'ГРУППА', a = lang === 'ro' ? 'MIN. 8 PERS.' : lang === 'en' ? 'MIN. 8 PEOPLE' : 'МИН. 8 ЧЕЛ.';
   const n = t.group.match(/(\d+)\s*MDL/i), l = t.group.match(/EUR\s*(\d+)/i) || t.group.match(/€\s*(\d+)/), c = t.priv.match(/EUR\s*(\d+)/i) || t.priv.match(/€\s*(\d+)/);
   return n ? `${r} ${n[1]} MDL / ${s} (${a})` : l ? `${r} ${l[1]} € / ${s} (${a})` : c ? `${r} ${c[1]} € / ${o}` : lang === 'ro' ? 'VEZI PREȚUL' : lang === 'en' ? 'SEE PRICE' : 'СМОТРЕТЬ ЦЕНУ';
 }
 export function catalogPrivate(t, lang) {
-  if (t.grid && t.grid.length) { const two = t.grid.find((g) => g.persoane === '2'); return two ? GRID_UI[lang].two(two.pret) : ''; }
+  if (t.grid && t.grid.length) { const p = gridMin(t.grid, 2, 4); return p != null ? GRID_UI[lang].priv(p) : ''; }
   const r = t.group.match(/(\d+)\s*MDL/i), s = t.group.match(/EUR\s*(\d+)/i) || t.group.match(/€\s*(\d+)/), o = t.priv.match(/EUR\s*(\d+)/i) || t.priv.match(/€\s*(\d+)/);
   return (r || s) && o ? (lang === 'ro' ? `Tur privat de la ${o[1]} € / grup` : lang === 'en' ? `Private tour from ${o[1]} € / group` : `Частный тур от ${o[1]} € / группа`) : lang === 'ro' ? 'Prețurile complete sunt afișate în detaliile turului.' : lang === 'en' ? 'Full customer prices are shown on the tour details page.' : 'Полные цены указаны на странице тура.';
 }

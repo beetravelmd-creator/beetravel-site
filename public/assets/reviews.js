@@ -18,6 +18,7 @@
   function tourName(x) { if (x === 'Pelerinaj Curchi, Orheiul vechi') return lang === 'ru' ? 'Паломничество в Курки и Старый Орхей' : lang === 'en' ? 'Pilgrimage to Curchi and Orheiul Vechi' : x; if (x === 'Pelerinaj la 9 mănăstiri') return lang === 'ru' ? 'Паломничество по 9 монастырям' : lang === 'en' ? 'Pilgrimage to 9 monasteries' : x; return x; }
   var busy = false;
   function render(items) {
+    if (!admin && !items.length && list.querySelector('article')) return;
     list.innerHTML = '';
     if (!items.length) { list.appendChild(el('div', { class: 'panel' }, admin ? T.adminEmpty : T.publicEmpty)); return; }
     items.forEach(function (x) {
