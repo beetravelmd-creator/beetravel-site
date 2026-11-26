@@ -9,10 +9,10 @@
   "pret_privat": "",
   "pret_grup": "Preț la cerere",
   "pret_nota": "Pentru clase și grupuri de copii. Spune-ne câți copii sunteți și îți trimitem oferta.",
-  "imagine_card": "https://upload.wikimedia.org/wikipedia/commons/2/28/%22Work_on_ceramics%22_%2870th_years%29._%285623245855%29.jpg",
-  "alt": "Meșter olar la lucru, Moldova",
+  "imagine_card": "/images/tours/copii/micii-olari.jpg",
+  "alt": "Micii Olari – atelier de olărit pentru copii, BEE TRAVEL",
   "galerie": [
-    "https://upload.wikimedia.org/wikipedia/commons/2/28/%22Work_on_ceramics%22_%2870th_years%29._%285623245855%29.jpg"
+    "/images/tours/copii/micii-olari.jpg"
   ],
   "seo_titlu": "Atelier de olărit pentru copii – excursie din Chișinău",
   "seo_descriere": "Micii olari: excursie pentru clase și grupuri de copii la Casa Olarului „Vasile Gonciari”, cu atelier de olărit. Transport din Chișinău. Preț la cerere.",
@@ -23,5 +23,5 @@
     "nu_include": "Гончарный мастер-класс (оплачивается на месте или включается в предложение для группы) и личные расходы.",
     "pret_nota": "Для классов и групп детей. Напишите, сколько детей, и мы пришлём предложение."
   },
-  "credit_foto": "Foto Wikimedia Commons: Ion Chibzii (CC BY-SA 2.0)."
+  "credit_foto": ""
 }
