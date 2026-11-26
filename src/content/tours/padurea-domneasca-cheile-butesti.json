@@ -6,50 +6,9 @@
   "traseu": "Chișinău → Rezervația „Pădurea Domnească” (zimbri, pădure seculară de luncă) → Duruitoarea Veche → Costești-Stânca → Cheile Butești → Suta de Movile → Chișinău.",
   "include": "Transport tur-retur din Chișinău, șofer, combustibil și organizarea BEE TRAVEL. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
   "nu_include": "Intrările la obiective, degustările, masa, ghidul local, donațiile și cheltuielile personale.",
-  "pret_privat": "",
-  "pret_grup": "",
-  "grila": [
-    {
-      "persoane": "2",
-      "pret": 162
-    },
-    {
-      "persoane": "3",
-      "pret": 112
-    },
-    {
-      "persoane": "4",
-      "pret": 86
-    },
-    {
-      "persoane": "5–8",
-      "pret": 77
-    },
-    {
-      "persoane": "9–11",
-      "pret": 75
-    },
-    {
-      "persoane": "12–14",
-      "pret": 62
-    },
-    {
-      "persoane": "15–18",
-      "pret": 52
-    },
-    {
-      "persoane": "19–22",
-      "pret": 42
-    },
-    {
-      "persoane": "23–30",
-      "pret": 49
-    },
-    {
-      "persoane": "31+",
-      "pret": 37
-    }
-  ],
+  "pret_privat": "4700 MDL/grup",
+  "pret_grup": "de la 300 MDL/pers.",
+  "grila": [],
   "imagine_card": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Cheile_Bute%C5%9Fti_-_05.jpg/1280px-Cheile_Bute%C5%9Fti_-_05.jpg",
   "alt": "Cheile Butești, defileu de calcar în nordul Moldovei",
   "galerie": [
@@ -62,7 +21,7 @@
   ],
   "credit_foto": "Foto (Wikimedia Commons): Cheile Butești – Denis Polovnicov, SerKo Photography; Pădurea Domnească – Criss90kf; Duruitoarea Veche, Suta de Movile – SerKo Photography (CC BY-SA 4.0).",
   "seo_titlu": "Excursie Pădurea Domnească și Cheile Butești din Chișinău",
-  "seo_descriere": "O zi în nordul Moldovei: zimbrii din Pădurea Domnească, Duruitoarea Veche, Cheile Butești și Suta de Movile. De la 37 € de persoană.",
+  "seo_descriere": "O zi în nordul Moldovei: zimbrii din Pădurea Domnească, Duruitoarea Veche, Cheile Butești și Suta de Movile. De la 300 MDL de persoană.",
   "en": {
     "nume": "Pădurea Domnească, Duruitoarea Veche, Butești Gorge and Suta de Movile",
     "traseu": "Chișinău → \"Pădurea Domnească\" reserve (bison, ancient floodplain forest) → Duruitoarea Veche → Costești-Stânca → Butești Gorge → Suta de Movile (Hundred Hills) → Chișinău.",
@@ -74,5 +33,6 @@
     "traseu": "Кишинёв → заповедник «Пэдуря Домняскэ» (зубры, вековой пойменный лес) → Дуруитоаря Веке → Костешты-Стынка → ущелье Бутешты → Сута де Мовиле → Кишинёв.",
     "include": "Транспорт из Кишинёва и обратно, водитель, топливо и организация поездки BEE TRAVEL. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
     "nu_include": "Входные билеты, дегустации, питание, местный гид, пожертвования и личные расходы не включены."
-  }
+  },
+  "pret_nota": ""
 }

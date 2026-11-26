@@ -7,7 +7,7 @@
   "include": "Transport, șofer, 1 noapte cazare + mic dejun, organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
   "nu_include": "Intrări, ghid local, prânz/cină, donații, băuturi, cheltuieli personale.",
   "pret_privat": "1–2 pers.: EUR 549/grup | 3–4 pers.: EUR 649/grup",
-  "pret_grup": "EUR 120/pers. (minimum 8 persoane)",
+  "pret_grup": "EUR 109/pers. (minimum 8 persoane)",
   "durata": "2 zile / 1 noapte",
   "imagine_card": "/images/tours/pe-urmele-lui-stefan-cel-mare.jpg",
   "alt": "Mănăstirea Putna, ctitorie a lui Ștefan cel Mare",
@@ -37,5 +37,6 @@
     "include": "Транспорт, водитель, 1 ночь проживания с завтраком и организация. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
     "nu_include": "Входные билеты, местный гид, обед/ужин, пожертвования, напитки и личные расходы.",
     "durata": "2 дня / 1 ночь"
-  }
+  },
+  "grila": []
 }

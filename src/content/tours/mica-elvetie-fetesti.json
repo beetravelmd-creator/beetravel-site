@@ -6,50 +6,9 @@
   "traseu": "Chișinău → Trinca → toltrele Prutului → Fetești („Mica Elveție”) → Gordinești, rezervația peisagistică „La Castel” → Chișinău. Drumeție ușoară printre stânci de calcar și pajiști, în nordul țării.",
   "include": "Transport tur-retur din Chișinău, șofer, combustibil și organizarea BEE TRAVEL. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
   "nu_include": "Intrările la obiective, degustările, masa, ghidul local, donațiile și cheltuielile personale.",
-  "pret_privat": "",
-  "pret_grup": "",
-  "grila": [
-    {
-      "persoane": "2",
-      "pret": 162
-    },
-    {
-      "persoane": "3",
-      "pret": 112
-    },
-    {
-      "persoane": "4",
-      "pret": 86
-    },
-    {
-      "persoane": "5–8",
-      "pret": 77
-    },
-    {
-      "persoane": "9–11",
-      "pret": 75
-    },
-    {
-      "persoane": "12–14",
-      "pret": 62
-    },
-    {
-      "persoane": "15–18",
-      "pret": 52
-    },
-    {
-      "persoane": "19–22",
-      "pret": 42
-    },
-    {
-      "persoane": "23–30",
-      "pret": 49
-    },
-    {
-      "persoane": "31+",
-      "pret": 37
-    }
-  ],
+  "pret_privat": "4900 MDL/grup",
+  "pret_grup": "de la 310 MDL/pers.",
+  "grila": [],
   "imagine_card": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Toltre_Fete%C8%99ti.JPG/1280px-Toltre_Fete%C8%99ti.JPG",
   "alt": "Toltrele de calcar de la Fetești, raionul Edineț",
   "galerie": [
@@ -73,5 +32,6 @@
     "traseu": "Кишинёв → Тринка → толтры Прута → Фетешты («Маленькая Швейцария») → Гординешты, ландшафтный заповедник «La Castel» → Кишинёв. Лёгкий поход среди известняковых скал и лугов на севере страны.",
     "include": "Транспорт из Кишинёва и обратно, водитель, топливо и организация поездки BEE TRAVEL. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
     "nu_include": "Входные билеты, дегустации, питание, местный гид, пожертвования и личные расходы не включены."
-  }
+  },
+  "pret_nota": ""
 }

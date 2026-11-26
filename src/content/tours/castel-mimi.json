@@ -6,8 +6,8 @@
   "traseu": "Castel Mimi → domeniul și curtea → crama → spațiile istorice → degustare conform pachetului ales.",
   "include": "Transport și organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
   "nu_include": "Intrarea/turul Castel Mimi, degustarea, restaurantul, vinurile, cheltuieli personale.",
-  "pret_privat": "",
-  "pret_grup": "",
+  "pret_privat": "1–2 pers.: EUR 109/grup | 3–4 pers.: EUR 139/grup",
+  "pret_grup": "549 MDL/pers. (minimum 8 persoane)",
   "imagine_card": "/images/tours/castel-mimi.jpg",
   "alt": "Castel Mimi, domeniu viticol istoric din Bulboaca",
   "galerie": [
@@ -33,46 +33,5 @@
     "include": "Транспорт и организация поездки. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
     "nu_include": "Вход, винный тур/экскурсия Castel Mimi, дегустационные пакеты, питание/ресторан, вина и личные расходы не включены."
   },
-  "grila": [
-    {
-      "persoane": "2",
-      "pret": 162
-    },
-    {
-      "persoane": "3",
-      "pret": 112
-    },
-    {
-      "persoane": "4",
-      "pret": 86
-    },
-    {
-      "persoane": "5–8",
-      "pret": 77
-    },
-    {
-      "persoane": "9–11",
-      "pret": 54
-    },
-    {
-      "persoane": "12–14",
-      "pret": 43
-    },
-    {
-      "persoane": "15–18",
-      "pret": 37
-    },
-    {
-      "persoane": "19–22",
-      "pret": 32
-    },
-    {
-      "persoane": "23–30",
-      "pret": 33
-    },
-    {
-      "persoane": "31+",
-      "pret": 25
-    }
-  ]
+  "grila": []
 }

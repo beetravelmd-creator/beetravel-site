@@ -6,8 +6,8 @@
   "traseu": "Țigănești → Curchi → Orheiul Vechi → Butuceni → mănăstirea rupestră → valea Răutului.",
   "include": "Transport și organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
   "nu_include": "Bilete, ghid local, donații, masă, băuturi, cheltuieli personale.",
-  "pret_privat": "",
-  "pret_grup": "",
+  "pret_privat": "EUR 189/grup",
+  "pret_grup": "de la 549 MDL/pers.",
   "imagine_card": "/images/tours/tiganesti-curchi-orheiul-vechi.jpg",
   "alt": "Mănăstirea Curchi, complex monahal pictat în alb și auriu",
   "galerie": [
@@ -35,86 +35,5 @@
     "include": "Транспорт и организация поездки. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
     "nu_include": "Билеты, местный гид, пожертвования, питание, напитки и личные расходы."
   },
-  "grila": [
-    {
-      "persoane": "1",
-      "pret": 272
-    },
-    {
-      "persoane": "2",
-      "pret": 176
-    },
-    {
-      "persoane": "3",
-      "pret": 142
-    },
-    {
-      "persoane": "4",
-      "pret": 142
-    },
-    {
-      "persoane": "5",
-      "pret": 122
-    },
-    {
-      "persoane": "6",
-      "pret": 112
-    },
-    {
-      "persoane": "7",
-      "pret": 96
-    },
-    {
-      "persoane": "8",
-      "pret": 92
-    },
-    {
-      "persoane": "9",
-      "pret": 82
-    },
-    {
-      "persoane": "10",
-      "pret": 77
-    },
-    {
-      "persoane": "11",
-      "pret": 72
-    },
-    {
-      "persoane": "12",
-      "pret": 67
-    },
-    {
-      "persoane": "13",
-      "pret": 62
-    },
-    {
-      "persoane": "14",
-      "pret": 47
-    },
-    {
-      "persoane": "15",
-      "pret": 52
-    },
-    {
-      "persoane": "16",
-      "pret": 52
-    },
-    {
-      "persoane": "17",
-      "pret": 47
-    },
-    {
-      "persoane": "18",
-      "pret": 47
-    },
-    {
-      "persoane": "19",
-      "pret": 42
-    },
-    {
-      "persoane": "20",
-      "pret": 42
-    }
-  ]
+  "grila": []
 }

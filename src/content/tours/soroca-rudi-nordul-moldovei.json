@@ -6,8 +6,8 @@
   "traseu": "Cetatea Soroca → Lumânarea Recunoștinței → Nistru → Mănăstirea Rudi → peisajele nordului.",
   "include": "Transport și organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
   "nu_include": "Bilete, donații, ghid local, mese/băuturi, cheltuieli personale.",
-  "pret_privat": "",
-  "pret_grup": "",
+  "pret_privat": "EUR 279/grup",
+  "pret_grup": "de la 849 MDL/pers.",
   "imagine_card": "/images/tours/soroca-rudi-nordul-moldovei.jpg",
   "alt": "Mănăstirea Rudi, în peisajul nordului Moldovei",
   "galerie": [
@@ -34,46 +34,5 @@
     "include": "Транспорт и организация поездки. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
     "nu_include": "Билеты, пожертвования, местный гид, питание/напитки и личные расходы."
   },
-  "grila": [
-    {
-      "persoane": "2",
-      "pret": 162
-    },
-    {
-      "persoane": "3",
-      "pret": 112
-    },
-    {
-      "persoane": "4",
-      "pret": 86
-    },
-    {
-      "persoane": "5–8",
-      "pret": 72
-    },
-    {
-      "persoane": "9–11",
-      "pret": 66
-    },
-    {
-      "persoane": "12–14",
-      "pret": 52
-    },
-    {
-      "persoane": "15–18",
-      "pret": 47
-    },
-    {
-      "persoane": "19–22",
-      "pret": 37
-    },
-    {
-      "persoane": "23–30",
-      "pret": 42
-    },
-    {
-      "persoane": "31+",
-      "pret": 37
-    }
-  ]
+  "grila": []
 }

@@ -14,7 +14,7 @@ intrebari:
   - intrebare: "Ce mănăstiri sunt incluse?"
     raspuns: "Hîrjauca, Hîrbovăț, Răciula, Frumoasa, Căpriana, Condrița, Hâncu, Suruceni și Sireți."
   - intrebare: "Cât costă?"
-    raspuns: "Prețul de persoană depinde de mărimea grupului: 162 € pentru 2 persoane, 86 € pentru 4 persoane, 42 € pentru 15–18 persoane și de la 32 € pentru grupurile mari."
+    raspuns: "Tur privat pentru 1–4 persoane: EUR 199 pentru tot grupul. Transport pentru grupuri de 8–16 persoane: de la 449 MDL de persoană."
   - intrebare: "Este inclus un ghid sau masa?"
     raspuns: "Ghidul-însoțitor în limba română este inclus pe toată durata zilei. Ghidul în limba engleză se poate comanda, cu 50 € în plus de grup. Mesele, băuturile, donațiile și vizitele cu plată nu sunt incluse."
   - intrebare: "Trebuie să plătesc la rezervare?"
@@ -82,9 +82,8 @@ Mănăstirile din Moldova sunt locuri de rugăciune, iar o ținută potrivită t
 
 Prețurile de pe [pagina Marelui Pelerinaj](/destinatii/marele-pelerinaj-9-manastiri/):
 
--   **2 persoane:** 162 € de persoană; **4 persoane:** 86 € de persoană.
--   **Grup de 5–8 persoane:** 62 € de persoană; **15–18 persoane:** 42 € de persoană.
--   **Grupuri mari:** de la 32 € de persoană.
+-   **Tur privat (1–4 persoane):** EUR 199 pentru tot grupul.
+-   **Transport pentru grupuri (8–16 persoane):** de la 449 MDL de persoană.
 
 **Prețul include:** transportul, șoferul, combustibilul și organizarea.  
 **Ghid:** ghidul-însoțitor în limba română este inclus; ghidul în limba engleză se comandă separat, +50 € de grup.
@@ -103,8 +102,8 @@ Condițiile de anulare sunt descrise pe pagina [Anulare și rambursare](/anulare
 
 ## Ai mai puțin timp? Alte pelerinaje de o zi
 
--   [Mănăstirile Codrilor – 3 mănăstiri](/destinatii/manastirile-codrilor/): Condrița, Căpriana și Hâncu. De la 32 € de persoană.
--   [Țigănești – Curchi – Orheiul Vechi](/destinatii/tiganesti-curchi-orheiul-vechi/): două mănăstiri și complexul de la Orheiul Vechi, de la 42 € de persoană.
--   [Saharna – Țipova – Japca](/destinatii/saharna-tipova-japca/): mănăstiri pe malul Nistrului, de la 32 € de persoană.
+-   [Mănăstirile Codrilor – 3 mănăstiri](/destinatii/manastirile-codrilor/): Condrița, Căpriana și Hâncu. Tur privat EUR 149 de grup sau de la 449 MDL de persoană în grup.
+-   [Țigănești – Curchi – Orheiul Vechi](/destinatii/tiganesti-curchi-orheiul-vechi/): două mănăstiri și complexul de la Orheiul Vechi, în grup de la 549 MDL de persoană.
+-   [Saharna – Țipova – Japca](/destinatii/saharna-tipova-japca/): mănăstiri pe malul Nistrului, în grup de la 749 MDL de persoană.
 
 Pentru pelerinaje mai lungi, în România, vezi [Bucovina – 7 mănăstiri](/destinatii/bucovina-7-manastiri/). Toate traseele sunt pe pagina [Destinații](/destinatii/).

@@ -6,8 +6,8 @@
   "traseu": "Galeriile subterane → străzile vinului → Colecția de Aur → sălile de degustare.",
   "include": "Transport și organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
   "nu_include": "Biletele de intrare, tururile, degustările și pachetele gastronomice Mileștii Mici nu sunt incluse; se aleg și se achită separat. Vinurile/cumpărăturile și cheltuielile personale nu sunt incluse.",
-  "pret_privat": "",
-  "pret_grup": "",
+  "pret_privat": "1–2 pers.: EUR 119/grup | 3–4 pers.: EUR 149/grup",
+  "pret_grup": "449 MDL/pers. (minimum 8 persoane)",
   "imagine_card": "/images/tours/milestii-mici.jpg",
   "alt": "Colecția de Aur din galeriile subterane Mileștii Mici",
   "galerie": [
@@ -33,46 +33,5 @@
     "include": "Транспорт и организация поездки. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
     "nu_include": "Входные билеты, экскурсии, дегустации и гастрономические пакеты Mileștii Mici не включены; туристы выбирают и оплачивают их отдельно. Вина/покупки и личные расходы также не включены."
   },
-  "grila": [
-    {
-      "persoane": "2",
-      "pret": 162
-    },
-    {
-      "persoane": "3",
-      "pret": 112
-    },
-    {
-      "persoane": "4",
-      "pret": 86
-    },
-    {
-      "persoane": "5–8",
-      "pret": 77
-    },
-    {
-      "persoane": "9–11",
-      "pret": 54
-    },
-    {
-      "persoane": "12–14",
-      "pret": 43
-    },
-    {
-      "persoane": "15–18",
-      "pret": 37
-    },
-    {
-      "persoane": "19–22",
-      "pret": 32
-    },
-    {
-      "persoane": "23–30",
-      "pret": 33
-    },
-    {
-      "persoane": "31+",
-      "pret": 25
-    }
-  ]
+  "grila": []
 }

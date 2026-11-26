@@ -103,14 +103,16 @@ function rng(x) { const m = String(x).match(/^(\d+)\s*(?:[–-]\s*(\d+)|(\+))?$/
 export function gridMin(grid, lo, hi) { const v = grid.filter((g) => { const r = rng(g.persoane); return r && r[0] <= hi && r[1] >= lo; }).map((g) => g.pret); return v.length ? Math.min(...v) : null; }
 export function catalogPrice(t, lang) {
   if (t.grid && t.grid.length) { const g = gridMin(t.grid, 8, 16); return g != null ? GRID_UI[lang].grp(g) : `${GRID_UI[lang].from} ${t.minPrice} € / ${GRID_UI[lang].per}`; }
-  const r = lang === 'ro' ? 'DE LA' : lang === 'en' ? 'FROM' : 'ОТ', s = lang === 'ro' ? 'PERS.' : lang === 'en' ? 'PERSON' : 'ЧЕЛ.', o = lang === 'ro' ? 'GRUP' : lang === 'en' ? 'GROUP' : 'ГРУППА', a = lang === 'ro' ? 'MIN. 8 PERS.' : lang === 'en' ? 'MIN. 8 PEOPLE' : 'МИН. 8 ЧЕЛ.';
+  const r = lang === 'ro' ? 'DE LA' : lang === 'en' ? 'FROM' : 'ОТ', s = lang === 'ro' ? 'PERS.' : lang === 'en' ? 'PERSON' : 'ЧЕЛ.', o = lang === 'ro' ? 'GRUP' : lang === 'en' ? 'GROUP' : 'ГРУППА', a = lang === 'ro' ? 'GRUP 8–16 PERS.' : lang === 'en' ? 'GROUP 8–16 PEOPLE' : 'ГРУППА 8–16 ЧЕЛ.';
   const n = t.group.match(/(\d+)\s*MDL/i), l = t.group.match(/EUR\s*(\d+)/i) || t.group.match(/€\s*(\d+)/), c = t.priv.match(/EUR\s*(\d+)/i) || t.priv.match(/€\s*(\d+)/);
   return n ? `${r} ${n[1]} MDL / ${s} (${a})` : l ? `${r} ${l[1]} € / ${s} (${a})` : c ? `${r} ${c[1]} € / ${o}` : lang === 'ro' ? 'VEZI PREȚUL' : lang === 'en' ? 'SEE PRICE' : 'СМОТРЕТЬ ЦЕНУ';
 }
 export function catalogPrivate(t, lang) {
   if (t.grid && t.grid.length) { const p = gridMin(t.grid, 2, 4); return p != null ? GRID_UI[lang].priv(p) : ''; }
-  const r = t.group.match(/(\d+)\s*MDL/i), s = t.group.match(/EUR\s*(\d+)/i) || t.group.match(/€\s*(\d+)/), o = t.priv.match(/EUR\s*(\d+)/i) || t.priv.match(/€\s*(\d+)/);
-  return (r || s) && o ? (lang === 'ro' ? `Tur privat de la ${o[1]} € / grup` : lang === 'en' ? `Private tour from ${o[1]} € / group` : `Частный тур от ${o[1]} € / группа`) : lang === 'ro' ? 'Prețurile complete sunt afișate în detaliile turului.' : lang === 'en' ? 'Full customer prices are shown on the tour details page.' : 'Полные цены указаны на странице тура.';
+  const e = t.priv.match(/EUR\s*(\d+)/i) || t.priv.match(/€\s*(\d+)/) || t.priv.match(/(\d+)\s*€/), m = t.priv.match(/(\d+)\s*MDL/i);
+  const v = e ? (lang === 'en' ? `€${e[1]}` : `${e[1]} €`) : m ? `${m[1]} MDL` : null;
+  if (!v) return lang === 'ro' ? 'Prețurile complete sunt afișate în detaliile turului.' : lang === 'en' ? 'Full customer prices are shown on the tour details page.' : 'Полные цены указаны на странице тура.';
+  return lang === 'ro' ? `Tur privat 2–4 pers.: de la ${v} / grup` : lang === 'en' ? `Private tour 2–4 people: from ${v} per group` : `Частный тур 2–4 чел.: от ${v} / группа`;
 }
 
 export function wa(text) {

@@ -7,7 +7,7 @@
   "include": "Transport Chișinău–România–Chișinău, șofer, 1 noapte cazare + mic dejun, organizare. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
   "nu_include": "Intrări, ghid local, prânz, cină, donații, băuturi, cheltuieli personale.",
   "pret_privat": "1–2 pers.: EUR 449/grup | 3–4 pers.: EUR 549/grup",
-  "pret_grup": "de la EUR 110/pers.",
+  "pret_grup": "de la EUR 99/pers.",
   "durata": "2 zile / 1 noapte",
   "imagine_card": "/images/tours/bucovina-7-manastiri.jpg",
   "alt": "Mănăstirea Voroneț, cunoscută pentru celebrul albastru de Voroneț",
@@ -35,5 +35,6 @@
     "include": "Транспорт Chișinău–Румыния–Chișinău, водитель, 1 ночь проживания с завтраком и организация. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
     "nu_include": "Входные билеты, местный гид, обед, ужин, пожертвования, напитки и личные расходы.",
     "durata": "2 дня / 1 ночь"
-  }
+  },
+  "grila": []
 }

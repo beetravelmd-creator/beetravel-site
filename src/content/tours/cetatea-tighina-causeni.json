@@ -6,50 +6,9 @@
   "traseu": "Chișinău → casa memorială „Alexei Mateevici” din Zaim → biserica de lemn din Sălcuța → biserica „Adormirea Maicii Domnului” din Căușeni → Mănăstirea „Marta și Maria” → Cetatea Tighina → Chișinău.",
   "include": "Transport tur-retur din Chișinău, șofer, combustibil și organizarea BEE TRAVEL. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
   "nu_include": "Intrările la obiective, degustările, masa, ghidul local, donațiile și cheltuielile personale.",
-  "pret_privat": "",
-  "pret_grup": "",
-  "grila": [
-    {
-      "persoane": "2",
-      "pret": 162
-    },
-    {
-      "persoane": "3",
-      "pret": 112
-    },
-    {
-      "persoane": "4",
-      "pret": 86
-    },
-    {
-      "persoane": "5–8",
-      "pret": 77
-    },
-    {
-      "persoane": "9–11",
-      "pret": 54
-    },
-    {
-      "persoane": "12–14",
-      "pret": 43
-    },
-    {
-      "persoane": "15–18",
-      "pret": 37
-    },
-    {
-      "persoane": "19–22",
-      "pret": 32
-    },
-    {
-      "persoane": "23–30",
-      "pret": 33
-    },
-    {
-      "persoane": "31+",
-      "pret": 27
-    }
-  ],
+  "pret_privat": "3750 MDL/grup",
+  "pret_grup": "de la 240 MDL/pers.",
+  "grila": [],
   "imagine_card": "/images/galleries/bender-tiraspol/01.webp",
   "alt": "Cetatea Tighina de pe Nistru, vedere de sus",
   "galerie": [
@@ -60,7 +19,7 @@
   ],
   "credit_foto": "Foto (Wikimedia Commons): Zaim – Vladikh (CC BY-SA 4.0); Căușeni – Gikü (CC0).",
   "seo_titlu": "Excursie Cetatea Tighina, Căușeni și Zaim din Chișinău",
-  "seo_descriere": "Cetatea Tighina, biserica semi-îngropată din Căușeni și casa lui Alexei Mateevici din Zaim, într-o zi. De la 27 € de persoană.",
+  "seo_descriere": "Cetatea Tighina, biserica semi-îngropată din Căușeni și casa lui Alexei Mateevici din Zaim, într-o zi. De la 240 MDL de persoană.",
   "en": {
     "nume": "Tighina Fortress, Căușeni and Zaim",
     "traseu": "Chișinău → \"Alexei Mateevici\" memorial house in Zaim → wooden church of Sălcuța → Church of the Assumption in Căușeni → \"Martha and Mary\" Monastery → Tighina Fortress → Chișinău.",
@@ -72,5 +31,6 @@
     "traseu": "Кишинёв → дом-музей «Алексей Матеевич» в Заиме → деревянная церковь в Сэлкуце → церковь Успения Богородицы в Кэушень → монастырь «Марфы и Марии» → крепость Тигина → Кишинёв.",
     "include": "Транспорт из Кишинёва и обратно, водитель, топливо и организация поездки BEE TRAVEL. Сопровождающий гид на румынском языке на протяжении всей поездки. Гид на английском языке: по запросу, +50 € за группу.",
     "nu_include": "Входные билеты, дегустации, питание, местный гид, пожертвования и личные расходы не включены."
-  }
+  },
+  "pret_nota": ""
 }
