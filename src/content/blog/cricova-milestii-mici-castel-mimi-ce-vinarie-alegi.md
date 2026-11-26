@@ -12,11 +12,11 @@ intrebari:
   - intrebare: "Ce vinărie e mai bună pentru prima vizită în Moldova?"
     raspuns: "Cricova, pentru galeriile și străzile subterane. Dacă vreți două vinării într-o zi, alegeți excursia Cricova & Mileștii Mici."
   - intrebare: "Cât costă transportul la Castel Mimi din Chișinău?"
-    raspuns: "Prețul depinde de mărimea grupului: 165 € de persoană pentru 2 persoane, 89 € pentru 4 persoane, 40 € pentru 15–18 persoane și de la 28 € de persoană pentru grupurile mari."
+    raspuns: "Prețul depinde de mărimea grupului: 162 € de persoană pentru 2 persoane, 86 € pentru 4 persoane, 37 € pentru 15–18 persoane și de la 25 € de persoană pentru grupurile mari."
   - intrebare: "Degustarea este inclusă în preț?"
     raspuns: "Nu. Prețul include transportul și organizarea. Intrările, tururile și degustările se aleg și se plătesc la vinărie."
   - intrebare: "Pot vizita Cricova și Mileștii Mici în aceeași zi?"
-    raspuns: "Da, prin excursia Cricova & Mileștii Mici – Două lumi subterane, de la 28 € de persoană în grup mare; pentru 2 persoane, 165 € de persoană."
+    raspuns: "Da, prin excursia Cricova & Mileștii Mici – Două lumi subterane, de la 25 € de persoană în grup mare; pentru 2 persoane, 162 € de persoană."
   - intrebare: "Trebuie să plătesc la rezervare?"
     raspuns: "Nu. Trimiți cererea, verificăm disponibilitatea și apoi confirmăm prețul și metoda de plată."
 cta_titlu: "Alege vinăria, noi ne ocupăm de drum"
@@ -40,35 +40,35 @@ publicat: true
 
 Cricova este probabil cea mai cunoscută vinărie a Moldovei. Vizita se face prin galeriile și străzile subterane, continuă cu colecția de vinuri și se încheie în sălile tematice sau de degustare, în funcție de pachetul ales la vinărie. E genul de loc pe care îl ții minte: drumuri sub pământ, rafturi cu sticle cât vezi cu ochii și o atmosferă care nu seamănă cu nimic de la suprafață.
 
-**Transport cu BEE TRAVEL** (de pe [pagina excursiei Cricova](/destinatii/cricova-orasul-subteran/)): 165 € de persoană pentru 2 persoane, 89 € pentru 4 persoane, 40 € pentru 15–18 persoane, de la 28 € de persoană pentru grupurile mari. Biletul sau turul Cricova, degustarea, vinurile, masa și cumpărăturile se achită separat.
+**Transport cu BEE TRAVEL** (de pe [pagina excursiei Cricova](/destinatii/cricova-orasul-subteran/)): 162 € de persoană pentru 2 persoane, 86 € pentru 4 persoane, 37 € pentru 15–18 persoane, de la 25 € de persoană pentru grupurile mari. Biletul sau turul Cricova, degustarea, vinurile, masa și cumpărăturile se achită separat.
 
 ## Mileștii Mici – comoara subterană
 
 La Mileștii Mici vizita urmează galeriile subterane, străzile vinului, Colecția de Aur și sălile de degustare. Dacă pentru tine contează mai mult vinul decât „spectacolul”, Mileștii Mici e alegerea firească: colecția este punctul central al vizitei.
 
-**Transport cu BEE TRAVEL** (de pe [pagina excursiei Mileștii Mici](/destinatii/milestii-mici/)): 165 € de persoană pentru 2 persoane, 89 € pentru 4 persoane, 40 € pentru 15–18 persoane, de la 28 € de persoană pentru grupurile mari. Biletele de intrare, tururile, degustările și pachetele gastronomice ale vinăriei se aleg și se plătesc separat.
+**Transport cu BEE TRAVEL** (de pe [pagina excursiei Mileștii Mici](/destinatii/milestii-mici/)): 162 € de persoană pentru 2 persoane, 86 € pentru 4 persoane, 37 € pentru 15–18 persoane, de la 25 € de persoană pentru grupurile mari. Biletele de intrare, tururile, degustările și pachetele gastronomice ale vinăriei se aleg și se plătesc separat.
 
 ## Castel Mimi – castel și vin
 
 Castel Mimi, din Bulboaca, este o altfel de vizită: nu cobori doar în pivniță, ci te plimbi prin domeniu și prin curte, vezi castelul, crama și spațiile istorice, apoi urmează degustarea după pachetul ales. E locul preferat pentru fotografii și pentru o zi fără grabă, mai ales primăvara și toamna.
 
-**Transport cu BEE TRAVEL** (de pe [pagina excursiei Castel Mimi](/destinatii/castel-mimi/)): 165 € de persoană pentru 2 persoane, 89 € pentru 4 persoane, 40 € pentru 15–18 persoane, de la 28 € de persoană pentru grupurile mari. Intrarea sau turul, degustarea, restaurantul și vinurile se achită separat.
+**Transport cu BEE TRAVEL** (de pe [pagina excursiei Castel Mimi](/destinatii/castel-mimi/)): 162 € de persoană pentru 2 persoane, 86 € pentru 4 persoane, 37 € pentru 15–18 persoane, de la 25 € de persoană pentru grupurile mari. Intrarea sau turul, degustarea, restaurantul și vinurile se achită separat.
 
 ## Chateau Purcari – vin și istorie
 
 Purcari se află în sudul Moldovei și e potrivită pentru cine vrea o zi întreagă dedicată vinului. Vizita include domeniul, chateau-ul, crama și beciurile, plus spațiile incluse în turul ales, apoi degustarea.
 
-**Transport cu BEE TRAVEL** (de pe [pagina excursiei Chateau Purcari](/destinatii/chateau-purcari/)): 165 € de persoană pentru 2 persoane, 89 € pentru 4 persoane, 46 € pentru 15–18 persoane, de la 37 € de persoană pentru grupurile mari. Vizita, degustarea, restaurantul și vinurile se achită separat.
+**Transport cu BEE TRAVEL** (de pe [pagina excursiei Chateau Purcari](/destinatii/chateau-purcari/)): 162 € de persoană pentru 2 persoane, 86 € pentru 4 persoane, 43 € pentru 15–18 persoane, de la 34 € de persoană pentru grupurile mari. Vizita, degustarea, restaurantul și vinurile se achită separat.
 
 ## Tabel comparativ: prețul transportului
 
 | Excursie | 2 pers. | 4 pers. | 15–18 pers. | Grup mare, de la |
 | --- | --- | --- | --- | --- |
-| [Cricova](/destinatii/cricova-orasul-subteran/) | 165 €/pers. | 89 €/pers. | 40 €/pers. | 28 €/pers. |
-| [Mileștii Mici](/destinatii/milestii-mici/) | 165 €/pers. | 89 €/pers. | 40 €/pers. | 28 €/pers. |
-| [Castel Mimi](/destinatii/castel-mimi/) | 165 €/pers. | 89 €/pers. | 40 €/pers. | 28 €/pers. |
-| [Chateau Purcari](/destinatii/chateau-purcari/) | 165 €/pers. | 89 €/pers. | 46 €/pers. | 37 €/pers. |
-| [Cricova & Mileștii Mici](/destinatii/cricova-milestii-mici/) | 165 €/pers. | 89 €/pers. | 40 €/pers. | 28 €/pers. |
+| [Cricova](/destinatii/cricova-orasul-subteran/) | 162 €/pers. | 86 €/pers. | 37 €/pers. | 25 €/pers. |
+| [Mileștii Mici](/destinatii/milestii-mici/) | 162 €/pers. | 86 €/pers. | 37 €/pers. | 25 €/pers. |
+| [Castel Mimi](/destinatii/castel-mimi/) | 162 €/pers. | 86 €/pers. | 37 €/pers. | 25 €/pers. |
+| [Chateau Purcari](/destinatii/chateau-purcari/) | 162 €/pers. | 86 €/pers. | 43 €/pers. | 34 €/pers. |
+| [Cricova & Mileștii Mici](/destinatii/cricova-milestii-mici/) | 162 €/pers. | 86 €/pers. | 37 €/pers. | 25 €/pers. |
 
 Prețurile sunt pentru transport și organizare, așa cum apar pe site. Intrările, tururile și degustările le alegi și le plătești direct la vinărie, după pachetul care ți se potrivește.
 

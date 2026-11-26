@@ -32,43 +32,43 @@
   "grila": [
     {
       "persoane": "2",
-      "pret": 165
+      "pret": 162
     },
     {
       "persoane": "3",
-      "pret": 115
+      "pret": 112
     },
     {
       "persoane": "4",
-      "pret": 89
+      "pret": 86
     },
     {
       "persoane": "5–8",
-      "pret": 65
+      "pret": 62
     },
     {
       "persoane": "9–11",
-      "pret": 59
+      "pret": 56
     },
     {
       "persoane": "12–14",
-      "pret": 49
+      "pret": 46
     },
     {
       "persoane": "15–18",
-      "pret": 45
+      "pret": 42
     },
     {
       "persoane": "19–22",
-      "pret": 39
+      "pret": 36
     },
     {
       "persoane": "23–30",
-      "pret": 39
+      "pret": 36
     },
     {
       "persoane": "31+",
-      "pret": 35
+      "pret": 32
     }
   ]
 }
