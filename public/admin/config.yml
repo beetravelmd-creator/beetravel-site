@@ -139,6 +139,21 @@ collections:
   - name: setari
     label: Setări și prețuri transfer
     files:
+      - name: obiective
+        label: Obiective turistice
+        file: src/data/obiective.json
+        fields:
+          - label: Obiective
+            widget: list
+            summary: '{{fields.nume}}'
+            fields:
+              - { label: 'Nume', name: nume, widget: string }
+              - { label: 'Afișat pe site', name: publicat, widget: boolean, default: true }
+              - { label: 'Regiune', name: regiune, widget: select, options: [{label: 'Chișinău și împrejurimi', value: chisinau}, {label: 'Centrul Moldovei și Codrii', value: centru}, {label: 'Nordul Moldovei', value: nord}, {label: 'Pe Nistru', value: est}, {label: 'Sudul Moldovei și Găgăuzia', value: sud}] }
+              - { label: 'Tip', name: categorie, widget: select, options: [{label: 'Vinării', value: vinarii}, {label: 'Mănăstiri și biserici', value: manastiri}, {label: 'Cetăți', value: cetati}, {label: 'Natură', value: naturale}, {label: 'Muzee și conace', value: muzee}, {label: 'Altele', value: altele}] }
+              - { label: 'Descriere scurtă', name: descriere, widget: text }
+              - { label: 'Poză (opțional)', name: poza, widget: image, required: false, hint: 'Dacă lipsește, se folosește poza turului legat.' }
+              - { label: 'Tururi care trec pe aici', name: tururi, widget: relation, collection: tururi, search_fields: [nume], value_field: '{{slug}}', display_fields: [nume], multiple: true, required: false }
       - name: setari
         label: Contact și transfer aeroport
         file: src/data/setari.json

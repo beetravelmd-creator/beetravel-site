@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import data from '../../data/obiective.json';
+const tours = Object.fromEntries((await getCollection('tours')).filter((t) => t.data.publicat).map((t) => [t.id, t.data]));
+const REG = [['chisinau', 'Chișinău și împrejurimi'], ['centru', 'Centrul Moldovei și Codrii'], ['nord', 'Nordul Moldovei'], ['est', 'Pe Nistru și în stânga Nistrului'], ['sud', 'Sudul Moldovei și Găgăuzia']];
+const CAT = { vinarii: 'Vinării', manastiri: 'Mănăstiri și biserici', cetati: 'Cetăți și situri istorice', naturale: 'Natură', muzee: 'Muzee și conace', altele: 'Alte locuri' };
+const items = data.obiective.filter((o) => o.publicat !== false).map((o) => {
+  const tl = (o.tururi || []).filter((id) => tours[id]);
+  return { ...o, tl, img: o.poza || (tl[0] && tours[tl[0]].imagine_card) || '/images/bee-travel-logo.png' };
+});
+const jsonld = { '@context': 'https://schema.org', '@type': 'ItemList', name: 'Obiective turistice din Moldova', itemListElement: items.map((o, i) => ({ '@type': 'ListItem', position: i + 1, item: { '@type': 'TouristAttraction', name: o.nume, description: o.descriere } })) };
+---
+<Base lang="ro" path="/obiective-turistice" title="Obiective turistice din Moldova – ce să vezi | BEE TRAVEL" description={`${items.length} obiective turistice din Moldova: mănăstiri, cetăți, vinării, muzee și locuri din natură, cu excursiile BEE TRAVEL care trec pe acolo.`} alternates={false} jsonld={jsonld}>
+<div class="mx-auto max-w-7xl px-4 py-12 lg:px-8">
+<h1 class="font-serif text-4xl font-bold">Obiective turistice din Moldova</h1>
+<p class="mt-3 max-w-3xl text-neutral-600">Locurile pe care merită să le vezi în Moldova, grupate pe regiuni. La fiecare obiectiv găsești excursia BEE TRAVEL care trece pe acolo, cu plecare din Chișinău.</p>
+<nav class="mt-6 flex flex-wrap gap-2">{REG.map(([k, n]) => <a href={'#' + k} class="rounded-full border border-[#e7ddc4] px-4 py-2 text-sm font-semibold hover:bg-[#f3ece0]">{n}</a>)}</nav>
+{REG.map(([k, n]) => { const list = items.filter((o) => o.regiune === k); return list.length > 0 && (
+<section id={k} class="mt-14 scroll-mt-24"><h2 class="mb-6 font-serif text-2xl font-bold">{n}</h2>
+<div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">{list.map((o) => (
+<article class="flex flex-col overflow-hidden rounded-2xl border border-[#e7ddc4] bg-white shadow-sm"><div class="aspect-[4/3] w-full overflow-hidden bg-[#f3ece0]"><img src={o.img} alt={o.nume} loading="lazy" class="h-full w-full object-cover" /></div>
+<div class="flex flex-1 flex-col gap-2 p-5"><p class="text-xs font-semibold uppercase tracking-wide text-[#b08d2b]">{CAT[o.categorie] || ''}</p><h3 class="font-serif text-lg font-bold leading-snug">{o.nume}</h3><p class="text-sm text-neutral-600">{o.descriere}</p>
+<div class="mt-auto pt-3">{o.tl.length ? (<><p class="text-xs uppercase tracking-wide text-neutral-500">Mergi cu noi</p><ul class="mt-1 space-y-1">{o.tl.slice(0, 3).map((id) => <li><a href={`/destinatii/${id}/`} class="text-sm font-semibold text-[#b91c1c] underline underline-offset-2">{tours[id].nume}</a></li>)}</ul></>) : (<a href="/tur-personalizat/" class="text-sm font-semibold text-[#b91c1c] underline underline-offset-2">Cere un tur personalizat</a>)}</div></div></article>))}</div></section>); })}
+</div>
+</Base>

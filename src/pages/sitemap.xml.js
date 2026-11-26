@@ -10,7 +10,7 @@ export async function GET() {
   for (const p of multi) for (const lang of ['ro', 'ru', 'en']) {
     x += `<url><loc>${u(lang, p)}</loc>` + ['ro', 'ru', 'en'].map((l) => `<xhtml:link rel="alternate" hreflang="${l}" href="${u(l, p)}"/>`).join('') + `<xhtml:link rel="alternate" hreflang="x-default" href="${u('ro', p)}"/></url>\n`;
   }
-  x += `<url><loc>${SITE}/blog/</loc></url>\n`;
+  x += `<url><loc>${SITE}/blog/</loc></url>\n<url><loc>${SITE}/obiective-turistice/</loc></url>\n`;
   for (const p of posts) x += `<url><loc>${SITE}/blog/${p.id}/</loc><lastmod>${p.data.data.toISOString().slice(0, 10)}</lastmod></url>\n`;
   x += '</urlset>\n';
   return new Response(x, { headers: { 'Content-Type': 'application/xml; charset=utf-8' } });

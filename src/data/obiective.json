@@ -1,0 +1,672 @@
+{
+  "obiective": [
+    {
+      "nume": "Muzeul Național de Artă al Moldovei",
+      "regiune": "chisinau",
+      "categorie": "muzee",
+      "descriere": "Cea mai mare colecție de artă din țară: icoane vechi, pictură moldovenească și europeană, grafică și artă decorativă, într-o clădire istorică din centrul Chișinăului.",
+      "tururi": [
+        "chisinau-capitala-moldovei"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Muzeul Național de Istorie a Moldovei",
+      "regiune": "chisinau",
+      "categorie": "muzee",
+      "descriere": "Istoria acestui pământ de la preistorie până azi, cu tezaure arheologice, arme, documente și o diorama mare a luptelor din 1944.",
+      "tururi": [
+        "chisinau-capitala-moldovei"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Muzeul Național de Etnografie și Istorie Naturală",
+      "regiune": "chisinau",
+      "categorie": "muzee",
+      "descriere": "Cel mai vechi muzeu din Moldova, într-o clădire în stil maur. Aici vezi scheletul unui dinoterium, costume populare și obiecte din viața satului.",
+      "tururi": [
+        "chisinau-capitala-moldovei"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Muzeul de Istorie a Orașului Chișinău",
+      "regiune": "chisinau",
+      "categorie": "muzee",
+      "descriere": "Găzduit în vechiul turn de apă al orașului, muzeul arată cum a crescut Chișinăul de la un târg mic la capitală. De sus se vede centrul orașului.",
+      "tururi": [
+        "chisinau-capitala-moldovei"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Casa-muzeu Alexandr Pușkin",
+      "regiune": "chisinau",
+      "categorie": "muzee",
+      "descriere": "Casa în care a locuit poetul rus în timpul exilului său la Chișinău, cu camera lui, manuscrise și obiecte din acea perioadă.",
+      "tururi": [
+        "chisinau-capitala-moldovei"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Catedrala Mitropolitană „Nașterea Domnului”",
+      "regiune": "chisinau",
+      "categorie": "manastiri",
+      "descriere": "Catedrala principală a Chișinăului, în mijlocul parcului din centru, cu clopotnița și Arcul de Triumf în apropiere.",
+      "tururi": [
+        "chisinau-capitala-moldovei"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Grădina Publică „Ștefan cel Mare și Sfânt”",
+      "regiune": "chisinau",
+      "categorie": "altele",
+      "descriere": "Cel mai vechi parc al orașului, cu alee de scriitori, fântâni și bănci la umbră, chiar în centrul Chișinăului.",
+      "tururi": [
+        "chisinau-capitala-moldovei"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Monumentul lui Ștefan cel Mare",
+      "regiune": "chisinau",
+      "categorie": "altele",
+      "descriere": "Statuia domnitorului la intrarea în Grădina Publică, unul dintre simbolurile capitalei și loc obișnuit de întâlnire.",
+      "tururi": [
+        "chisinau-capitala-moldovei"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Parcul „Valea Morilor”",
+      "regiune": "chisinau",
+      "categorie": "naturale",
+      "descriere": "Parc mare în jurul unui lac, cu scara în cascadă, alei de plimbare și locuri de odihnă, bun pentru o pauză în oraș.",
+      "tururi": [
+        "chisinau-capitala-moldovei"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Restaurantul-muzeu „Înapoi în URSS”",
+      "regiune": "chisinau",
+      "categorie": "altele",
+      "descriere": "Restaurant amenajat cu obiecte și decor din epoca sovietică, unde mesele se iau printre afișe, radiouri și mobilier de altădată.",
+      "tururi": [],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Castel Mimi",
+      "regiune": "chisinau",
+      "categorie": "vinarii",
+      "descriere": "Castel de vin restaurat la Bulboaca, cu beciuri, grădini și degustări. Unul dintre cele mai fotografiate locuri din Moldova.",
+      "tururi": [
+        "castel-mimi"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Chateau Cojușna",
+      "regiune": "chisinau",
+      "categorie": "vinarii",
+      "descriere": "Vinărie veche aproape de Chișinău, cu beciuri subterane și degustări într-un cadru liniștit, la marginea codrilor.",
+      "tururi": [],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Vinăria Asconi",
+      "regiune": "chisinau",
+      "categorie": "vinarii",
+      "descriere": "Vinărie de familie la Puhoi, cu restaurant, degustări și cazare, aproape de Chișinău.",
+      "tururi": [],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Vinăria din Vale",
+      "regiune": "chisinau",
+      "categorie": "vinarii",
+      "descriere": "Vinărie mică cu degustări și mâncare de casă, potrivită pentru o seară în grup lângă Chișinău.",
+      "tururi": [],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Rezervația Cultural-Naturală „Orheiul Vechi”",
+      "regiune": "centru",
+      "categorie": "cetati",
+      "descriere": "Meandrul Răutului cu mănăstirea rupestră săpată în stâncă, ruinele orașului medieval și satele Butuceni și Trebujeni. Cel mai vizitat loc din Moldova.",
+      "tururi": [
+        "orheiul-vechi-inima-moldovei",
+        "curchi-orheiul-vechi",
+        "tiganesti-curchi-orheiul-vechi",
+        "moldova-intr-o-zi"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Mănăstirea Curchi",
+      "regiune": "centru",
+      "categorie": "manastiri",
+      "descriere": "Una dintre cele mai frumoase mănăstiri din țară, cu biserici albe și grădini îngrijite, lângă Orhei.",
+      "tururi": [
+        "curchi-orheiul-vechi",
+        "tiganesti-curchi-orheiul-vechi",
+        "marele-pelerinaj-9-manastiri"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Mănăstirea Căpriana",
+      "regiune": "centru",
+      "categorie": "manastiri",
+      "descriere": "Mănăstire veche din inima codrilor, legată de domnia lui Ștefan cel Mare, cu biserici de piatră și pădure de jur împrejur.",
+      "tururi": [
+        "manastirile-codrilor",
+        "marele-pelerinaj-9-manastiri"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Mănăstirea Hâncu",
+      "regiune": "centru",
+      "categorie": "manastiri",
+      "descriere": "Mănăstire de maici ascunsă în pădurile Codrilor, cu izvor și lac, foarte căutată de pelerini.",
+      "tururi": [
+        "manastirile-codrilor",
+        "codrii-casa-olarului-hancu",
+        "marele-pelerinaj-9-manastiri"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Mănăstirea Condrița",
+      "regiune": "centru",
+      "categorie": "manastiri",
+      "descriere": "Mănăstire liniștită în pădurea de lângă Chișinău, cu un izvor cunoscut de credincioși.",
+      "tururi": [
+        "manastirile-codrilor",
+        "marele-pelerinaj-9-manastiri"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Mănăstirea Hârbovăț",
+      "regiune": "centru",
+      "categorie": "manastiri",
+      "descriere": "Mănăstire din raionul Călărași, înconjurată de păduri, cu biserici și chilii vechi.",
+      "tururi": [
+        "marele-pelerinaj-9-manastiri"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Rezervația Naturală Codrii",
+      "regiune": "centru",
+      "categorie": "naturale",
+      "descriere": "Prima rezervație naturală din Moldova, cu păduri bătrâne de stejar și fag, trasee de plimbare și un muzeu al naturii.",
+      "tururi": [
+        "manastirile-codrilor",
+        "codrii-casa-olarului-hancu"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Conacul lui Zamfirachi Ralli",
+      "regiune": "centru",
+      "categorie": "muzee",
+      "descriere": "Conac boieresc la Dolna, unde a stat Pușkin în timpul exilului. Azi muzeu, cu parc și izvor.",
+      "tururi": [
+        "codrii-casa-olarului-hancu"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Casa-muzeu Alexandru Donici",
+      "regiune": "centru",
+      "categorie": "muzee",
+      "descriere": "Casa părintească a fabulistului Alexandru Donici, în satul care îi poartă numele, lângă Orhei.",
+      "tururi": [],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Dealul Bălănești",
+      "regiune": "centru",
+      "categorie": "naturale",
+      "descriere": "Cel mai înalt punct din Moldova, 430 de metri, în raionul Nisporeni. De sus se văd dealurile Codrilor.",
+      "tururi": [],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Tiroliana Rope Slide Hâncești",
+      "regiune": "centru",
+      "categorie": "altele",
+      "descriere": "Coborâre pe tiroliană deasupra unui lac de lângă Hâncești, pentru cei care vor puțină adrenalină.",
+      "tururi": [],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Conacul lui Manuc Bei",
+      "regiune": "centru",
+      "categorie": "muzee",
+      "descriere": "Complex istoric la Hâncești, cu conacul principal, castelul de vânătoare și un parc mare, restaurat în ultimii ani.",
+      "tururi": [
+        "manuc-bey-zooclub-bardar",
+        "gagauzia-manuc-bey"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Bardar Zoo Club",
+      "regiune": "centru",
+      "categorie": "altele",
+      "descriere": "Grădină cu animale exotice și de fermă la Bardar, potrivită pentru familii cu copii.",
+      "tururi": [
+        "manuc-bey-zooclub-bardar"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Cetatea Soroca",
+      "regiune": "nord",
+      "categorie": "cetati",
+      "descriere": "Cetate rotundă de piatră pe malul Nistrului, ridicată în timpul lui Ștefan cel Mare și refăcută de Petru Rareș. Se poate urca pe ziduri.",
+      "tururi": [
+        "soroca-cetatea-de-pe-nistru",
+        "soroca-rudi-nordul-moldovei"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Lumânarea Recunoștinței",
+      "regiune": "nord",
+      "categorie": "altele",
+      "descriere": "Monument în formă de lumânare pe malul înalt al Nistrului, la Soroca, cu o priveliște largă peste râu.",
+      "tururi": [
+        "soroca-cetatea-de-pe-nistru",
+        "soroca-rudi-nordul-moldovei"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Dealul romilor din Soroca",
+      "regiune": "nord",
+      "categorie": "altele",
+      "descriere": "Cartierul cu case mari și neobișnuite construite de romii din Soroca, un loc pe care mulți vor să-l vadă cu ochii lor.",
+      "tururi": [
+        "soroca-cetatea-de-pe-nistru",
+        "soroca-rudi-nordul-moldovei"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Mănăstirea Rudi",
+      "regiune": "nord",
+      "categorie": "manastiri",
+      "descriere": "Mănăstire veche din nordul țării, într-o vale împădurită aproape de Nistru, cu biserică de piatră din secolul al XVIII-lea.",
+      "tururi": [
+        "soroca-rudi-nordul-moldovei",
+        "rudi-naslavcea-drumetie-cort"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Arcul Geodezic Struve (UNESCO)",
+      "regiune": "nord",
+      "categorie": "altele",
+      "descriere": "Punctul din Rudi al Arcului Struve, lanț de măsurători geodezice din secolul al XIX-lea, înscris în patrimoniul UNESCO.",
+      "tururi": [
+        "soroca-rudi-nordul-moldovei",
+        "rudi-naslavcea-drumetie-cort"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Naslavcea",
+      "regiune": "nord",
+      "categorie": "naturale",
+      "descriere": "Cel mai nordic sat al Moldovei, cu priveliști largi asupra Nistrului și dealuri bune de drumeție.",
+      "tururi": [
+        "rudi-naslavcea-drumetie-cort"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Peștera Surprizelor",
+      "regiune": "nord",
+      "categorie": "naturale",
+      "descriere": "Peșteră carstică din nordul Moldovei, de vizitat cu lanterna și cu un însoțitor.",
+      "tururi": [],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Defileul Trinca",
+      "regiune": "nord",
+      "categorie": "naturale",
+      "descriere": "Defileu cu stânci de calcar și izvoare, unul dintre cele mai frumoase trasee din nordul țării.",
+      "tururi": [
+        "mica-elvetie-fetesti"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Fetești – Mica Elveție",
+      "regiune": "nord",
+      "categorie": "naturale",
+      "descriere": "Toltre de calcar și văi adânci la Fetești, numite „Mica Elveție” a Moldovei pentru peisajul lor.",
+      "tururi": [
+        "mica-elvetie-fetesti"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Pădurea Domnească",
+      "regiune": "nord",
+      "categorie": "naturale",
+      "descriere": "Rezervație pe Prut, cu stejari bătrâni, lacuri și singura herghelie de zimbri din Moldova.",
+      "tururi": [
+        "padurea-domneasca-cheile-butesti"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Defileul Duruitoarea",
+      "regiune": "nord",
+      "categorie": "naturale",
+      "descriere": "Vale îngustă cu stânci și un pârâu, cu urme de locuire foarte veche în peșterile din pereți.",
+      "tururi": [
+        "padurea-domneasca-cheile-butesti"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Hobbiton moldovenesc – Băștile din Rogojeni",
+      "regiune": "nord",
+      "categorie": "naturale",
+      "descriere": "Bordeie săpate în deal la Rogojeni, care seamănă cu casele hobbiților din povești.",
+      "tururi": [
+        "rogojeni-cobilea-vadul-rascov-socola"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Cimitirul evreiesc din Vadul Rașcov",
+      "regiune": "nord",
+      "categorie": "altele",
+      "descriere": "Cimitir vechi cu pietre funerare sculptate, mărturie a comunității evreiești de pe malul Nistrului.",
+      "tururi": [
+        "rogojeni-cobilea-vadul-rascov-socola"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Saharna",
+      "regiune": "est",
+      "categorie": "manastiri",
+      "descriere": "Mănăstire într-o vale cu stânci și cascade, cu schitul rupestru și un traseu spre locul numit Urma Maicii Domnului.",
+      "tururi": [
+        "saharna-tipova-japca",
+        "marele-pelerinaj-9-manastiri"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Mănăstirea Rupestră Țipova",
+      "regiune": "est",
+      "categorie": "manastiri",
+      "descriere": "Cea mai mare mănăstire rupestră din Moldova, săpată în malul abrupt al Nistrului.",
+      "tururi": [
+        "saharna-tipova-japca"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Cascada Mare – Țipova",
+      "regiune": "est",
+      "categorie": "naturale",
+      "descriere": "Cascadă de pe pârâul Țipova, pe traseul spre mănăstirea rupestră, frumoasă mai ales primăvara.",
+      "tururi": [
+        "saharna-tipova-japca"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Mănăstirea Japca",
+      "regiune": "est",
+      "categorie": "manastiri",
+      "descriere": "Mănăstire de maici pe malul Nistrului, care nu a fost închisă niciodată în perioada sovietică.",
+      "tururi": [
+        "saharna-tipova-japca"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Rezervația peisagistică „La Castel”",
+      "regiune": "est",
+      "categorie": "naturale",
+      "descriere": "Mal înalt de stâncă deasupra Nistrului, cu priveliști largi și trasee scurte de plimbare.",
+      "tururi": [],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Nistrul la Molovata",
+      "regiune": "est",
+      "categorie": "naturale",
+      "descriere": "Zonă de odihnă pe malul Nistrului, cu plaje, bărci și liniștea satului.",
+      "tururi": [],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Cetatea Tighina",
+      "regiune": "est",
+      "categorie": "cetati",
+      "descriere": "Cetate medievală la Bender, pe Nistru, cu ziduri, turnuri și un muzeu în interior.",
+      "tururi": [
+        "bender-tiraspol",
+        "cetatea-tighina-causeni",
+        "transnistria-completa"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Tiraspol – orașul-capsulă al erei sovietice",
+      "regiune": "est",
+      "categorie": "altele",
+      "descriere": "Oraș în care se păstrează multe simboluri sovietice: statui, clădiri și atmosfera de altădată.",
+      "tururi": [
+        "bender-tiraspol",
+        "transnistria-completa"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Vinăria și distileria KVINT",
+      "regiune": "est",
+      "categorie": "vinarii",
+      "descriere": "Cunoscută pentru divinurile sale, KVINT are magazin și degustări la Tiraspol.",
+      "tururi": [
+        "bender-tiraspol",
+        "transnistria-completa"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Mănăstirea Noul Neamț",
+      "regiune": "est",
+      "categorie": "manastiri",
+      "descriere": "Mănăstire mare la Chițcani, lângă Bender, cu o clopotniță înaltă vizibilă de departe.",
+      "tururi": [
+        "transnistria-completa"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Vinăria Purcari",
+      "regiune": "sud",
+      "categorie": "vinarii",
+      "descriere": "Vinărie istorică din sud, cunoscută pentru vinul Negru de Purcari. Are cramă, lac, restaurant și cazare.",
+      "tururi": [
+        "chateau-purcari",
+        "purcari-nistrul-de-jos"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Et Cetera",
+      "regiune": "sud",
+      "categorie": "vinarii",
+      "descriere": "Vinărie de familie în sudul Moldovei, cu degustări și bucătărie făcută din produse locale.",
+      "tururi": [],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Vinăria Poiana",
+      "regiune": "sud",
+      "categorie": "vinarii",
+      "descriere": "Vinărie din sudul țării, cu degustări și vizite în cramă.",
+      "tururi": [],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Parcul Național „Nistrul de Jos”",
+      "regiune": "sud",
+      "categorie": "naturale",
+      "descriere": "Zonă umedă de pe cursul de jos al Nistrului, cu păduri inundabile, lacuri și multe păsări.",
+      "tururi": [
+        "purcari-nistrul-de-jos"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Casa memorială „Alexei Mateevici”",
+      "regiune": "sud",
+      "categorie": "muzee",
+      "descriere": "Casa de la Zaim în care a copilărit autorul poeziei „Limba noastră”.",
+      "tururi": [
+        "cetatea-tighina-causeni",
+        "purcari-nistrul-de-jos"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Biserica Adormirea Maicii Domnului din Căușeni",
+      "regiune": "sud",
+      "categorie": "manastiri",
+      "descriere": "Biserică veche, pe jumătate îngropată în pământ, cu picturi murale rare păstrate în interior.",
+      "tururi": [
+        "cetatea-tighina-causeni"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Rezervația științifică Prutul de Jos",
+      "regiune": "sud",
+      "categorie": "naturale",
+      "descriere": "Lacul Beleu și bălțile din lunca Prutului, unde trăiesc multe specii de păsări. Numită și Mica Deltă a Moldovei.",
+      "tururi": [
+        "prutul-de-jos-lacul-beleu"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Comrat și Autonomia Găgăuzia",
+      "regiune": "sud",
+      "categorie": "altele",
+      "descriere": "Capitala Găgăuziei, cu muzee, bucătărie și tradiții proprii ale găgăuzilor.",
+      "tururi": [
+        "gagauzia-autentica",
+        "gagauzia-manuc-bey"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Vinuri de Comrat",
+      "regiune": "sud",
+      "categorie": "vinarii",
+      "descriere": "Vinării din zona Comratului, unde se pot degusta vinuri locale ale Găgăuziei.",
+      "tururi": [
+        "gagauzia-autentica",
+        "gagauzia-manuc-bey"
+      ],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Vinăria Chateau Vartely",
+      "regiune": "centru",
+      "categorie": "vinarii",
+      "descriere": "Vinărie mare lângă Orhei, cu degustări, restaurant și cazare, ușor de combinat cu Orheiul Vechi.",
+      "tururi": [],
+      "poza": "",
+      "publicat": true
+    },
+    {
+      "nume": "Rezervația naturală Plaiul Fagului",
+      "regiune": "nord",
+      "categorie": "naturale",
+      "descriere": "Păduri de fag și stejar în raionul Ungheni, cu trasee de plimbare și multă liniște.",
+      "tururi": [],
+      "poza": "",
+      "publicat": true
+    }
+  ]
+}
