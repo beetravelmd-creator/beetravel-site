@@ -19,6 +19,7 @@ export const NAV = [
   ['/', { ro: 'Acasă', ru: 'Главная', en: 'Home' }],
   ['/experiente', { ro: 'Experiențe', ru: 'Впечатления', en: 'Experiences' }],
   ['/destinatii', { ro: 'Destinații', ru: 'Направления', en: 'Destinations' }],
+  ['/destinatii?categorie=copii', { ro: 'Pentru copii', ru: 'Детям', en: 'For kids' }],
   ['/tur-personalizat', { ro: 'Tur personalizat', ru: 'Индивидуальный тур', en: 'Custom tour' }],
   ['/servicii', { ro: 'Servicii și organizare', ru: 'Услуги и организация', en: 'Services & organization' }],
   ['/despre-noi', { ro: 'Despre noi', ru: 'О нас', en: 'About us' }],
