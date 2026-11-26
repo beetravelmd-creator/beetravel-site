@@ -38,7 +38,8 @@
   if (cats) {
     var c = new URLSearchParams(location.search).get('categorie');
     if (c && document.getElementById(c)) {
-      document.querySelectorAll('[data-cat-section]').forEach(function (s) { if (s.id !== c) s.setAttribute('hidden', ''); });
+      document.querySelectorAll('[data-cat-section]').forEach(function (s) { if (s.id !== c) s.setAttribute('hidden', ''); else s.removeAttribute('hidden'); });
+      if (c === 'copii') cats.setAttribute('hidden', '');
       cats.querySelectorAll('a[data-cat]').forEach(function (a) { var on = a.getAttribute('data-cat') === c; a.className = a.className.replace(/border-\[#b91c1c\] bg-\[#b91c1c\] text-white|border-\[#e7ddc4\] text-neutral-700/, on ? 'border-[#b91c1c] bg-[#b91c1c] text-white' : 'border-[#e7ddc4] text-neutral-700'); });
     }
   }
