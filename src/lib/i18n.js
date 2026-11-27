@@ -16,13 +16,15 @@ export function L(lang, path = '/') {
 }
 
 export const NAV = [
-  ['/', { ro: 'Acasă', ru: 'Главная', en: 'Home' }],
-  ['/experiente', { ro: 'Experiențe', ru: 'Впечатления', en: 'Experiences' }],
+  ['/', { ro: 'Acasă', ru: 'Главная', en: 'Home', top: false }],
+  ['/experiente', { ro: 'Experiențe', ru: 'Впечатления', en: 'Experiences', top: false }],
   ['/destinatii', { ro: 'Destinații', ru: 'Направления', en: 'Destinations' }],
   ['/destinatii?categorie=copii', { ro: 'Pentru copii', ru: 'Детям', en: 'For kids' }],
-  ['/tur-personalizat', { ro: 'Tur personalizat', ru: 'Индивидуальный тур', en: 'Custom tour' }],
-  ['/servicii', { ro: 'Servicii și organizare', ru: 'Услуги и организация', en: 'Services & organization' }],
-  ['/despre-noi', { ro: 'Despre noi', ru: 'О нас', en: 'About us' }],
+  ['/turism-gastronomic', { ro: 'Gastronomic', ru: 'Гастротуры', en: 'Food & wine', only: ['ro', 'ru'] }],
+  ['/turism-medical', { ro: 'Medical', ru: 'Медтуризм', en: 'Medical', only: ['ro', 'ru'] }],
+  ['/tur-personalizat', { ro: 'Tur personalizat', ru: 'Индивидуальный тур', en: 'Custom tour', top: false }],
+  ['/servicii', { ro: 'Servicii și organizare', ru: 'Услуги и организация', en: 'Services & organization', short: { ro: 'Servicii', ru: 'Услуги', en: 'Services' } }],
+  ['/despre-noi', { ro: 'Despre noi', ru: 'О нас', en: 'About us', top: false }],
   ['/recenzii', { ro: 'Recenzii', ru: 'Отзывы', en: 'Reviews' }],
   ['/contact', { ro: 'Contact', ru: 'Контакты', en: 'Contact' }],
 ];

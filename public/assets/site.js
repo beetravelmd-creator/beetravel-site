@@ -39,7 +39,7 @@
     var c = new URLSearchParams(location.search).get('categorie');
     if (c && document.getElementById(c)) {
       document.querySelectorAll('[data-cat-section]').forEach(function (s) { if (s.id !== c) s.setAttribute('hidden', ''); else s.removeAttribute('hidden'); });
-      if (c === 'copii') cats.setAttribute('hidden', '');
+      if (c === 'copii') { cats.setAttribute('hidden', ''); var hd = document.querySelector('[data-list-head]'); if (hd) hd.setAttribute('hidden', ''); var sh = document.getElementById('copii'); if (sh) { sh.classList.remove('mt-14'); var h2 = sh.querySelector('h2'); if (h2) h2.className = 'mb-1 font-serif text-4xl font-bold'; } }
       cats.querySelectorAll('a[data-cat]').forEach(function (a) { var on = a.getAttribute('data-cat') === c; a.className = a.className.replace(/border-\[#b91c1c\] bg-\[#b91c1c\] text-white|border-\[#e7ddc4\] text-neutral-700/, on ? 'border-[#b91c1c] bg-[#b91c1c] text-white' : 'border-[#e7ddc4] text-neutral-700'); });
     }
   }

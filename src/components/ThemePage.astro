@@ -1,0 +1,68 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { L, localTour, catalogPrice, catalogPrivate, wa, settings } from '../lib/i18n.js';
+const { lang, kind } = Astro.props;
+const all = (await getCollection('tours')).filter((t) => t.data.publicat);
+const pick = (ids) => ids.map((id) => all.find((t) => t.id === id)).filter(Boolean).map((t) => localTour(t, lang));
+const ro = lang === 'ro';
+const G = {
+  path: '/turism-gastronomic', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%285%29.jpg/1280px-La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%285%29.jpg',
+  title: ro ? 'Turism gastronomic în Moldova' : 'Гастрономический туризм в Молдове',
+  seo: ro ? 'Turism gastronomic în Moldova – vinării, degustări și bucătărie tradițională | BEE TRAVEL' : 'Гастрономический туризм в Молдове – винодельни, дегустации и национальная кухня | BEE TRAVEL',
+  desc: ro ? 'Excursii gastronomice din Chișinău: vinării subterane, castele de vin, bucătăria Găgăuziei și ateliere culinare pentru copii. Prețuri și rezervare BEE TRAVEL.' : 'Гастрономические экскурсии из Кишинёва: подземные винодельни, винные замки, кухня Гагаузии и кулинарные мастер-классы для детей. Цены и бронирование BEE TRAVEL.',
+  lead: ro ? 'Moldova se cunoaște și cu gustul: vinuri din beciuri subterane, plăcinte calde, mămăligă cu brânză și sarmale, bucate găgăuze și deserturi de casă. Noi ne ocupăm de transport, traseu și rezervări, iar tu te bucuri de masă.' : 'Молдову узнают и на вкус: вина из подземных погребов, горячие плацинды, мамалыга с брынзой и сармале, гагаузские блюда и домашние десерты. Мы берём на себя транспорт, маршрут и бронирование, а вы наслаждаетесь застольем.',
+  blocks: ro ? [
+    ['Vinării și degustări', 'Orașe subterane ale vinului, castele de vin și crame istorice, cu degustare la fața locului.'],
+    ['Bucătărie tradițională', 'Mese cu bucate moldovenești și găgăuze, gătite după rețete de casă, în localuri alese de noi pe traseu.'],
+    ['Ateliere pentru copii', 'Ciocolată artizanală, pizza și patiserie făcute de copii cu mâinile lor.'],
+    ['Tur gastronomic personalizat', 'Alegi vinăriile, masa și ritmul, iar noi construim traseul și îți trimitem oferta.'],
+  ] : [
+    ['Винодельни и дегустации', 'Подземные винные города, винные замки и исторические погреба с дегустацией на месте.'],
+    ['Национальная кухня', 'Застолье с молдавскими и гагаузскими блюдами по домашним рецептам в местах, которые мы выбираем по маршруту.'],
+    ['Мастер-классы для детей', 'Ремесленный шоколад, пицца и выпечка, приготовленные детьми своими руками.'],
+    ['Индивидуальный гастротур', 'Вы выбираете винодельни, застолье и темп, а мы составляем маршрут и присылаем предложение.'],
+  ],
+  offersTitle: ro ? 'Oferte gastronomice' : 'Гастрономические предложения',
+  offers: pick(['tur-gastronomic-cricova-butuceni', 'castel-mimi', 'cricova-orasul-subteran', 'milestii-mici', 'cricova-milestii-mici', 'chateau-purcari', 'purcari-nistrul-de-jos', 'gagauzia-autentica', 'micii-ciocolatieri', 'micii-bucatari-brutari']),
+  note: ro ? 'Degustările, mesele și biletele de intrare se achită separat, dacă nu sunt menționate la „Ce include” în pagina turului.' : 'Дегустации, обеды и входные билеты оплачиваются отдельно, если они не указаны в разделе «Что включено» на странице тура.',
+  wa: ro ? 'Bună! Aș dori un tur gastronomic.' : 'Здравствуйте! Хочу гастрономический тур.',
+};
+const k = settings;
+const M = {
+  path: '/turism-medical', img: '/images/tours/transfer-aeroport.jpg',
+  title: ro ? 'Turism medical în Moldova' : 'Медицинский туризм в Молдове',
+  seo: ro ? 'Turism medical în Moldova – transfer, cazare și însoțire | BEE TRAVEL' : 'Медицинский туризм в Молдове – трансфер, проживание и сопровождение | BEE TRAVEL',
+  desc: ro ? 'Vii în Moldova pentru tratament? BEE TRAVEL organizează transferul de la aeroport, cazarea, transportul la clinică și excursii ușoare în zilele libere.' : 'Едете в Молдову на лечение? BEE TRAVEL организует трансфер из аэропорта, проживание, поездки в клинику и лёгкие экскурсии в свободные дни.',
+  lead: ro ? 'Mulți oameni vin în Moldova pentru tratamente stomatologice, investigații sau proceduri planificate. Tu alegi clinica și stabilești tratamentul direct cu medicii, iar noi organizăm partea de călătorie, ca să te concentrezi doar pe sănătate.' : 'Многие приезжают в Молдову на стоматологическое лечение, обследования или плановые процедуры. Вы выбираете клинику и договариваетесь о лечении напрямую с врачами, а мы берём на себя всю организацию поездки, чтобы вы думали только о здоровье.',
+  blocks: ro ? [
+    ['Transfer aeroport', `Te așteptăm la sosiri cu numele tău pe o tăbliță și te ducem la hotel sau la clinică. Ford Kuga (1–4 pers.): ${k.transfer_kuga_eur} € · Ford Transit (5–16 pers.): ${k.transfer_transit_eur} € pe cursă.`],
+    ['Transport la clinică', 'Te ducem la programări și înapoi, la orele stabilite, fără taxiuri întâmplătoare. Preț la cerere, în funcție de program.'],
+    ['Cazare', 'Te ajutăm să alegi și să rezervi cazarea aproape de clinică, potrivită pentru odihna după proceduri.'],
+    ['Odihnă și excursii ușoare', 'În zilele libere îți propunem plimbări liniștite: Chișinăul, o vinărie sau o mănăstire din apropiere.'],
+  ] : [
+    ['Трансфер из аэропорта', `Встречаем в зоне прилёта с табличкой и отвозим в отель или клинику. Ford Kuga (1–4 чел.): ${k.transfer_kuga_eur} € · Ford Transit (5–16 чел.): ${k.transfer_transit_eur} € за поездку.`],
+    ['Поездки в клинику', 'Отвозим на приёмы и обратно в назначенное время, без случайных такси. Цена по запросу, в зависимости от графика.'],
+    ['Проживание', 'Помогаем выбрать и забронировать жильё рядом с клиникой, удобное для отдыха после процедур.'],
+    ['Отдых и лёгкие экскурсии', 'В свободные дни предлагаем спокойные прогулки: Кишинёв, винодельня или монастырь неподалёку.'],
+  ],
+  offersTitle: ro ? 'Excursii ușoare pentru zilele libere' : 'Лёгкие экскурсии в свободные дни',
+  offers: pick(['chisinau-capitala-moldovei', 'castel-mimi', 'cricova-orasul-subteran', 'manastirile-codrilor']),
+  note: ro ? 'BEE TRAVEL nu oferă servicii medicale și nu recomandă clinici. Tratamentul, prețul lui și programările le stabilești direct cu clinica aleasă.' : 'BEE TRAVEL не оказывает медицинских услуг и не рекомендует клиники. Лечение, его стоимость и запись вы согласовываете напрямую с выбранной клиникой.',
+  wa: ro ? 'Bună! Vin în Moldova pentru tratament și am nevoie de transfer și organizare.' : 'Здравствуйте! Еду в Молдову на лечение, нужен трансфер и организация.',
+};
+const P = kind === 'medical' ? M : G;
+const T = ro ? { offer: 'Cere ofertă pe WhatsApp', custom: 'Tur personalizat', details: 'Detalii', what: 'Ce organizăm' } : { offer: 'Запросить предложение в WhatsApp', custom: 'Индивидуальный тур', details: 'Подробнее', what: 'Что мы организуем' };
+---
+<Base lang={lang} path={P.path} title={P.seo} description={P.desc} alternates={false} preload={[P.img]} ogImage={P.img.startsWith("/") ? P.img : undefined}>
+<section class="relative overflow-hidden"><img src={P.img} alt={P.title} class="absolute inset-0 h-full w-full object-cover" /><div class="absolute inset-0" style="background:linear-gradient(rgba(20,12,6,.55),rgba(20,12,6,.7))"></div>
+<div class="relative mx-auto max-w-5xl px-4 py-20 text-center text-white"><p class="text-xs font-semibold uppercase tracking-wide" style="color:#f3d68a;letter-spacing:.2em">BEE TRAVEL</p><h1 class="mt-2 font-serif text-4xl font-bold">{P.title}</h1><p class="mx-auto mt-4 max-w-3xl text-base leading-relaxed">{P.lead}</p>
+<div class="mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row"><a href={wa(P.wa)} target="_blank" rel="noopener noreferrer" class="rounded-full bg-[#25D366] px-6 py-3 font-semibold text-white">{T.offer}</a><a href={L(lang, '/tur-personalizat')} class="rounded-full bg-white/95 px-6 py-3 font-semibold text-neutral-900">{T.custom}</a></div></div></section>
+<div class="mx-auto max-w-7xl px-4 py-12 lg:px-8">
+<h2 class="font-serif text-3xl font-bold">{T.what}</h2>
+<div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">{P.blocks.map(([h, t]) => <div class="rounded-2xl border border-[#e7ddc4] bg-[#fbf6ea] p-5"><h3 class="font-serif text-lg font-bold">{h}</h3><p class="mt-2 text-sm leading-relaxed text-neutral-700">{t}</p></div>)}</div>
+<h2 class="mt-14 font-serif text-3xl font-bold">{P.offersTitle}</h2>
+<div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">{P.offers.map((t) => (<article class="flex flex-col overflow-hidden rounded-2xl border border-[#e7ddc4] bg-white shadow-sm"><a href={L(lang, '/destinatii/' + t.id)} class="aspect-[4/3] w-full overflow-hidden bg-[#f3ece0]"><img src={t.image} alt={t.alt} loading="lazy" class={'h-full w-full ' + (t.kids ? 'object-contain' : 'object-cover')} /></a><div class="flex flex-1 flex-col gap-2 p-5"><h3 class="font-serif text-lg font-bold leading-snug">{t.name}</h3><div class="mt-auto border-t border-[#e7ddc4] pt-3"><div class="text-sm font-bold text-[#b91c1c]">{catalogPrice(t, lang)}</div><div class="mt-1 text-xs text-neutral-500">{catalogPrivate(t, lang)}</div></div><a href={L(lang, '/destinatii/' + t.id)} class="mt-2 block rounded-full border border-neutral-900 px-4 py-2.5 text-center text-xs font-bold uppercase tracking-wide">{T.details}</a></div></article>))}</div>
+<p class="mt-8 rounded-xl border border-[#e7ddc4] bg-[#fbf6ea] p-4 text-sm text-neutral-700">{P.note}</p>
+</div>
+</Base>

@@ -1,0 +1,33 @@
+{
+  "ordine": 8,
+  "categorie": "vinarii",
+  "publicat": true,
+  "nume": "Tur gastronomic: vin, plăcinte și bucate de la țară",
+  "traseu": "Chișinău → Cricova (orașul subteran al vinului, degustare) → Orheiul Vechi → prânz tradițional într-o gospodărie din Butuceni (plăcinte, mămăligă cu brânză și smântână, sarmale, zeamă, vin de casă) → plimbare pe stâncile de deasupra Răutului → Chișinău.",
+  "include": "Transport tur-retur din Chișinău, șofer, combustibil, rezervarea degustării și a prânzului și organizarea BEE TRAVEL. Ghid-însoțitor în limba română pe toată durata excursiei. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Degustarea la Cricova, prânzul tradițional, intrările la obiective, donațiile și cheltuielile personale (se achită la fața locului; prețul exact îl primești la rezervare).",
+  "pret_privat": "3600 MDL/grup",
+  "pret_grup": "450 MDL/pers. (grup 8–16 persoane)",
+  "grila": [],
+  "durata": "o zi (aproximativ 8–9 ore)",
+  "imagine_card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%284%29.jpg/1280px-La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%284%29.jpg",
+  "alt": "Sarmale și bucate tradiționale moldovenești",
+  "galerie": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%284%29.jpg/1280px-La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%284%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%285%29.jpg/1280px-La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%285%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%283%29.jpg/1280px-La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%283%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%287%29.jpg/1280px-La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%287%29.jpg",
+    "/images/tours/cricova-orasul-subteran.jpg",
+    "/images/tours/orheiul-vechi-inima-moldovei.jpg"
+  ],
+  "seo_titlu": "Tur gastronomic din Chișinău: Cricova și prânz la Butuceni",
+  "seo_descriere": "Tur gastronomic de o zi: degustare la Cricova și prânz tradițional moldovenesc la Orheiul Vechi. 450 MDL de persoană în grup de 8–16 persoane.",
+  "ru": {
+    "nume": "Гастрономический тур: вино, плацинды и деревенская кухня",
+    "traseu": "Кишинёв → Крикова (подземный винный город, дегустация) → Старый Орхей → традиционный обед в сельском доме в Бутучень (плацинды, мамалыга с брынзой и сметаной, сармале, зама, домашнее вино) → прогулка по скалам над Реутом → Кишинёв.",
+    "include": "Транспорт из Кишинёва и обратно, водитель, топливо, бронирование дегустации и обеда и организация BEE TRAVEL. Сопровождающий гид на румынском языке на протяжении всей экскурсии. Гид на английском: по запросу, +50 € за группу.",
+    "nu_include": "Дегустация в Крикове, традиционный обед, входные билеты, пожертвования и личные расходы (оплачиваются на месте; точную стоимость сообщим при бронировании).",
+    "durata": "один день (около 8–9 часов)"
+  },
+  "credit_foto": "Foto Wikimedia Commons: MOs810 (CC BY 4.0)."
+}
