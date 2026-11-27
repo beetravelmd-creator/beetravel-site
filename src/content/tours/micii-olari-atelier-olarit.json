@@ -4,24 +4,24 @@
   "publicat": true,
   "nume": "Micii olari – excursie la atelierul de olărit",
   "traseu": "Chișinău → Casa Olarului „Vasile Gonciari” (atelier de olărit) → Chișinău. Copiii văd cum lucrează meșterul olar și încearcă singuri să modeleze lutul. Programul exact și durata atelierului se confirmă la rezervare.",
-  "include": "Transport tur-retur din Chișinău și organizarea BEE TRAVEL. Ghid-însoțitor BEE TRAVEL din Chișinău pe toată durata excursiei.",
-  "nu_include": "Atelierul de olărit (se achită la fața locului sau se include în oferta pentru grup) și cheltuielile personale.",
+  "include": "Transport tur-retur din Chișinău, atelierul de olărit și organizarea BEE TRAVEL. Ghid-însoțitor BEE TRAVEL din Chișinău pe toată durata excursiei.",
+  "nu_include": "Cheltuielile personale.",
   "pret_privat": "",
-  "pret_grup": "Preț la cerere",
-  "pret_nota": "Pentru clase și grupuri de copii. Spune-ne câți copii sunteți și îți trimitem oferta.",
+  "pret_grup": "350 MDL/copil",
+  "pret_nota": "Pentru clase și grupuri de copii · Transport tur-retur inclus · Programul exact se confirmă la rezervare.",
   "imagine_card": "/images/tours/copii/micii-olari.jpg",
   "alt": "Micii Olari – atelier de olărit pentru copii, BEE TRAVEL",
   "galerie": [
     "/images/tours/copii/micii-olari.jpg"
   ],
   "seo_titlu": "Atelier de olărit pentru copii – excursie din Chișinău",
-  "seo_descriere": "Micii olari: excursie pentru clase și grupuri de copii la Casa Olarului „Vasile Gonciari”, cu atelier de olărit. Transport din Chișinău. Preț la cerere.",
+  "seo_descriere": "Micii olari: excursie pentru clase și grupuri de copii la Casa Olarului „Vasile Gonciari”, cu atelier de olărit. 350 lei/copil, transport din Chișinău inclus.",
   "ru": {
     "nume": "Маленькие гончары – экскурсия в гончарную мастерскую",
     "traseu": "Кишинёв → Дом гончара «Василе Гончарь» (гончарная мастерская) → Кишинёв. Дети смотрят, как работает мастер, и сами пробуют лепить из глины. Программа и длительность мастер-класса уточняются при бронировании.",
-    "include": "Транспорт из Кишинёва и обратно и организация BEE TRAVEL. Сопровождающий BEE TRAVEL из Кишинёва на протяжении всей экскурсии.",
-    "nu_include": "Гончарный мастер-класс (оплачивается на месте или включается в предложение для группы) и личные расходы.",
-    "pret_nota": "Для классов и групп детей. Напишите, сколько детей, и мы пришлём предложение."
+    "include": "Транспорт из Кишинёва и обратно, гончарный мастер-класс и организация BEE TRAVEL. Сопровождающий BEE TRAVEL из Кишинёва на протяжении всей экскурсии.",
+    "nu_include": "Личные расходы.",
+    "pret_nota": "Для классов и групп детей · Транспорт туда и обратно включён · Программа уточняется при бронировании."
   },
   "credit_foto": ""
 }
