@@ -2,3 +2,8 @@
   X-Robots-Tag: noindex
 /administrare-recenzii/*
   X-Robots-Tag: noindex
+# Copia de lucru de pe pages.dev nu intră în Google (pe beetravel.md regula nu se aplică)
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+https://:version.:project.pages.dev/*
+  X-Robots-Tag: noindex
