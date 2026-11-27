@@ -9,7 +9,7 @@
   "pret_privat": "3850 MDL/grup transport + 850 MDL/pers. programul",
   "pret_grup": "1330 MDL/pers. (grup 8–16 persoane)",
   "grila": [],
-  "pret_nota": "Prețul include transportul din Chișinău și programul vinăriei. Copii: sub 12 ani – programul gratuit; 12–16 ani – 150 MDL. Fără transport (veniți singuri la Comrat): 850 MDL/pers., grup de minimum 5 persoane.",
+  "pret_nota": "Prețul include transportul din Chișinău și programul vinăriei. Copii: sub 12 ani – programul gratuit; 12–16 ani – 150 MDL.",
   "durata": "o zi; 4–5 ore la vinărie",
   "imagine_card": "/images/tours/comrat/platou.jpg",
   "alt": "Sărbătoare în stil găgăuzesc: vin, prânz, platou și horă – Vinuri de Comrat, Găgăuzia",
@@ -30,6 +30,6 @@
     "include": "Транспорт Кишинёв – Комрат и обратно, водитель, топливо, программа винодельни (850 MDL/чел. включено в цену), гид винодельни на румынском или русском языке и организация BEE TRAVEL. Сопровождающий BEE TRAVEL на румынском. Гид на английском: по запросу, +50 € за группу.",
     "nu_include": "Мастер-класс по гёзлеме (100 MDL/чел., по запросу), проживание в Hotel Wine Garden (двухместный номер 1300 MDL/ночь, люкс 1600 MDL/ночь, по запросу), покупки в магазине винодельни и личные расходы.",
     "durata": "один день; 4–5 часов на винодельне",
-    "pret_nota": "В цену входят транспорт из Кишинёва и программа винодельни. Дети: до 12 лет – программа бесплатно; 12–16 лет – 150 MDL. Без транспорта (своим ходом до Комрата): 850 MDL/чел., группа от 5 человек."
+    "pret_nota": "В цену входят транспорт из Кишинёва и программа винодельни. Дети: до 12 лет – программа бесплатно; 12–16 лет – 150 MDL."
   }
 }
