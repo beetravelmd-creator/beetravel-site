@@ -13,6 +13,12 @@ const navOff = 'text-neutral-700 hover:bg-[#f3ece0] hover:text-[#b08d2b]';
 const locale = { ro: 'ro_RO', ru: 'ru_RU', en: 'en_US' }[lang];
 const langs = ['en', 'ro', 'ru'];
 const langHref = (l) => (alternates || l === lang ? L(l, path) : L(l, '/'));
+// SEO: Google afișează ~160 de caractere din descriere și ~60 din titlu; textul paginii nu se schimbă.
+const clip = (s, n) => { s = String(s || '').replace(/\s+/g, ' ').trim(); if (s.length <= n) return s; const c = s.slice(0, n - 1); const cut = c.lastIndexOf(' '); return (cut > n - 40 ? c.slice(0, cut) : c).replace(/[\s,;:.–—-]+$/, '') + '…'; };
+const metaDesc = clip(description, 160);
+const metaTitle = title && title.length > 65 && / \| BEE TRAVEL$/.test(title) ? title.replace(/ \| BEE TRAVEL$/, '') : title;
+const absUrl = (p) => (/^https?:/.test(p) ? p : SITE + p);
+const ogPic = ogImage || preload[0] || '/images/home-hero-final.jpg';
 ---
 <!DOCTYPE html>
 <html lang={lang} translate="no">
@@ -23,10 +29,10 @@ const langHref = (l) => (alternates || l === lang ? L(l, path) : L(l, '/'));
 {preload.map((p) => <link rel="preload" as="image" href={p} />)}
 <link rel="stylesheet" href="/assets/site.css" />
 <link rel="icon" type="image/png" href="/images/bee-travel-logo.png" />
-<title>{title}</title>
+<title>{metaTitle}</title>
 <meta name="google" content="notranslate" />
 <meta name="google-site-verification" content="rIrig3hjxWPJ157FoPWT7YSOJoRDAzTKicB_eeNbVu4" />
-{description && <meta name="description" content={description} />}
+{metaDesc && <meta name="description" content={metaDesc} />}
 {noindex && <meta name="robots" content="noindex" />}
 <link rel="canonical" href={canonical} />
 {alternates && !noindex && ['ro', 'ru', 'en'].map((l) => <link rel="alternate" hreflang={l} href={SITE + L(l, path)} />)}
@@ -34,10 +40,10 @@ const langHref = (l) => (alternates || l === lang ? L(l, path) : L(l, '/'));
 <meta property="og:type" content={ogType} />
 <meta property="og:site_name" content="BEE TRAVEL" />
 <meta property="og:locale" content={locale} />
-<meta property="og:title" content={title} />
-{description && <meta property="og:description" content={description} />}
+<meta property="og:title" content={metaTitle} />
+{metaDesc && <meta property="og:description" content={metaDesc} />}
 <meta property="og:url" content={canonical} />
-{ogImage && <meta property="og:image" content={SITE + ogImage} />}
+<meta property="og:image" content={absUrl(ogPic)} />
 <meta name="twitter:card" content="summary_large_image" />
 {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
 <slot name="head" />
