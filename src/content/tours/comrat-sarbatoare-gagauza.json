@@ -1,0 +1,35 @@
+{
+  "ordine": 63,
+  "categorie": "gagauzia",
+  "publicat": true,
+  "nume": "Sărbătoare în stil găgăuzesc: vin, prânz, platou și horă",
+  "traseu": "Chișinău → Comrat, vinăria istorică „Vinuri de Comrat” (fondată în 1897): excursie prin cramă, degustare a 4 vinuri, prânz găgăuz (unul dintre cele 3 meniuri) și platou găgăuz, concursuri și jocuri, costume tradiționale, horă și voie bună → Chișinău. Meniurile de prânz: 1) Tradiții găgăuze – șurpa de miel, miel copt cu mămăligă, gustare „Cebana”, gözleme cu brânză, pâine; 2) Bucătărie găgăuză de casă – zeamă cu găină de casă, manja găgăuză cu carne de pui și cartofi, gustare „Cebana”, plăcintă găgăuză, pâine; 3) Prânz basarabean – coaste de porc cu cartofi copți, gustare „Cebana”, murături de casă, gözleme cu brânză, pâine.",
+  "include": "Transport tur-retur Chișinău – Comrat, șofer, combustibil, programul „Sărbătoare în stil găgăuzesc” la vinărie (850 MDL/pers. inclus în preț), ghid al vinăriei în română sau rusă și organizarea BEE TRAVEL. Ghid-însoțitor BEE TRAVEL în limba română. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Atelierul de gözleme (100 MDL/pers., la cerere), cazarea la Hotel Wine Garden (cameră dublă 1300 MDL/noapte, suite 1600 MDL/noapte, la cerere), cumpărăturile din magazinul vinăriei și cheltuielile personale.",
+  "pret_privat": "3850 MDL/grup transport + 850 MDL/pers. programul",
+  "pret_grup": "1330 MDL/pers. (grup 8–16 persoane)",
+  "grila": [],
+  "pret_nota": "Prețul include transportul din Chișinău și programul vinăriei. Copii: sub 12 ani – programul gratuit; 12–16 ani – 150 MDL. Fără transport (veniți singuri la Comrat): 850 MDL/pers., grup de minimum 5 persoane.",
+  "durata": "o zi; 4–5 ore la vinărie",
+  "imagine_card": "/images/tours/comrat/platou.jpg",
+  "alt": "Sărbătoare în stil găgăuzesc: vin, prânz, platou și horă – Vinuri de Comrat, Găgăuzia",
+  "galerie": [
+    "/images/tours/comrat/platou.jpg",
+    "/images/tours/comrat/sarbatoare.jpg",
+    "/images/tours/comrat/meniu-2.jpg",
+    "/images/tours/comrat/meniu-3.jpg",
+    "/images/tours/comrat/crama.jpg",
+    "/images/tours/comrat/vinaria.jpg"
+  ],
+  "credit_foto": "Foto: Vinuri de Comrat (partener BEE TRAVEL).",
+  "seo_titlu": "Sărbătoare în stil găgăuzesc – excursie din Chișinău la Comr",
+  "seo_descriere": "Sărbătoare în stil găgăuzesc la vinăria Vinuri de Comrat, cu transport din Chișinău: 1330 MDL de persoană în grup de 8–16 persoane.",
+  "ru": {
+    "nume": "Гагаузский праздник: вино, обед, плато и хора",
+    "traseu": "Кишинёв → Комрат, историческая винодельня «Vinuri de Comrat» (основана в 1897 году): экскурсия по погребам, дегустация 4 вин, гагаузский обед (одно из 3 меню) и гагаузское плато, конкурсы и викторины, национальные костюмы, хора и веселье → Кишинёв. Меню обеда: 1) Гагаузские традиции – шурпа из баранины, запечённая баранина с мамалыгой, закуска «Чебана», гёзлеме с брынзой, хлеб; 2) Гагаузская домашняя кухня – домашняя куриная зама, гагаузская манджа с курицей и картофелем, закуска «Чебана», гагаузская плацинда, хлеб; 3) Бессарабский обед – свиные рёбрышки с печёным картофелем, закуска «Чебана», домашние соленья, гёзлеме с брынзой, хлеб.",
+    "include": "Транспорт Кишинёв – Комрат и обратно, водитель, топливо, программа винодельни (850 MDL/чел. включено в цену), гид винодельни на румынском или русском языке и организация BEE TRAVEL. Сопровождающий BEE TRAVEL на румынском. Гид на английском: по запросу, +50 € за группу.",
+    "nu_include": "Мастер-класс по гёзлеме (100 MDL/чел., по запросу), проживание в Hotel Wine Garden (двухместный номер 1300 MDL/ночь, люкс 1600 MDL/ночь, по запросу), покупки в магазине винодельни и личные расходы.",
+    "durata": "один день; 4–5 часов на винодельне",
+    "pret_nota": "В цену входят транспорт из Кишинёва и программа винодельни. Дети: до 12 лет – программа бесплатно; 12–16 лет – 150 MDL. Без транспорта (своим ходом до Комрата): 850 MDL/чел., группа от 5 человек."
+  }
+}

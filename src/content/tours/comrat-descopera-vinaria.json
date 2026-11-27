@@ -1,0 +1,32 @@
+{
+  "ordine": 60,
+  "categorie": "gagauzia",
+  "publicat": true,
+  "nume": "Descoperă „Vinuri de Comrat”",
+  "traseu": "Chișinău → Comrat, vinăria istorică „Vinuri de Comrat” (fondată în 1897): excursie prin crama istorică din secolul al XIX-lea, sălile de degustare, Muzeul Lucrurilor Uitate și satul găgăuz → Chișinău.",
+  "include": "Transport tur-retur Chișinău – Comrat, șofer, combustibil, programul „Descoperă Vinuri de Comrat” la vinărie (300 MDL/pers. inclus în preț), ghid al vinăriei în română sau rusă și organizarea BEE TRAVEL. Ghid-însoțitor BEE TRAVEL în limba română. Ghid în limba engleză: la cerere, +50 € de grup.",
+  "nu_include": "Atelierul de gözleme (100 MDL/pers., la cerere), cazarea la Hotel Wine Garden (cameră dublă 1300 MDL/noapte, suite 1600 MDL/noapte, la cerere), cumpărăturile din magazinul vinăriei și cheltuielile personale.",
+  "pret_privat": "3850 MDL/grup transport + 300 MDL/pers. programul",
+  "pret_grup": "780 MDL/pers. (grup 8–16 persoane)",
+  "grila": [],
+  "pret_nota": "Prețul include transportul din Chișinău și programul vinăriei. Copii: sub 12 ani – programul gratuit; 12–16 ani – 150 MDL. Fără transport (veniți singuri la Comrat): 300 MDL/pers., grup de minimum 5 persoane.",
+  "durata": "o zi; aproximativ 1 oră la vinărie",
+  "imagine_card": "/images/tours/comrat/crama.jpg",
+  "alt": "Descoperă „Vinuri de Comrat” – Vinuri de Comrat, Găgăuzia",
+  "galerie": [
+    "/images/tours/comrat/crama.jpg",
+    "/images/tours/comrat/vinaria.jpg",
+    "/images/tours/comrat/istorie-vin.jpg"
+  ],
+  "credit_foto": "Foto: Vinuri de Comrat (partener BEE TRAVEL).",
+  "seo_titlu": "Descoperă „Vinuri de Comrat” – excursie din Chișinău la Comr",
+  "seo_descriere": "Descoperă „Vinuri de Comrat” la vinăria Vinuri de Comrat, cu transport din Chișinău: 780 MDL de persoană în grup de 8–16 persoane.",
+  "ru": {
+    "nume": "Знакомство с «Vinuri de Comrat»",
+    "traseu": "Кишинёв → Комрат, историческая винодельня «Vinuri de Comrat» (основана в 1897 году): экскурсия по историческим подвалам XIX века, дегустационным залам, Музею забытых вещей и гагаузской деревне → Кишинёв.",
+    "include": "Транспорт Кишинёв – Комрат и обратно, водитель, топливо, программа винодельни (300 MDL/чел. включено в цену), гид винодельни на румынском или русском языке и организация BEE TRAVEL. Сопровождающий BEE TRAVEL на румынском. Гид на английском: по запросу, +50 € за группу.",
+    "nu_include": "Мастер-класс по гёзлеме (100 MDL/чел., по запросу), проживание в Hotel Wine Garden (двухместный номер 1300 MDL/ночь, люкс 1600 MDL/ночь, по запросу), покупки в магазине винодельни и личные расходы.",
+    "durata": "один день; около 1 часа на винодельне",
+    "pret_nota": "В цену входят транспорт из Кишинёва и программа винодельни. Дети: до 12 лет – программа бесплатно; 12–16 лет – 150 MDL. Без транспорта (своим ходом до Комрата): 300 MDL/чел., группа от 5 человек."
+  }
+}
