@@ -3,7 +3,7 @@ export async function onRequest({ request, env }) {
   const url = new URL(request.url);
   const state = crypto.randomUUID();
   const gh = new URL('https://github.com/login/oauth/authorize');
-  gh.searchParams.set('client_id', env.GITHUB_CLIENT_ID || '');
+  gh.searchParams.set('client_id', (env.GITHUB_CLIENT_ID || '').trim());
   gh.searchParams.set('scope', 'repo,user');
   gh.searchParams.set('redirect_uri', url.origin + '/api/callback');
   gh.searchParams.set('state', state);
