@@ -7,7 +7,7 @@
     en: { reload: 'Reload reviews', logout: 'Log out', loading: 'Loading…', adminEmpty: 'There are no received reviews.', publicEmpty: 'There are currently no published reviews.', sending: 'Sending…', approved: 'Published', pending: 'Pending', hidden: 'Hidden', publish: 'Publish', hide: 'Hide', del: 'Delete permanently', deleted: 'The review was deleted.', approvedMsg: 'The review is public.', hiddenMsg: 'The review is hidden.', submitMsg: 'Thank you! Your review has been submitted and is awaiting approval. It is not published yet.', confirm: 'Delete this review permanently?', fail: 'The request failed.' },
     ru: { reload: 'Обновить отзывы', logout: 'Выйти', loading: 'Загрузка…', adminEmpty: 'Полученных отзывов пока нет.', publicEmpty: 'Опубликованных отзывов пока нет.', sending: 'Отправка…', approved: 'Опубликован', pending: 'На рассмотрении', hidden: 'Скрыт', publish: 'Опубликовать', hide: 'Скрыть', del: 'Удалить навсегда', deleted: 'Отзыв удалён.', approvedMsg: 'Отзыв опубликован.', hiddenMsg: 'Отзыв скрыт.', submitMsg: 'Спасибо! Ваш отзыв отправлен и ожидает одобрения. Пока он не опубликован.', confirm: 'Удалить этот отзыв навсегда?', fail: 'Запрос не выполнен.' }
   }[lang];
-  var API = '/.netlify/functions/bee-reviews';
+  var API = '/api/reviews';
   var list = root.querySelector('[data-list]'), msg = root.querySelector('[data-msg]');
   function say(t) { if (!t) { msg.setAttribute('hidden', ''); msg.textContent = ''; return; } msg.textContent = t; msg.removeAttribute('hidden'); }
   function api(action, data) {

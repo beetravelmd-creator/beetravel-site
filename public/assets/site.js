@@ -53,7 +53,7 @@
     f.addEventListener('submit', function (e) {
       e.preventDefault(); var btn = f.querySelector('button[type=submit],button:not([type])'); if (btn) btn.disabled = true;
       var data = new URLSearchParams(new FormData(f));
-      fetch('/__forms.html', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded', Accept: 'text/html' }, body: data.toString() })
+      fetch('/api/form', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: data.toString() })
         .then(function (r) { if (!r.ok) throw new Error(r.status); location.assign('/multumim-rezervare/'); })
         .catch(function () { if (btn) btn.disabled = false; var m = f.querySelector('[data-error]'); if (m) m.removeAttribute('hidden'); });
     });

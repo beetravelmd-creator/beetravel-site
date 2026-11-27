@@ -1,7 +1,10 @@
 # Panoul de administrare BEE TRAVEL (Decap CMS). Intrare: https://beetravel.md/admin/
 backend:
-  name: git-gateway
+  name: github
+  repo: beetravelmd-creator/beetravel-site
   branch: main
+  base_url: https://beetravel.md
+  auth_endpoint: api/auth
   commit_messages:
     create: 'Adăugat {{collection}} „{{slug}}”'
     update: 'Modificat {{collection}} „{{slug}}”'
