@@ -52,10 +52,19 @@
   document.querySelectorAll('form[data-ajax]').forEach(function (f) {
     f.addEventListener('submit', function (e) {
       e.preventDefault(); var btn = f.querySelector('button[type=submit],button:not([type])'); if (btn) btn.disabled = true;
-      var data = new URLSearchParams(new FormData(f));
-      fetch('/api/form', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: data.toString() })
-        .then(function (r) { if (!r.ok) throw new Error(r.status); location.assign('/multumim-rezervare/'); })
-        .catch(function () { if (btn) btn.disabled = false; var m = f.querySelector('[data-error]'); if (m) m.removeAttribute('hidden'); });
+      var fd = new FormData(f), data = new URLSearchParams(fd), lines = [];
+      var titles = { 'contact': 'Mesaj de pe site', 'rezerva-tur': 'Rezervare tur', 'tur-personalizat': 'Tur personalizat' };
+      lines.push('BEE TRAVEL – ' + (titles[fd.get('form-name')] || 'Formular site'));
+      fd.forEach(function (v, k) {
+        if (k === 'form-name' || k === 'bot-field' || /consent|privacy|gdpr/i.test(k) || !String(v).trim()) return;
+        var el = f.querySelector('[name="' + k + '"]'), lab = el && el.id && f.querySelector('label[for="' + el.id + '"]');
+        var name = (lab && lab.textContent.trim()) || (el && el.closest('label') && el.closest('label').childNodes[0].textContent.trim()) || k.replace(/[-_]/g, ' ');
+        lines.push(name.replace(/[*:]+$/, '').trim() + ': ' + String(v).trim());
+      });
+      var wl = document.querySelector('a[href*="wa.me/"]'), num = (wl && (wl.getAttribute('href').match(/wa\.me\/(\d+)/) || [])[1]) || '37379520914';
+      var go = function () { location.assign('https://wa.me/' + num + '?text=' + encodeURIComponent(lines.join('\n'))); };
+      // salvăm copia în Cloudflare, apoi deschidem WhatsApp cu mesajul gata scris
+      fetch('/api/form', { method: 'POST', keepalive: true, headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: data.toString() }).then(go, go);
     });
   });
 })();

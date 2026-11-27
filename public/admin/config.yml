@@ -3,7 +3,7 @@ backend:
   name: github
   repo: beetravelmd-creator/beetravel-site
   branch: main
-  base_url: https://beetravel.md
+  base_url: https://beetravel-site.pages.dev
   auth_endpoint: api/auth
   commit_messages:
     create: 'Adăugat {{collection}} „{{slug}}”'
