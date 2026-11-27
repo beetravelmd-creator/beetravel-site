@@ -7,7 +7,7 @@ const all = (await getCollection('tours')).filter((t) => t.data.publicat);
 const pick = (ids) => ids.map((id) => all.find((t) => t.id === id)).filter(Boolean).map((t) => localTour(t, lang));
 const ro = lang === 'ro';
 const G = {
-  path: '/turism-gastronomic', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%285%29.jpg/1280px-La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%285%29.jpg',
+  path: '/turism-gastronomic', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Moldova_Competitiveness_Project%2C_USAID_Moldova_%2848121769796%29.jpg/1280px-Moldova_Competitiveness_Project%2C_USAID_Moldova_%2848121769796%29.jpg',
   title: ro ? 'Turism gastronomic în Moldova' : 'Гастрономический туризм в Молдове',
   seo: ro ? 'Turism gastronomic în Moldova – vinării, degustări și bucătărie tradițională | BEE TRAVEL' : 'Гастрономический туризм в Молдове – винодельни, дегустации и национальная кухня | BEE TRAVEL',
   desc: ro ? 'Excursii gastronomice din Chișinău: vinării subterane, castele de vin, bucătăria Găgăuziei și ateliere culinare pentru copii. Prețuri și rezervare BEE TRAVEL.' : 'Гастрономические экскурсии из Кишинёва: подземные винодельни, винные замки, кухня Гагаузии и кулинарные мастер-классы для детей. Цены и бронирование BEE TRAVEL.',
@@ -55,7 +55,7 @@ const P = kind === 'medical' ? M : G;
 const T = ro ? { offer: 'Cere ofertă pe WhatsApp', custom: 'Tur personalizat', details: 'Detalii', what: 'Ce organizăm' } : { offer: 'Запросить предложение в WhatsApp', custom: 'Индивидуальный тур', details: 'Подробнее', what: 'Что мы организуем' };
 ---
 <Base lang={lang} path={P.path} title={P.seo} description={P.desc} alternates={false} preload={[P.img]} ogImage={P.img.startsWith("/") ? P.img : undefined}>
-<section class="relative overflow-hidden"><img src={P.img} alt={P.title} class="absolute inset-0 h-full w-full object-cover" /><div class="absolute inset-0" style="background:linear-gradient(rgba(20,12,6,.55),rgba(20,12,6,.7))"></div>
+<section class="relative overflow-hidden"><img src={P.img} alt={P.title} class="absolute inset-0 h-full w-full object-cover" style="filter:saturate(1.25) brightness(1.05)" /><div class="absolute inset-0" style="background:linear-gradient(rgba(20,12,6,.25),rgba(20,12,6,.6))"></div>
 <div class="relative mx-auto max-w-5xl px-4 py-20 text-center text-white"><p class="text-xs font-semibold uppercase tracking-wide" style="color:#f3d68a;letter-spacing:.2em">BEE TRAVEL</p><h1 class="mt-2 font-serif text-4xl font-bold">{P.title}</h1><p class="mx-auto mt-4 max-w-3xl text-base leading-relaxed">{P.lead}</p>
 <div class="mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row"><a href={wa(P.wa)} target="_blank" rel="noopener noreferrer" class="rounded-full bg-[#25D366] px-6 py-3 font-semibold text-white">{T.offer}</a><a href={L(lang, '/tur-personalizat')} class="rounded-full bg-white/95 px-6 py-3 font-semibold text-neutral-900">{T.custom}</a></div></div></section>
 <div class="mx-auto max-w-7xl px-4 py-12 lg:px-8">

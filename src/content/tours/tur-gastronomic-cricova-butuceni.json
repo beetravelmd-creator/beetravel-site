@@ -10,11 +10,12 @@
   "pret_grup": "450 MDL/pers. (grup 8–16 persoane)",
   "grila": [],
   "durata": "o zi (aproximativ 8–9 ore)",
-  "imagine_card": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%284%29.jpg/1280px-La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%284%29.jpg",
-  "alt": "Sarmale și bucate tradiționale moldovenești",
+  "imagine_card": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Grapes_de_raisin_rouge_%C3%A0_Montm%C3%A9lian_au_matin_%28septembre_2021%29.JPG/1280px-Grapes_de_raisin_rouge_%C3%A0_Montm%C3%A9lian_au_matin_%28septembre_2021%29.JPG",
+  "alt": "Struguri roșii copți în vie",
   "galerie": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Grapes_de_raisin_rouge_%C3%A0_Montm%C3%A9lian_au_matin_%28septembre_2021%29.JPG/1280px-Grapes_de_raisin_rouge_%C3%A0_Montm%C3%A9lian_au_matin_%28septembre_2021%29.JPG",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%284%29.jpg/1280px-La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%284%29.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%285%29.jpg/1280px-La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%285%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Moldova_Competitiveness_Project%2C_USAID_Moldova_%2848121769796%29.jpg/1280px-Moldova_Competitiveness_Project%2C_USAID_Moldova_%2848121769796%29.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%283%29.jpg/1280px-La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%283%29.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%287%29.jpg/1280px-La_Pl%C4%83cinte%2C_Kiev_Street_12%2C_Kiszyni%C3%B3w_%287%29.jpg",
     "/images/tours/cricova-orasul-subteran.jpg",
@@ -29,5 +30,5 @@
     "nu_include": "Дегустация в Крикове, традиционный обед, входные билеты, пожертвования и личные расходы (оплачиваются на месте; точную стоимость сообщим при бронировании).",
     "durata": "один день (около 8–9 часов)"
   },
-  "credit_foto": "Foto Wikimedia Commons: MOs810 (CC BY 4.0)."
+  "credit_foto": "Foto Wikimedia Commons: Florian Pépellin (CC BY-SA 4.0); USAID Moldova (CC BY 2.0); MOs810 (CC BY 4.0)."
 }
